@@ -4,69 +4,69 @@
 
 ## 1. Purpose
 
-The Radix Network DAO (“the DAO”) exists to:
+The Radix Network DAO ("the DAO") was established to ensure that the Radix ecosystem is governed by those who have a stake in its future — its community of token holders — rather than any single organisation or authority.
 
-* Steward and allocate resources for the benefit of the Radix ecosystem
-* Enable decentralized governance by token holders
-* Support the long-term sustainability, security, and growth of the network
+The DAO exists to:
 
-The DAO may receive assets from external contributors and shall manage such assets in alignment with its purpose.
+* Steward and allocate resources for the long-term benefit of the Radix ecosystem
+* Enable genuine decentralized governance by token holders
+* Support the sustainability, security, and growth of the network through accountable, community-led decision-making
+
+The DAO may receive assets from external contributors and shall manage those assets in strict alignment with this purpose.
 
 ---
 
 ## 2. Nature of the DAO
 
-The DAO is a **community-governed coordination system** operating through:
+The DAO is a **community-governed coordination system**. It does not replace the need for human judgment, expertise, or good faith — it organises them. Authority rests with the community, expressed through defined governance processes and delegated to execution bodies that remain accountable to it at all times.
+
+The DAO operates through:
 
 * Token-holder governance
 * Defined governance processes
 * Delegated execution and oversight bodies
 
-This Charter defines principles and authority. Operational details are defined in separate governance documents.
+This Charter defines the DAO's principles and authority. Operational details are defined in separate governance documents, each of which derives its legitimacy from this Charter.
 
 ---
 
 ## 3. Core Principles
 
+The DAO is governed by five principles. These are not aspirations — they are binding commitments that shape every governance decision and constrain every actor within the system.
+
 ### 3.1 Decentralization
 
-Authority ultimately resides with the community of token holders.
+Authority ultimately resides with the community of token holders. No individual, body, or organisation holds permanent power over the DAO's decisions or resources. Delegated authority exists only to serve efficiency and execution — it does not transfer sovereignty.
 
 ---
 
 ### 3.2 Transparency
 
-Governance actions should be publicly visible and auditable.
-
-Temporary confidentiality is permitted where necessary to:
-
-* mitigate security risks
-* prevent exploitation
-* fulfill legal or contractual obligations
-
-All such actions must be disclosed retrospectively.
+Governance actions must be publicly visible and auditable. The community can only hold the DAO to account if it can see what is happening and why. Temporary confidentiality is permitted only where necessary to mitigate security risks, prevent exploitation, or fulfill legal or contractual obligations — and all such actions must be disclosed retrospectively.
 
 ---
 
 ### 3.3 Accountability
 
-All use of DAO-controlled resources must be accountable to the community.
+All use of DAO-controlled resources must be accountable to the community. Those entrusted with authority — whether elected, appointed, or contracted — are stewards of the community's trust, not owners of it. Accountability mechanisms are not optional features; they are core to the legitimacy of every action taken in the DAO's name.
 
 ---
 
 ### 3.4 Stewardship
 
-The DAO manages resources to benefit the ecosystem and future participants.
+The DAO manages resources to benefit the ecosystem and its future participants. Resources are not held for their own sake — they exist to be deployed purposefully, in service of a network that is intended to endure.
 
 ---
 
 ### 3.5 Resilience
 
-The DAO must remain operational under all circumstances, including:
+The DAO must remain operational under all circumstances, including failure of governance bodies, resignation of representatives, or technical and coordination disruptions. No single point of failure should be able to halt the DAO's ability to govern.
 
-* failure of governance bodies
-* resignation of representatives
-* technical or coordination disruptions
+---
+
+### 3.6 Integrity
+
+Every participant in the DAO — token holders, contributors, elected officials, and contractors alike — is expected to act in good faith, disclose their interests, and uphold the standards set out in the **Code of Conduct**. The integrity of governance depends not only on rules, but on the character of those who participate in it.
 
 ---
 
@@ -74,7 +74,7 @@ The DAO must remain operational under all circumstances, including:
 
 ### 4.1 Token Holder Sovereignty
 
-Token holders are the ultimate decision-making authority.
+Token holders are the ultimate decision-making authority of the DAO. All governance power flows from and returns to the community.
 
 ---
 
@@ -83,23 +83,16 @@ Token holders are the ultimate decision-making authority.
 The DAO may establish delegated bodies, including:
 
 * Accountability Council (RAC)
-* Working groups
+* Working Groups
 * Committees
 
-Such bodies:
-
-* operate within defined mandates
-* remain subordinate to DAO governance
-* may be removed or replaced by DAO vote
+Such bodies operate within defined mandates, remain subordinate to DAO governance at all times, and may be removed or replaced by DAO vote. Delegation is a matter of operational necessity, not a transfer of authority.
 
 ---
 
 ### 4.3 Binding Decisions
 
-Governance-approved decisions are binding and executed through:
-
-* on-chain mechanisms
-* authorized execution entities (Authorized Signers, multisig custody)
+Governance-approved decisions are binding and executed through on-chain mechanisms and authorized execution entities (Authorized Signers, multisig custody).
 
 Execution rules are defined in the **Execution & Treasury Actions Policy** and **Authorized Signers Operational Rules**.
 
@@ -107,97 +100,73 @@ Execution rules are defined in the **Execution & Treasury Actions Policy** and *
 
 ## 5. Governance System
 
-The DAO operates through a governance system consisting of:
+The DAO operates through a governance system consisting of proposal submission, community deliberation, voting, and execution. Token holders may participate directly or by delegating their voting power to a representative of their choosing.
 
-* proposal submission
-* community deliberation
-* voting
-* execution
-
-Detailed mechanics are defined in the **Proposal & Voting Framework**.
+Detailed mechanics are defined in the **Proposal & Voting Framework**. Delegation rules are defined in the **Token Delegation Policy**.
 
 ---
 
 ## 6. Treasury Stewardship
 
-The DAO maintains and allocates treasury resources to support the ecosystem.
+The DAO maintains and allocates treasury resources to support the Radix ecosystem. Treasury use must align with the DAO's purpose, and all significant allocation decisions require governance approval.
 
-* Treasury use must align with DAO purpose
-* Allocation decisions require governance approval
+The treasury is deployed through two principal mechanisms: compensation for contributors working on behalf of the DAO, and grants to external projects and teams building on the Radix network. Both represent an investment in the ecosystem's future.
 
-Detailed rules are defined in the **Execution & Treasury Actions Policy**.
+Detailed rules are defined in the **Execution & Treasury Actions Policy**, **Contributor Compensation Policy**, and **Grant Program Policy**.
 
 ---
 
 ## 7. Governance Safeguards
 
-The DAO maintains mechanisms to:
+The DAO maintains mechanisms to prevent harmful or malicious actions, resolve disputes, and respond to emergencies. These are not extraordinary measures — they are a permanent and necessary part of a governance system that operates in public, with real assets, and at scale.
 
-* prevent harmful or malicious actions
-* resolve disputes
-* respond to emergencies
+The DAO also provides structured channels for reporting governance integrity violations by those in positions of authority. No role in the DAO is above accountability.
 
-These mechanisms are defined in the **Dispute Resolution & Arbitration Policy** and the **Emergency & Safeguards Policy**.
+These mechanisms are defined in the **Dispute Resolution & Arbitration Policy**, the **Emergency & Safeguards Policy**, and the **Ethics Reporting Policy**.
 
 ---
 
 ## 8. Governance Integrity
 
-The DAO may establish an Accountability Council (RAC) to ensure that governance processes are followed and decisions are executed correctly.
+The DAO maintains an Accountability Council (RAC) to ensure that governance processes are followed and decisions are executed correctly. The RAC acts as a guardian of process — not a decision-making authority — and operates within a strictly defined mandate.
 
-The RAC:
+All persons holding authority within the DAO are required to disclose their interests and to recuse themselves from decisions where those interests create a conflict. Governance decisions are only legitimate when made free from undisclosed personal or financial influence.
 
-* operates within a defined mandate
-* ensures adherence to governance processes
-* does not override DAO decisions
-
-Detailed responsibilities and constraints are defined in the RAC Mandate.
+The RAC's responsibilities and constraints are defined in the **RAC Mandate**. Disclosure and recusal obligations are defined in the **Conflict of Interest Policy**.
 
 ---
 
-## 9. Continuity & Fallback
+## 9. Continuity and Fallback
 
-The DAO must remain operable under all circumstances.
+The DAO must remain operable under all circumstances. In the event of governance failure, authority reverts to token holders and emergency mechanisms enable the restoration of normal governance.
 
-In the event of governance failure:
+The DAO also maintains standards for the security review of any smart contracts or on-chain systems it governs. Technical deployments must not outpace the community's ability to assess and authorise them.
 
-* authority reverts to token holders
-* emergency mechanisms enable restoration of governance
-
-Detailed procedures are defined in the **Emergency & Safeguards Policy**.
-
-The DAO maintains additional governance process documents, including:
-
-- Governance Continuity Framework  
-- Governance Maintenance & Upgrade Framework  
-
-These documents define how governance is maintained, evolved, and restored when necessary.
+Detailed procedures are defined in the **Emergency & Safeguards Policy**, the **Governance Continuity Framework**, the **Governance Maintenance & Upgrade Framework**, and the **Smart Contract Audit Policy**.
 
 ---
 
 ## 10. Non-Distribution Principle
 
-The DAO’s assets and income must be used solely to advance its purpose.
+The DAO's assets and income exist to advance its purpose — not to enrich its members. All resources must be applied to the benefit of the Radix ecosystem. No distributions may be made to token holders or members except as reasonable compensation for genuine services rendered, or reimbursement of legitimate expenses.
 
-No distributions may be made to token holders or members, except:
-- reasonable compensation for services
-- reimbursement of expenses
+This principle is not merely a legal constraint. It is a statement of intent: the DAO is a steward, not a vehicle for extraction.
 
 Detailed definitions and constraints are specified in the **Legal Wrapper & Representation** document.
 
 ---
 
-## 11. Asset Lock & Wind-Down
+## 11. Asset Lock and Wind-Down
 
-Upon dissolution, all remaining assets must be transferred to an entity with similar objectives.
+Should the DAO ever be dissolved, its remaining assets must be transferred to an entity with substantially similar objectives. No assets may be distributed to token holders or members upon dissolution.
 
-No assets may be distributed to token holders or members.
+The DAO's resources were entrusted to it for the benefit of the Radix ecosystem. That purpose does not end with the DAO's existence.
 
 ---
 
 ## 12. Amendments
 
-This Charter may be amended through DAO governance using a Constitutional proposal.
+This Charter may be amended through DAO governance using a Constitutional proposal. It is a living document — it should evolve as the DAO matures — but changes to it require the highest level of community deliberation and approval.
 
 Amendment procedures and document versioning requirements are defined in the **Governance Maintenance & Upgrade Framework**. Voting mechanics are defined in the **Proposal & Voting Framework**.
 
@@ -205,10 +174,6 @@ Amendment procedures and document versioning requirements are defined in the **G
 
 ## 13. Scope
 
-This Charter defines:
+This Charter defines the DAO's purpose, authority, principles, and structural guarantees. It is the highest governance document in the DAO's framework. All other governance documents derive their authority from it and must be consistent with it.
 
-* principles
-* authority
-* structural guarantees
-
-Operational, technical, and procedural details are defined in separate governance documents.
+Operational, technical, and procedural details are defined in the DAO's policy library — a set of governance documents that give effect to the principles and authority established here. Where any policy conflicts with this Charter, this Charter prevails.

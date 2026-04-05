@@ -73,13 +73,16 @@ During Phase 1, the DAO operates using a **subset of the full governance framewo
 
 ### 3.1 Fully Active Components
 
-The following are fully in force:
+The following are fully in force from Phase 1 launch:
 
 * Charter (including purpose, non-distribution, asset lock)
 * Legal Wrapper & Representation
 * Execution & Treasury Actions Policy
 * Emergency & Safeguards Policy
 * DAO Parameters Registry (simplified values)
+* Code of Conduct
+* Conflict of Interest Policy
+* Token Delegation Policy
 
 ---
 
@@ -115,6 +118,28 @@ The following are defined but not fully enforced:
 * complex parameter tuning
 * full strategic coordination processes
 * advanced governance mechanisms
+
+---
+
+### 3.5 Policy Activation Schedule (Year 1)
+
+The following policies have been drafted and published as part of the DAO's founding policy library. During Phase 1, they operate as **guiding principles** — they are publicly available and expected to be followed in spirit, but are not yet formally enforceable under the dispute resolution or sanctions framework.
+
+Each policy must be formally proposed and approved by DAO governance vote before it becomes fully enforceable. The table below sets out the target timeline for each proposal. These targets are governance commitments, not hard deadlines — the community may accelerate or adjust the schedule by governance vote.
+
+| Policy | Phase 1 Status | Target Formal Approval |
+|---|---|---|
+| Transparency & Reporting Policy | Guiding principles; simplified WG reporting active from launch | Month 2 |
+| Contributor Compensation Policy | Guiding principles active | Month 3 |
+| Grant Program Policy | Guiding principles active | Month 3 |
+| Security Disclosure & Bug Bounty Policy | Guiding principles active | Month 4 |
+| Ethics Reporting Policy | Guiding principles active | Month 4 |
+| Contributor Onboarding & Offboarding | Guidelines active | Month 6 |
+| Smart Contract Audit Policy | Active immediately upon any governance contract deployment being proposed | Before first deployment |
+
+**What "guiding principles" means in practice:** a policy in this status is published, visible, and expected to be followed. However, enforcement via the dispute resolution or sanctions framework requires formal governance approval first. Working Groups and role-holders are encouraged to adopt these policies operationally ahead of formal approval.
+
+The Governance & Legal Working Group is responsible for bringing each policy to a governance vote on or before the target date and for tracking progress against this schedule in its regular reporting.
 
 ---
 

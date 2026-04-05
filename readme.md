@@ -1,133 +1,107 @@
-# Radix DAO Governance — Quick Start (5 min)
+# Radix DAO Governance — Quick Start
 
-Welcome 👋
-This is the governance system for the Radix DAO.
+Welcome to the Radix DAO governance framework.
 
-It is designed to be:
+This repository contains the complete governance system for the Radix Network DAO — the community-governed body that replaces the Radix Foundation.
 
-* decentralized in authority
-* operational in practice
-* safe for treasury and assets
-* able to evolve over time
+**Important:** This is the full framework. Not everything in it is active yet. Governance complexity is introduced in deliberate waves, not all at once. Read the Phase 1 section below before diving in.
 
 ---
 
-## 🧠 How the System Works
+## How the System Works
 
 The DAO is structured in layers:
 
-* 🧠 **Charter** → principles and authority
-* ⚙️ **Governance Processes** → how decisions are made
-* ⚖️ **Legal Layer** → real-world representation
-* 👥 **Execution Layer** → how work gets done
+* **Charter** → founding principles and authority — the highest document in the framework
+* **Governance Processes** → how decisions are made, resources allocated, roles governed, and integrity maintained
+* **Legal Layer** → real-world representation and asset custody
+* **Execution Layer** → how work gets done through Working Groups
 
-👉 Token holders make decisions
-👉 Working Groups coordinate execution
-👉 Authorized Signers execute transactions
-👉 RAC ensures rules are followed
+Token holders make decisions. Working Groups coordinate execution. Authorized Signers execute transactions. The RAC ensures rules are followed.
 
 ---
 
-## 🔄 Phase 1 (First 12 Months)
+## What Is Active Right Now (Phase 1)
 
-The DAO is currently in **Phase 1 (Transition)**.
+The DAO is in **Phase 1 (Transition)** — the first 12 months following activation.
 
-This means:
+During Phase 1, governance operates in three tiers:
 
-* governance is **simplified**
-* core systems are active
-* some coordination is **temporarily delegated to RAC**
-* all authority still rests with the DAO
+### Tier 1 — Fully Active from Day One
 
-👉 This is a **temporary setup to ensure a safe and effective launch**
-
----
-
-## 📖 What to Read (Start Here)
-
-If you only read 3 things:
-
-1. **Transition Governance Framework**
-   → How Phase 1 works
-
-2. **Charter**
-   → Core principles and rules
-
-3. **Proposal & Voting Framework**
-   → How decisions are made
-
----
-
-## ⚙️ How Decisions Work
-
-1. Anyone can submit a proposal
-2. Token holders vote
-3. If approved:
-
-   * Working Groups coordinate execution
-   * Authorized Signers execute transactions
-
-👉 No single group controls the DAO
-
----
-
-## 🛡️ Safety & Control
-
-* Treasury is controlled via **multisig signers**
-* Emergency actions are **limited and transparent**
-* Governance failures have **defined recovery paths**
-* All changes follow a **structured upgrade process**
-
----
-
-## 🧭 Why This Structure
-
-This system is designed to avoid:
-
-* hidden centralization
-* unclear authority
-* governance paralysis
-* unsafe treasury control
-
----
-
-## 🔧 Can This Change?
-
-Yes.
-
-Governance is designed to evolve through:
-
-* structured proposals
-* defined upgrade rules
-* community approval
-
----
-
-## 📂 Full Documentation
-
-All documents are organized in:
+These documents are in force and enforceable from launch:
 
 * Charter
-* Governance Processes
-* Legal Layer
-* Transition Layer (Phase 1)
-* Execution Layer -> Working Groups
+* Proposal & Voting Framework (core proposal types)
+* Execution & Treasury Actions Policy
+* Emergency & Safeguards Policy
+* Legal Wrapper & Representation
+* DAO Parameters Registry
+* Code of Conduct
+* Conflict of Interest Policy
+* Token Delegation Policy
+
+### Tier 2 — Published, Guiding Principles (Formal Approval During Year 1)
+
+These policies are published and available. Working Groups and contributors are expected to follow them in spirit. They become formally enforceable after a community governance vote — each policy has a target approval date in the first year of operations.
+
+* Transparency & Reporting Policy *(target: month 2)*
+* Contributor Compensation Policy *(target: month 3)*
+* Grant Program Policy *(target: month 3)*
+* Security Disclosure & Bug Bounty Policy *(target: month 4)*
+* Ethics Reporting Policy *(target: month 4)*
+* Contributor Onboarding & Offboarding *(target: month 6)*
+
+### Tier 3 — Triggered by Need
+
+These activate the moment they become relevant:
+
+* Smart Contract Audit Policy — active before any governance contract deployment is proposed
+
+The full activation schedule is defined in the **Transition Governance Framework §3.5**.
 
 ---
 
-## 💡 In One Sentence
+## How Decisions Work
 
-> The DAO makes decisions,
-> the system executes them,
-> and no single entity controls both.
+1. Anyone can submit a proposal to the governance forum
+2. A review period opens for community discussion
+3. Token holders vote (directly or via delegation)
+4. If approved: Working Groups coordinate execution, Authorized Signers execute transactions
+
+No single group controls both decision-making and execution.
 
 ---
 
-## 🚀 Next Step
+## What to Read First
 
-Start here: Supporting Materials
+**New to the DAO?** Start with:
+1. This file
+2. [Transition Governance Framework](Transition/Transition-Governance-Framework.md) — what Phase 1 means in practice
+3. [Charter](Charter/charter.md) — purpose, principles, authority
 
-Then:
-👉 Transition Governance Framework
+**Want to participate in governance?**
+4. [Proposal & Voting Framework](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
+5. [Token Delegation Policy](Governance-Processes/Core/Token-Delegation-Policy.md)
 
-Then explore deeper as needed.
+**Want to contribute or apply for a grant?**
+6. [Working Group Framework](Governance-Processes/Execution/Working-Group-Framework.md)
+7. [Grant Program Policy](Governance-Processes/Core/Grant-Program-Policy.md) *(guiding principles)*
+8. [Contributor Compensation Policy](Governance-Processes/Core/Contributor-Compensation-Policy.md) *(guiding principles)*
+
+**Deeper reference:** see the full document index in [Supporting Materials](Supporting-Materials/governance-body-intro.md).
+
+---
+
+## Safety and Control
+
+* Treasury is controlled via multisig — no single person can move funds
+* Emergency actions are strictly limited in scope and subject to retrospective community review
+* Governance failures have defined recovery paths
+* All documents evolve through structured, community-approved upgrade processes
+
+---
+
+## In One Sentence
+
+> The DAO makes decisions, the system executes them, and no single entity controls both.

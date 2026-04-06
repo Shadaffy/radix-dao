@@ -77,17 +77,19 @@ No single group controls both decision-making and execution.
 
 **New to the DAO?** Start with:
 1. This file
-2. [Transition Governance Framework](Transition/Transition-Governance-Framework.md) — what Phase 1 means in practice
-3. [Charter](Charter/charter.md) — purpose, principles, authority
+2. [FAQ](FAQ.md) — practical answers to common questions
+3. [Glossary](GLOSSARY.md) — definitions for all governance terms
+4. [Transition Governance Framework](Transition/Transition-Governance-Framework.md) — what Phase 1 means in practice
+5. [Charter](Charter/charter.md) — purpose, principles, authority
 
 **Want to participate in governance?**
-4. [Proposal & Voting Framework](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
-5. [Token Delegation Policy](Governance-Processes/Core/Token-Delegation-Policy.md)
+6. [Proposal & Voting Framework](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
+7. [Token Delegation Policy](Governance-Processes/Core/Token-Delegation-Policy.md)
 
 **Want to contribute or apply for a grant?**
-6. [Working Group Framework](Governance-Processes/Execution/Working-Group-Framework.md)
-7. [Grant Program Policy](Governance-Processes/Core/Grant-Program-Policy.md) *(guiding principles)*
-8. [Contributor Compensation Policy](Governance-Processes/Core/Contributor-Compensation-Policy.md) *(guiding principles)*
+8. [Working Group Framework](Governance-Processes/Execution/Working-Group-Framework.md)
+9. [Grant Program Policy](Governance-Processes/Core/Grant-Program-Policy.md) *(guiding principles)*
+10. [Contributor Compensation Policy](Governance-Processes/Core/Contributor-Compensation-Policy.md) *(guiding principles)*
 
 **Deeper reference:** see the full document index in [Supporting Materials](Supporting-Materials/governance-body-intro.md).
 

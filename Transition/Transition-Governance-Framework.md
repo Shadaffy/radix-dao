@@ -53,6 +53,23 @@ The DAO operates under a **phased governance activation model**:
 
 Entry into Phase 2 requires a **Governance Process proposal** (≥60% approval, ≥7% quorum) confirming that Phase 1 completion criteria (§10) are substantially met.
 
+**Phase 2 Mandate: Reputation System**
+
+The design and implementation of a community reputation system is a required deliverable of Phase 2. The Governance & Legal Working Group, in collaboration with the Product & Protocol Working Group, is responsible for:
+
+1. **Research & Design (within 3 months of Phase 2 entry)** — Publishing a governance proposal that defines the reputation model, covering at minimum:
+   * What actions generate reputation (e.g., on-chain votes cast, proposals authored, peer allocation received, contributor milestones completed)
+   * How reputation is weighted and whether it decays over time
+   * Whether reputation is transferable or soulbound
+   * How reputation interacts with voting power (advisory weighting vs. hard caps)
+   * Sybil resistance approach (e.g., Gitcoin Passport integration, proof-of-personhood, or role-based gating)
+
+2. **Community Review (30-day comment period)** — The design proposal must be open for community comment for a minimum of 30 days before a formal governance vote
+
+3. **Implementation (within 9 months of Phase 2 entry)** — A live reputation system, approved by governance vote, must be operational before Phase 3 entry is permitted
+
+The reputation system must not replace token-weighted voting without a Constitutional proposal. Its initial role is advisory — surfacing trusted voices and informing delegation decisions — with expanded governance weight only if explicitly approved by the community.
+
 ---
 
 #### Phase 3 — Full DAO Governance (estimated from month 24)
@@ -271,12 +288,39 @@ Each phase transition must include:
 
 ## 10. Completion Criteria
 
-The transition is complete when:
+Phase 1 is considered complete when all of the following minimum conditions are met:
 
-* Governance processes operate without RAC intervention
-* Treasury is fully governed through DAO-approved mechanisms
-* Working groups are independently functioning
-* No delegated authority remains
+**Asset Transfer**
+
+* Asset transfer from the Radix Foundation is complete, verified, and publicly disclosed
+
+**Governance Track Record**
+
+* At least 3 full governance proposal cycles (draft → vote → execution) have completed without RAC intervention
+* No active emergency action or unresolved veto challenge exists at the time of the Phase 2 proposal
+
+**Working Groups**
+
+* All 5 Phase 1 Working Groups have operated independently for at least 60 consecutive days, producing required biweekly reports
+
+**Policy Activation**
+
+* The following Tier 2 policies have been formally activated by governance vote:
+  * Transparency & Reporting Policy
+  * Contributor Compensation Policy
+  * Grant Program Policy
+
+**Participation**
+
+* At least 2 Treasury or Governance Process proposals have met quorum without the reduced-quorum fallback (Governance Continuity §4.3)
+
+**Reporting**
+
+* At least one full quarterly financial transparency report has been published per the Transparency & Reporting Policy
+
+---
+
+Entry into Phase 2 is confirmed when a **Governance Process proposal** (≥60% approval, ≥7% quorum) affirms that the above conditions are met. The proposal must include a checklist attestation prepared by the RAC and reviewed by the Governance & Legal Working Group.
 
 ---
 

@@ -50,14 +50,36 @@ Response:
 
 Trigger:
 
-* loss of quorum
-* key compromise
-* refusal to execute
+* active Authorized Signers fall below execution quorum (fewer than 3 of 5 available)
+* key compromise confirmed by any signer or RAC
+* refusal to execute a valid approved action without documented grounds (per Authorized Signers Rules §9)
 
 Response:
 
-* emergency signer replacement process
-* temporary restriction of treasury actions if required
+**Immediate (within 24 hours):**
+
+* RAC declares a signer continuity event and notifies the governance forum
+* All non-urgent treasury execution is suspended until quorum is restored
+* Emergency actions under the Emergency & Safeguards Policy remain available if required thresholds can be met with available signers
+
+**Interim signer appointment (if active signers < 3):**
+
+* RAC may appoint up to 2 interim signers from the pre-approved Emergency Signer Reserve (maintained by the Governance & Legal Working Group; approved by DAO vote at each annual term cycle)
+* Interim signers are subject to the full Authorized Signers Rules
+* The signing threshold for interim-period actions is raised to **4-of-5** (regardless of whether interim or permanent signers hold the seats)
+* Interim appointment must be disclosed to the governance forum within **24 hours** of appointment
+* Interim appointment is valid for a maximum of **30 days** or until a formal replacement election is complete, whichever comes first
+
+**Formal replacement:**
+
+* Emergency election for permanent replacement(s) must begin within **7 days** of the continuity event
+* Election must complete within **21 days** of the continuity event
+* Upon election of permanent replacements, interim appointments are immediately void
+
+**Key compromise:**
+
+* Compromised keys must be rotated and the affected signer suspended pending review
+* If compromise affects treasury access, RAC invokes Emergency & Safeguards Policy to secure assets
 
 ---
 
@@ -86,6 +108,39 @@ Trigger:
 Response:
 
 * re-election or restructuring via DAO vote
+
+---
+
+### 4.5 Governance Interface Unavailability
+
+Trigger:
+
+* The primary governance voting interface is inaccessible or non-functional for more than **48 continuous hours**
+
+Response:
+
+**Active votes in progress:**
+
+* All active voting periods are automatically extended by the duration of the outage plus a **48-hour buffer** upon restoration
+* RAC must announce the extension via the governance forum within 12 hours of confirming the outage
+
+**New proposals:**
+
+* No new proposals may enter the voting phase until the primary interface is restored or an alternative interface is confirmed
+* Draft and review periods may continue
+
+**If outage exceeds 7 days:**
+
+* RAC may invoke the Emergency & Safeguards Policy if time-sensitive matters (e.g., expiring treasury actions, security incidents) cannot wait for restoration
+* RAC must propose and confirm an alternative voting mechanism via public announcement to the governance forum; the alternative must be:
+  * Publicly auditable
+  * Token-holder accessible
+  * Recorded on-chain or in a tamper-evident off-chain record
+
+**Restoration:**
+
+* Upon restoration of the primary interface, RAC must publish a brief incident report (cause, duration, actions taken) within 48 hours
+* Any alternative voting results must be migrated or acknowledged in the primary interface record
 
 ---
 

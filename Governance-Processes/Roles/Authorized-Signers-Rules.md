@@ -202,7 +202,24 @@ A signer must not approve execution of a payment or agreement that directly bene
 
 Authorized Signers must remain reasonably available to support DAO operations.
 
-If a signer expects absence, reduced availability, or resignation, they must provide notice sufficient to preserve continuity.
+**Planned absence or resignation:**
+
+* Signers must provide a minimum of **14 days' notice** to the RAC and Governance & Legal Working Group before any planned extended absence (>7 days) or resignation
+* Notice must include expected duration and confirmation of secure key custody arrangements during the absence
+
+**Unplanned unavailability:**
+
+* If a signer becomes unexpectedly unavailable (illness, emergency, loss of contact), they or a designated contact must notify the RAC within **48 hours** where possible
+
+**Continuity threshold:**
+
+* If the number of available signers falls below **3**, the Governance Continuity Framework §4.2 is automatically triggered, including interim appointment procedures and elevated signing thresholds
+
+**Emergency Signer Reserve:**
+
+* The Governance & Legal Working Group maintains an Emergency Signer Reserve — a pre-approved list of eligible candidates who may serve as interim signers
+* Reserve membership is approved by DAO vote at each annual signer term cycle
+* Reserve members are not active signers and hold no signing authority until formally appointed under the Governance Continuity Framework §4.2
 
 ---
 

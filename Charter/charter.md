@@ -70,6 +70,12 @@ Every participant in the DAO — token holders, contributors, elected officials,
 
 ---
 
+### 3.7 Environmental Responsibility
+
+The DAO is mindful of the environmental impact of the infrastructure and projects it funds. Where choices are otherwise comparable, the DAO prefers options that minimize unnecessary energy consumption and environmental harm. This principle applies to infrastructure procurement, grant evaluation, and operational decisions made in the DAO's name.
+
+---
+
 ## 4. Governance Authority
 
 ### 4.1 Token Holder Sovereignty

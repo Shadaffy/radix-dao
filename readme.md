@@ -23,42 +23,53 @@ Token holders make decisions. Working Groups coordinate execution. Authorized Si
 
 ## What Is Active Right Now (Phase 1)
 
-The DAO is in **Phase 1 (Transition)** — the first 12 months following activation.
+The DAO is in **Phase 1 — Minimum Viable Governance**.
 
-During Phase 1, governance operates in three tiers:
+Phase 1 activates only the documents needed to safely receive assets, make decisions, execute them, handle emergencies, and hold role holders accountable. Complexity is added in deliberate steps as the DAO begins specific activities.
 
-### Tier 1 — Fully Active from Day One
+### Phase 1 — Active Now (10 documents)
 
 These documents are in force and enforceable from launch:
 
 * Charter
-* Proposal & Voting Framework (core proposal types)
+* DAO Parameters Registry
+* Proposal & Voting Framework
 * Execution & Treasury Actions Policy
 * Emergency & Safeguards Policy
-* Legal Wrapper & Representation
-* DAO Parameters Registry
-* Code of Conduct
+* Authorized Signers Rules
+* RAC Mandate
 * Conflict of Interest Policy
-* Token Delegation Policy
+* Code of Conduct
+* Legal Wrapper & Representation
 
-### Tier 2 — Published, Guiding Principles (Formal Approval During Year 1)
+### Phase 2 — Operational Governance (activity-triggered)
 
-These policies are published and available. Working Groups and contributors are expected to follow them in spirit. They become formally enforceable after a community governance vote — each policy has a target approval date in the first year of operations.
+These documents activate when the DAO begins the relevant activity. Each has a defined trigger:
 
-* Transparency & Reporting Policy *(target: month 2)*
-* Contributor Compensation Policy *(target: month 3)*
-* Grant Program Policy *(target: month 3)*
-* Security Disclosure & Bug Bounty Policy *(target: month 4)*
-* Ethics Reporting Policy *(target: month 4)*
-* Contributor Onboarding & Offboarding *(target: month 6)*
+* **Token Delegation Policy** — when the governance platform supports delegation
+* **Election & Role Governance Policy** — before the first role term expires and elections are needed
+* **Governance Continuity Framework** — before the first signer or RAC term ends
+* **Governance Maintenance & Upgrade Framework** — before the first governance document amendment
+* **Dispute Resolution & Arbitration Policy** — before the first formal dispute is escalated to the RAC
+* **Open Source & Intellectual Property Policy** — before the first grant or RFP with deliverables is issued
+* **Treasury Risk & Diversification Policy** — before the first diversification action is proposed
+* **Working Group Framework + Working Group Charters** — when the first Working Groups are proposed by governance vote
 
-### Tier 3 — Triggered by Need
+### Phase 3 — Mature Governance (formal governance vote required)
 
-These activate the moment they become relevant:
+These policies are published and available now. They become formally enforceable after a community governance vote approves each one:
 
-* Smart Contract Audit Policy — active before any governance contract deployment is proposed
+* Transparency & Reporting Policy
+* Contributor Compensation Policy
+* Grant Program Policy
+* Security Disclosure & Bug Bounty Policy
+* Ethics Reporting Policy
+* Contributor Onboarding & Offboarding
+* Smart Contract Audit Policy *(before any governance contract deployment)*
 
-The full activation schedule is defined in the **Transition Governance Framework §3.5**.
+The full activation schedule and trigger conditions are defined in the **Transition Governance Framework §3**.
+
+*The full document index with file locations is in [Supporting Materials](Supporting-Materials/governance-body-intro.md).*
 
 ---
 

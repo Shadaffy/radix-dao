@@ -46,60 +46,61 @@ Defines how decisions are carried out: Working Groups coordinate execution, cont
 
 ## Activation Status
 
-The governance framework is introduced in three tiers. This is intentional — launching full operational complexity from day one would create unnecessary friction during the transition period and deny the community the opportunity to refine policies through real-world use.
+The governance framework is introduced in three phases. This is intentional — launching full operational complexity from day one creates unnecessary friction and denies the community the opportunity to refine policies through real-world use.
 
-### Tier 1 — Fully Active (Phase 1 Launch)
+### Phase 1 — Minimum Viable Governance (Active at Launch)
 
-Enforceable from the first day of DAO operations:
+These 10 documents are in force and enforceable from the first day of DAO operations. They are the minimum needed to safely receive assets, vote, execute decisions, respond to emergencies, and hold role holders accountable.
 
 | Document | Location |
 |---|---|
 | Charter | Charter/ |
+| DAO Parameters Registry | Parameters/ |
 | Proposal & Voting Framework | Governance-Processes/Core/ |
 | Execution & Treasury Actions Policy | Governance-Processes/Core/ |
 | Emergency & Safeguards Policy | Governance-Processes/Core/ |
-| Treasury Risk & Diversification Policy | Governance-Processes/Core/ |
-| Open Source & IP Policy | Governance-Processes/Core/ |
-| Code of Conduct | Governance-Processes/Core/ |
-| Conflict of Interest Policy | Governance-Processes/Roles/ |
-| Token Delegation Policy | Governance-Processes/Core/ |
-| Dispute Resolution & Arbitration Policy | Governance-Processes/System-Integrity/ |
-| Governance Continuity Framework | Governance-Processes/System-Integrity/ |
-| Governance Maintenance & Upgrade Framework | Governance-Processes/System-Integrity/ |
-| Election & Role Governance Policy | Governance-Processes/Roles/ |
 | Authorized Signers Rules | Governance-Processes/Roles/ |
-| Working Group Framework | Governance-Processes/Execution/ |
-| Legal Wrapper & Representation | Legal/ |
 | RAC Mandate | Legal/ |
-| DAO Parameters Registry | Parameters/ |
-| All Working Group Charters | Working-Groups/ |
-| Transition Governance Framework | Transition/ |
+| Conflict of Interest Policy | Governance-Processes/Roles/ |
+| Code of Conduct | Governance-Processes/Core/ |
+| Legal Wrapper & Representation | Legal/ |
 
 ---
 
-### Tier 2 — Guiding Principles (Formal Approval During Year 1)
+### Phase 2 — Operational Governance (Activity-Triggered)
 
-These policies are published and available. They are expected to be followed in spirit by all Working Groups and contributors from launch. They become **formally enforceable** — including under the dispute resolution and sanctions framework — only after a community governance vote formally approves each one.
+These documents activate when the DAO begins the relevant activity. They do not need to be enforced from day one — they become required the moment the specific operational need arises.
 
-The Governance & Legal Working Group is responsible for bringing each policy to a governance vote on schedule.
-
-| Document | Location | Target Approval |
+| Document | Location | Activation Trigger |
 |---|---|---|
-| Transparency & Reporting Policy | Governance-Processes/Core/ | Month 2 |
-| Contributor Compensation Policy | Governance-Processes/Core/ | Month 3 |
-| Grant Program Policy | Governance-Processes/Core/ | Month 3 |
-| Security Disclosure & Bug Bounty Policy | Governance-Processes/Core/ | Month 4 |
-| Ethics Reporting Policy | Governance-Processes/System-Integrity/ | Month 4 |
-| Contributor Onboarding & Offboarding | Governance-Processes/Execution/ | Month 6 |
+| Token Delegation Policy | Governance-Processes/Core/ | When governance platform supports delegation |
+| Election & Role Governance Policy | Governance-Processes/Roles/ | Before first role term expires and elections are needed |
+| Governance Continuity Framework | Governance-Processes/System-Integrity/ | Before first signer or RAC term ends |
+| Governance Maintenance & Upgrade Framework | Governance-Processes/System-Integrity/ | Before first governance document amendment is proposed |
+| Dispute Resolution & Arbitration Policy | Governance-Processes/System-Integrity/ | Before first formal dispute is escalated to the RAC |
+| Open Source & IP Policy | Governance-Processes/Core/ | Before first grant or RFP with deliverables is issued |
+| Treasury Risk & Diversification Policy | Governance-Processes/Core/ | Before first diversification action is proposed |
+| Working Group Framework | Governance-Processes/Execution/ | When first Working Groups are proposed by governance vote |
+| Working Group Charter Template | Governance-Processes/Execution/ | When first Working Groups are proposed by governance vote |
+| Transition Governance Framework | Transition/ | Active from launch (governs the transition period itself) |
+| All Working Group Charters | Working-Groups/ | When each respective Working Group is approved by governance |
 
 ---
 
-### Tier 3 — Triggered by Need
+### Phase 3 — Mature Governance (Formal Governance Vote Required)
 
-These activate at the moment they become operationally relevant, regardless of calendar timing:
+These policies are published and available now. They are expected to be followed in spirit from launch. They become **formally enforceable** — including under the dispute resolution and sanctions framework — only after a community governance vote approves each one.
 
-| Document | Location | Trigger |
+The Governance & Legal Working Group is responsible for bringing each policy to a governance vote.
+
+| Document | Location | Activation Trigger |
 |---|---|---|
+| Transparency & Reporting Policy | Governance-Processes/Core/ | Governance vote (target: Phase 2, month 2) |
+| Contributor Compensation Policy | Governance-Processes/Core/ | Governance vote (target: Phase 2, month 3) |
+| Grant Program Policy | Governance-Processes/Core/ | Governance vote (target: Phase 2, month 3) |
+| Security Disclosure & Bug Bounty Policy | Governance-Processes/Core/ | Governance vote (target: Phase 2, month 4) |
+| Ethics Reporting Policy | Governance-Processes/System-Integrity/ | Governance vote (target: Phase 2, month 4) |
+| Contributor Onboarding & Offboarding | Governance-Processes/Execution/ | Governance vote (target: Phase 2, month 6) |
 | Smart Contract Audit Policy | Governance-Processes/Core/ | Before any governance contract deployment is proposed |
 
 ---
@@ -110,39 +111,39 @@ These activate at the moment they become operationally relevant, regardless of c
 Radix-DAO/
 │
 ├── Charter/
-│   └── charter.md
+│   └── charter.md                                              [Phase 1]
 │
 ├── Governance-Processes/
 │   │
 │   ├── Core/
-│   │   ├── Proposal-and-Voting-Framework.md          [Tier 1]
-│   │   ├── Execution-and-Treasury-Actions-Policy.md  [Tier 1]
-│   │   ├── Emergency-and-Safeguards-Policy.md        [Tier 1]
-│   │   ├── Treasury-Risk-and-Diversification-Policy.md [Tier 1]
-│   │   ├── OpenSource-and-Intellectual-Property-Policy.md [Tier 1]
-│   │   ├── Code-of-Conduct.md                        [Tier 1]
-│   │   ├── Token-Delegation-Policy.md                [Tier 1]
-│   │   ├── Transparency-and-Reporting-Policy.md      [Tier 2 — month 2]
-│   │   ├── Contributor-Compensation-Policy.md        [Tier 2 — month 3]
-│   │   ├── Grant-Program-Policy.md                   [Tier 2 — month 3]
-│   │   ├── Security-Disclosure-and-Bug-Bounty-Policy.md [Tier 2 — month 4]
-│   │   └── Smart-Contract-Audit-Policy.md            [Tier 3 — on first deployment]
+│   │   ├── Proposal-and-Voting-Framework.md                   [Phase 1]
+│   │   ├── Execution-and-Treasury-Actions-Policy.md           [Phase 1]
+│   │   ├── Emergency-and-Safeguards-Policy.md                 [Phase 1]
+│   │   ├── Code-of-Conduct.md                                 [Phase 1]
+│   │   ├── Token-Delegation-Policy.md                         [Phase 2 — on delegation support]
+│   │   ├── Treasury-Risk-and-Diversification-Policy.md        [Phase 2 — on first diversification]
+│   │   ├── OpenSource-and-Intellectual-Property-Policy.md     [Phase 2 — on first grant/RFP]
+│   │   ├── Transparency-and-Reporting-Policy.md               [Phase 3 — governance vote, month 2]
+│   │   ├── Contributor-Compensation-Policy.md                 [Phase 3 — governance vote, month 3]
+│   │   ├── Grant-Program-Policy.md                            [Phase 3 — governance vote, month 3]
+│   │   ├── Security-Disclosure-and-Bug-Bounty-Policy.md       [Phase 3 — governance vote, month 4]
+│   │   └── Smart-Contract-Audit-Policy.md                     [Phase 3 — on first contract deployment]
 │   │
 │   ├── System-Integrity/
-│   │   ├── Dispute-Resolution-Arbitration-Policy.md  [Tier 1]
-│   │   ├── Governance-Continuity.md                  [Tier 1]
-│   │   ├── Governance_Maintenance-and-Upgrade.md     [Tier 1]
-│   │   └── Ethics-Reporting-Policy.md                [Tier 2 — month 4]
+│   │   ├── Dispute-Resolution-Arbitration-Policy.md           [Phase 2 — on first RAC escalation]
+│   │   ├── Governance-Continuity.md                           [Phase 2 — before first term ends]
+│   │   ├── Governance_Maintenance-and-Upgrade.md              [Phase 2 — on first doc amendment]
+│   │   └── Ethics-Reporting-Policy.md                         [Phase 3 — governance vote, month 4]
 │   │
 │   ├── Roles/
-│   │   ├── Election-and-Role-Governance-Policy.md    [Tier 1]
-│   │   ├── Authorized-Signers-Rules.md               [Tier 1]
-│   │   └── Conflict-of-Interest-Policy.md            [Tier 1]
+│   │   ├── Election-and-Role-Governance-Policy.md             [Phase 2 — before first election]
+│   │   ├── Authorized-Signers-Rules.md                        [Phase 1]
+│   │   └── Conflict-of-Interest-Policy.md                     [Phase 1]
 │   │
 │   └── Execution/
-│       ├── Working-Group-Framework.md                [Tier 1]
-│       ├── Working-Group-Charter-Template.md         [Tier 1]
-│       └── Contributor-Onboarding-and-Offboarding.md [Tier 2 — month 6]
+│       ├── Working-Group-Framework.md                         [Phase 2 — on first WG proposal]
+│       ├── Working-Group-Charter-Template.md                  [Phase 2 — on first WG proposal]
+│       └── Contributor-Onboarding-and-Offboarding.md          [Phase 3 — governance vote, month 6]
 │
 ├── Working-Groups/
 │   ├── WB-Strategic-Coordination/

@@ -36,20 +36,26 @@ All provisions in this document are:
 
 The DAO operates under a **phased governance activation model**:
 
-#### Phase 1 — Simplified Activation (0–12 months)
+#### Phase 1 — Minimum Viable Governance (0–12 months)
 
-* Core governance system is active in simplified form
-* Selected responsibilities are temporarily delegated to the RAC
-* Operational systems are established
-* Asset transfer is completed
+* 10 core documents active and enforceable from launch
+* RAC and Authorized Signers appointed as founding act
+* Asset transfer from the Radix Foundation completed
+* Governance decisions possible; Working Groups not yet operational
+* Complexity added as specific operational needs arise (see §3)
 
 ---
 
-#### Phase 2 — Progressive Decentralization (estimated months 12–24)
+#### Phase 2 — Operational Governance (estimated months 6–18)
 
 * Expanded use of full governance framework
 * Reduction of RAC delegated responsibilities
 * Increased direct DAO control
+
+* Activity-triggered documents activate as operational needs arise (see §3.2)
+* Working Groups established by governance vote
+* Phase 3 policies brought to governance vote for formal enforcement
+* Reduced RAC delegated authority as formal processes replace transitional coordination
 
 Entry into Phase 2 requires a **Governance Process proposal** (≥60% approval, ≥7% quorum) confirming that Phase 1 completion criteria (§10) are substantially met.
 
@@ -72,91 +78,80 @@ The reputation system must not replace token-weighted voting without a Constitut
 
 ---
 
-#### Phase 3 — Full DAO Governance (estimated from month 24)
+#### Phase 3 — Full DAO Governance (estimated from month 18–24)
 
-* All transitional delegation expires
-* Full governance framework is active
+* All Phase 3 policies formally approved and enforceable
+* All transitional RAC delegation expired
+* Full governance framework active
 * DAO operates entirely under standard rules
 
-Entry into Phase 3 requires a **Governance Process proposal** confirming that all Phase 2 delegation has been replaced by formal governance processes and that no transitional authority remains active.
+Entry into Phase 3 requires a **Governance Process proposal** confirming that all Phase 2 delegation has been replaced by formal governance processes, all Phase 3 policies have been approved by governance vote, and no transitional authority remains active.
 
 ---
 
-## 3. Governance Activation in Phase 1
+## 3. Governance Activation
 
-During Phase 1, the DAO operates using a **subset of the full governance framework**.
-
----
-
-### 3.1 Fully Active Components
-
-The following are fully in force from Phase 1 launch:
-
-* Charter (including purpose, non-distribution, asset lock)
-* Legal Wrapper & Representation
-* Execution & Treasury Actions Policy
-* Emergency & Safeguards Policy
-* DAO Parameters Registry (simplified values)
-* Code of Conduct
-* Conflict of Interest Policy
-* Token Delegation Policy
+The governance framework activates in three phases. Complexity is introduced deliberately — only when operationally needed.
 
 ---
 
-### 3.2 Active in Simplified Form
+### 3.1 Phase 1 — Fully Active from Launch (10 documents)
 
-The following operate with reduced complexity during Phase 1:
+These documents are in force and enforceable from the first day of DAO operations:
 
-| Framework | Active in Phase 1 | Deferred to Phase 2 |
+| Document | Purpose |
+|---|---|
+| Charter | Constitutional authority and founding principles |
+| DAO Parameters Registry | All numerical thresholds, durations, and limits |
+| Proposal & Voting Framework | How decisions are proposed, voted on, and recorded |
+| Execution & Treasury Actions Policy | How approved decisions are executed and funds moved |
+| Emergency & Safeguards Policy | Response to security events and critical failures |
+| Authorized Signers Rules | Operational rules for those executing treasury actions |
+| RAC Mandate | Authority and limits of the Accountability Council |
+| Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
+| Code of Conduct | Behavioral standards for all DAO participants |
+| Legal Wrapper & Representation | Legal entity structure and real-world representation |
+
+---
+
+### 3.2 Phase 2 — Activity-Triggered Documents
+
+These documents activate when the DAO begins the relevant activity. They do not need to be in force from day one — they become required the moment the specific operational need arises. The RAC confirms activation by publishing a notice to the governance forum.
+
+| Document | Activation Trigger |
+|---|---|
+| Token Delegation Policy | When the governance platform supports delegation |
+| Election & Role Governance Policy | Before the first role term expires and elections are needed |
+| Governance Continuity Framework | Before the first signer or RAC term ends |
+| Governance Maintenance & Upgrade Framework | Before the first governance document amendment is proposed |
+| Dispute Resolution & Arbitration Policy | Before the first formal dispute is escalated to the RAC |
+| Open Source & IP Policy | Before the first grant or RFP with deliverables is issued |
+| Treasury Risk & Diversification Policy | Before the first treasury diversification action is proposed |
+| Working Group Framework | When the first Working Groups are proposed by governance vote |
+| Working Group Charters | When each respective Working Group is approved by governance vote |
+| Transition Governance Framework | Active from launch — governs the transition period itself |
+
+During Phase 1, the RAC supports the functions covered by these documents where gaps arise, under its delegated authority defined in §5.
+
+---
+
+### 3.3 Phase 3 — Policies Requiring Formal Governance Approval
+
+The following policies are published and expected to be followed in spirit from launch. They become **formally enforceable** — including under the dispute resolution and sanctions framework — only after a community governance vote approves each one.
+
+**What "guiding principles" means in practice:** a policy in this status is published, visible, and expected to be followed. However, enforcement via dispute resolution or sanctions requires formal governance approval first. Working Groups and role-holders are encouraged to adopt these policies operationally ahead of formal approval.
+
+| Policy | Target Formal Approval | Notes |
 |---|---|---|
-| Proposal & Voting | Constitutional, Treasury, Signaling, and Governance Process proposals | Executable proposals; advanced categorization |
-| Working Group Framework | Working Groups established via DAO approval (5 at Phase 1 launch: Strategic Coordination, Governance & Legal, Product & Protocol, Ecosystem Growth, Community & Marketing) | New WGs beyond approved set require a new DAO proposal |
-| Authorized Signers Rules | Standard execution and emergency actions | Complex multi-party coordination procedures |
-| Dispute Resolution | Level 1–3 escalation; RAC review | Full Level 4 DAO arbitration processes |
+| Transparency & Reporting Policy | Phase 2, month 2 | |
+| Contributor Compensation Policy | Phase 2, month 3 | |
+| Grant Program Policy | Phase 2, month 3 | |
+| Security Disclosure & Bug Bounty Policy | Phase 2, month 4 | |
+| Ethics Reporting Policy | Phase 2, month 4 | |
+| Contributor Onboarding & Offboarding | Phase 2, month 6 | |
+| Smart Contract Audit Policy | Before first governance contract deployment | Trigger-based regardless of phase |
 
----
-
-### 3.3 Delegated / Supported by RAC
-
-The following functions may be supported or facilitated by the RAC:
-
-* Governance interpretation where ambiguity exists
-* Operational coordination across working groups
-* Resolution of process gaps not yet formalized
-* Strategic alignment support during early stages
-
----
-
-### 3.4 Deferred to Phase 2
-
-The following are defined but not fully enforced:
-
-* advanced proposal categorization
-* complex parameter tuning
-* full strategic coordination processes
-* advanced governance mechanisms
-
----
-
-### 3.5 Policy Activation Schedule (Year 1)
-
-The following policies have been drafted and published as part of the DAO's founding policy library. During Phase 1, they operate as **guiding principles** — they are publicly available and expected to be followed in spirit, but are not yet formally enforceable under the dispute resolution or sanctions framework.
-
-Each policy must be formally proposed and approved by DAO governance vote before it becomes fully enforceable. The table below sets out the target timeline for each proposal. These targets are governance commitments, not hard deadlines — the community may accelerate or adjust the schedule by governance vote.
-
-| Policy | Phase 1 Status | Target Formal Approval |
-|---|---|---|
-| Transparency & Reporting Policy | Guiding principles; simplified WG reporting active from launch | Month 2 |
-| Contributor Compensation Policy | Guiding principles active | Month 3 |
-| Grant Program Policy | Guiding principles active | Month 3 |
-| Security Disclosure & Bug Bounty Policy | Guiding principles active | Month 4 |
-| Ethics Reporting Policy | Guiding principles active | Month 4 |
-| Contributor Onboarding & Offboarding | Guidelines active | Month 6 |
-| Smart Contract Audit Policy | Active immediately upon any governance contract deployment being proposed | Before first deployment |
-
-**What "guiding principles" means in practice:** a policy in this status is published, visible, and expected to be followed. However, enforcement via the dispute resolution or sanctions framework requires formal governance approval first. Working Groups and role-holders are encouraged to adopt these policies operationally ahead of formal approval.
-
-The Governance & Legal Working Group is responsible for bringing each policy to a governance vote on or before the target date and for tracking progress against this schedule in its regular reporting.
+The Governance & Legal Working Group is responsible for bringing each policy to a governance vote on schedule and for tracking progress in its regular reporting.
 
 ---
 
@@ -303,9 +298,10 @@ Phase 1 is considered complete when all of the following minimum conditions are 
 
 * All 5 Phase 1 Working Groups have operated independently for at least 60 consecutive days, producing required biweekly reports
 
-**Policy Activation**
+**Phase 2 Document Activation**
 
-* The following Tier 2 policies have been formally activated by governance vote:
+* All activity-triggered Phase 2 documents relevant to the DAO's current operations have been activated
+* The following Phase 3 policies have been formally activated by governance vote:
   * Transparency & Reporting Policy
   * Contributor Compensation Policy
   * Grant Program Policy

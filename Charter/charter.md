@@ -32,7 +32,7 @@ This Charter defines the DAO's principles and authority. Operational details are
 
 ## 3. Core Principles
 
-The DAO is governed by five principles. These are not aspirations — they are binding commitments that shape every governance decision and constrain every actor within the system.
+The DAO is governed by seven principles. These are not aspirations — they are binding commitments that shape every governance decision and constrain every actor within the system.
 
 ### 3.1 Decentralization
 

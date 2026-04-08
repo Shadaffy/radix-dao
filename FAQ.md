@@ -9,7 +9,7 @@ For definitions of specific terms, see the [Glossary](GLOSSARY.md). For exact pa
 ## For Token Holders
 
 **How do I vote on a proposal?**
-Token holders vote through the DAO's designated governance interface. You can vote YES, NO, or Abstain. Each XRD token represents one vote. Voting power is measured at the snapshot taken at the start of the voting period — so your token balance at that moment determines your weight in that vote.
+Token holders vote through the DAO's designated governance interface. You can vote YES, NO, or Abstain. Voting power is measured at the snapshot taken at the start of the voting period — so your balance at that moment determines your weight in that vote. Each XRD token represents one vote. If you hold LSU (Liquid Staking Units — XRD staked with a validator), your LSU are also counted: they are converted to their XRD equivalent at the time of the snapshot, and that equivalent amount counts as additional votes.
 
 **Do I have to vote myself, or can someone vote on my behalf?**
 You can delegate your voting power to any eligible participant (a delegate), who will then vote on all proposals using your combined power. You can also vote directly. Delegation does not take away your right to submit proposals or file veto challenges — those rights are tied to your direct holdings.
@@ -21,7 +21,7 @@ Yes, at any time. Revocations and reassignments take effect at the next governan
 Nothing automatic — missing a vote just means your tokens are not counted in that proposal's outcome. This is why delegation exists: a delegate you trust can vote on your behalf when you are unavailable.
 
 **What's the minimum token holding needed to vote?**
-There is no minimum — any XRD holder can vote. Quorum is measured in aggregate: a proposal is only valid if enough total XRD participates (the threshold varies by proposal type). One token still counts as one vote.
+There is no minimum — any XRD holder or LSU holder can vote. Quorum is measured in aggregate across all eligible voting power (XRD plus LSU converted to XRD-equivalent): a proposal is only valid if enough total eligible power participates (the threshold varies by proposal type). One XRD (or its LSU equivalent) still counts as one vote.
 
 **What if I disagree with the outcome of a vote?**
 If you believe the proposal violated the Charter or a governance rule, you can file a veto challenge within 48 hours of the vote closing (see "What is the veto mechanism for?" below). If you disagree with the *policy* rather than the process, you can wait for the next proposal cycle and submit or support a counter-proposal. The DAO can always revisit any decision through a new governance vote.
@@ -78,7 +78,7 @@ A new Working Group requires a governance proposal (at minimum a Governance Proc
 
 **What is the difference between quorum and approval threshold?**
 They are two separate requirements that must *both* be met for a proposal to pass:
-- **Quorum** — the minimum percentage of circulating XRD that must cast any vote (YES, NO, or Abstain) for the result to be valid. If participation is too low, the proposal fails regardless of how people voted.
+- **Quorum** — the minimum percentage of eligible voting power (liquid XRD plus LSU converted to XRD-equivalent at snapshot) that must cast any vote (YES, NO, or Abstain) for the result to be valid. If participation is too low, the proposal fails regardless of how people voted.
 - **Approval threshold** — the percentage of cast votes (excluding Abstain) that must be YES for the proposal to pass.
 
 Example: a Governance Process proposal needs ≥7% quorum AND ≥60% YES approval. If only 6% of XRD participates, the proposal fails due to insufficient quorum even if 90% of participants voted YES.

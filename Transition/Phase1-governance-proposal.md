@@ -129,7 +129,7 @@ Two proposal types:
 
 ## 6. Voting (Simplified)
 
-* Token-weighted voting (XRD-based)
+* Token-weighted voting (XRD and LSU converted to XRD-equivalent at snapshot)
 * Single quorum rule (defined in parameters)
 * Simple majority approval
 

@@ -108,6 +108,14 @@ Funding awarded to external parties for projects that benefit the Radix ecosyste
 
 ---
 
+## L
+
+**LSU (Liquid Staking Units)**
+Tokens received by XRD holders who stake their XRD with a validator on the Radix network. LSU represents the holder's staked position and accrues staking rewards over time. For governance purposes, LSU is recognised as eligible voting power from Phase 1: at each voting snapshot, the LSU balance is converted to its XRD equivalent using the LSU redemption rate at that moment, and the resulting XRD-equivalent amount is counted as voting power. Holding LSU rather than liquid XRD does not reduce a holder's ability to participate in governance.
+→ See: [Proposal & Voting Framework §6.1](Governance-Processes/Core/Proposal-and-Voting-Framework.md), [DAO Parameters Registry §3.2, §8](Parameters/DAO-Parameters-Registry.md)
+
+---
+
 ## M
 
 **Material Financial Interest**
@@ -155,7 +163,7 @@ A voluntary registry maintained by the Governance & Legal Working Group where de
 ## Q
 
 **Quorum**
-The minimum participation required for a vote to be valid, expressed as a percentage of circulating XRD. If quorum is not met, the proposal fails regardless of the YES/NO split. Quorum thresholds vary by proposal type: Constitutional (10%), Governance Process (7%), Treasury/Budget and Executable (5%), Signaling (3%). If a proposal type repeatedly fails to reach quorum (3 consecutive failures), a reduced quorum threshold and extended voting period may apply per the Governance Continuity Framework.
+The minimum participation required for a vote to be valid, expressed as a percentage of eligible voting power (liquid XRD plus LSU converted to XRD-equivalent at the voting snapshot). If quorum is not met, the proposal fails regardless of the YES/NO split. Quorum thresholds vary by proposal type: Constitutional (10%), Governance Process (7%), Treasury/Budget and Executable (5%), Signaling (3%). If a proposal type repeatedly fails to reach quorum (3 consecutive failures), a reduced quorum threshold and extended voting period may apply per the Governance Continuity Framework.
 → See: [DAO Parameters Registry §3.2](Parameters/DAO-Parameters-Registry.md), [Proposal & Voting Framework §6.3](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
 
 ---
@@ -177,7 +185,7 @@ A non-binding proposal that gauges community sentiment or preference. The outcom
 → See: [Proposal & Voting Framework §4.5](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
 
 **Snapshot**
-A fixed point in time at which voting power is calculated for a specific vote. The snapshot is taken at the start of each voting period. Any delegation changes, token transfers, or staking actions made *after* the snapshot do not affect the vote in progress — they take effect from the next snapshot.
+A fixed point in time at which voting power is calculated for a specific vote. The snapshot is taken at the start of each voting period. Voting power captured at the snapshot includes liquid XRD holdings and LSU holdings converted to their XRD equivalent at that moment. Any delegation changes, token transfers, or staking actions made *after* the snapshot do not affect the vote in progress — they take effect from the next snapshot.
 → See: [Proposal & Voting Framework §6.1](Governance-Processes/Core/Proposal-and-Voting-Framework.md), [Token Delegation Policy §3.3](Governance-Processes/Core/Token-Delegation-Policy.md)
 
 **Steward**

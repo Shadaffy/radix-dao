@@ -42,9 +42,11 @@ This registry defines:
 
 ### 3.2 Quorum Requirements
 
-| Proposal Type      | Quorum                 |
-| ------------------ | ---------------------- |
-| Constitutional     | 10% of circulating XRD |
+Quorum is measured as a percentage of eligible voting power. Eligible voting power includes liquid XRD holdings and LSU holdings converted to their XRD equivalent at the time of the voting snapshot.
+
+| Proposal Type      | Quorum                      |
+| ------------------ | --------------------------- |
+| Constitutional     | 10% of eligible voting power |
 | Governance Process | 7%                     |
 | Treasury / Budget  | 5%                     |
 | Executable         | 5%                     |
@@ -79,8 +81,8 @@ This registry defines:
 | Parameter                  | Value              |
 | -------------------------- | ------------------ |
 | Veto Window                | 48 hours post-vote |
-| Minimum Participation      | 3% quorum          |
-| Optional Stake Requirement | None (Phase 1)     |
+| Minimum Participation      | 3% quorum (XRD and LSU-equivalent combined) |
+| Optional Stake Requirement | None               |
 
 ---
 
@@ -201,9 +203,9 @@ This registry defines:
 
 | Parameter        | Value        |
 | ---------------- | ------------ |
-| Voting Basis     | XRD holdings                    |
-| LSU Inclusion    | Deferred to Phase 2             |
-| Delegation       | Allowed                         |
+| Voting Basis     | XRD holdings and LSU (converted to XRD-equivalent via snapshot) |
+| LSU Inclusion    | Active (Phase 1) — snapshot-based XRD conversion               |
+| Delegation       | Allowed (Phase 2, when platform supports delegation) |
 | Sybil Resistance | Deferred to Phase 2             |
 
 ---

@@ -17,7 +17,8 @@ This document defines:
 
 The DAO operates through a legally recognized entity:
 
-* Structure: DAO LLC (e.g., Marshall Islands DAO LLC)
+* Structure: Marshall Islands DAO LLC, incorporated under the Marshall Islands Limited Liability Company Act and the Marshall Islands DAO Act
+* Governing Law: The laws of the Republic of the Marshall Islands govern this entity and the interpretation of this document
 * Purpose: To act as the legal interface of the DAO
 
 The legal entity:
@@ -25,6 +26,12 @@ The legal entity:
 * Holds assets on behalf of the DAO
 * Enters into legal agreements
 * Enables regulatory compliance where required
+
+---
+
+## 2A. Token Holder Membership
+
+Governance token holders are members of the DAO LLC by virtue of their token holdings, in accordance with the Marshall Islands DAO Act. Membership rights are exercised through the governance framework established in the Charter and related governance documents. On-chain governance decisions constitute legally binding decisions of the LLC membership.
 
 ---
 
@@ -68,8 +75,8 @@ Exceptions allowed for:
 
 In the event of dissolution:
 
-* Remaining assets must be transferred to an entity with similar objectives
-* No distribution to token holders or members is permitted
+* Remaining assets must be transferred to an entity with substantially similar objectives, in accordance with the dissolution requirements of the Marshall Islands Limited Liability Company Act
+* No assets may be distributed to members or token holders upon dissolution
 
 ---
 
@@ -119,10 +126,7 @@ Authorized Signers must comply with approved operational rules, including:
 
 ## 8. Manager Structure (Transition Phase)
 
-During transition:
-
-* 3–5 Managers may be designated
-* Managers fulfill legal and operational requirements
+During the Phase 1 transition period, 3–5 Managers are designated in accordance with the Marshall Islands DAO Act. Managers act as the legal representatives of the LLC for the purpose of executing DAO-approved decisions and maintaining entity standing. Managers are not beneficial owners of the DAO's assets and hold no authority independent of DAO governance decisions. Managers benefit from the limited liability protections afforded to LLC managers under Marshall Islands law.
 
 Responsibilities include:
 

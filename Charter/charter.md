@@ -158,7 +158,7 @@ The DAO's assets and income exist to advance its purpose — not to enrich its m
 
 This principle is not merely a legal constraint. It is a statement of intent: the DAO is a steward, not a vehicle for extraction.
 
-Detailed definitions and constraints are specified in the **Legal Wrapper & Representation** document.
+Detailed definitions and constraints are specified in the **Legal Wrapper & Representation** document, including the governing law and legal entity structure applicable to the DAO.
 
 ---
 
@@ -174,7 +174,7 @@ The DAO's resources were entrusted to it for the benefit of the Radix ecosystem.
 
 This Charter may be amended through DAO governance using a Constitutional proposal. It is a living document — it should evolve as the DAO matures — but changes to it require the highest level of community deliberation and approval.
 
-Amendment procedures and document versioning requirements are defined in the **Governance Maintenance & Upgrade Framework**. Voting mechanics are defined in the **Proposal & Voting Framework**.
+Amendment procedures and document versioning requirements are defined in the **Governance Maintenance & Upgrade Framework**. Voting mechanics are defined in the **Proposal & Voting Framework**. During Phase 1, where the Governance Maintenance & Upgrade Framework is not yet active, amendment mechanics are governed by the **Transition Governance Framework** and the **Proposal & Voting Framework**.
 
 ---
 
@@ -183,3 +183,5 @@ Amendment procedures and document versioning requirements are defined in the **G
 This Charter defines the DAO's purpose, authority, principles, and structural guarantees. It is the highest governance document in the DAO's framework. All other governance documents derive their authority from it and must be consistent with it.
 
 Operational, technical, and procedural details are defined in the DAO's policy library — a set of governance documents that give effect to the principles and authority established here. Where any policy conflicts with this Charter, this Charter prevails.
+
+**Document Activation During Transition:** This Charter describes the DAO's intended complete governance framework. Not all referenced documents are in force from the first day of operations. The activation status of each governance document — and the phased schedule under which documents become enforceable — is governed by the **Transition Governance Framework**. Where a referenced policy is not yet active, the Transition Governance Framework defines the applicable interim rules and the RAC's delegated authority.

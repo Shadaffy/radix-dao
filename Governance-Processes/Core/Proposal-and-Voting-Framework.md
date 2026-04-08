@@ -133,7 +133,9 @@ All proposals must include:
 
 * Voting power is determined at a fixed snapshot
 * Snapshot occurs at start of voting period
-* Measured in XRD (including defined eligible holdings)
+* Measured in XRD-equivalent units; eligible holdings include:
+  * Liquid XRD held directly
+  * LSU (Liquid Staking Units) — converted to XRD equivalent based on the LSU redemption rate at the time of the snapshot
 
 ---
 

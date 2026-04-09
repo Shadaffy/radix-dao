@@ -134,6 +134,8 @@ These documents activate when the DAO begins the relevant activity. They do not 
 
 During Phase 1, the RAC supports the functions covered by these documents where gaps arise, under its delegated authority defined in §5.
 
+**Vote type activation note:** The Proposal & Voting Framework defines four vote types. Standard voting (YES / NO / ABSTAIN) and Approval Voting are active from Phase 1. Weighted Allocation and Majority Judgment are Phase 2 vote types and require tooling support before activation; the RAC confirms activation by publishing a notice to the governance forum when the required tooling is in place.
+
 ---
 
 ### 3.3 Phase 3 — Policies Requiring Formal Governance Approval

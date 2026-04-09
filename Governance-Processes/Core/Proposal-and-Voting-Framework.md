@@ -139,10 +139,49 @@ All proposals must include:
 
 ---
 
-### 6.2 Voting Method
+### 6.2 Vote Types
 
-* One token = one vote
-* Votes: Yes / No / Abstain
+The vote type determines how voters express preferences and how results are determined. Each proposal category maps to a designated vote type. All types use one token = one vote as the base unit of voting power.
+
+---
+
+#### 6.2.1 Standard (YES / NO / ABSTAIN)
+
+* Applies to: Constitutional, Governance Process, Executable proposals
+* Voters cast one of three options: Yes, No, or Abstain
+* Abstain counts toward quorum but not toward the approval threshold
+* Result: proposal passes if the YES share of votes cast (excluding Abstain) meets the approval threshold for the proposal type (see DAO Parameters §3.3)
+
+---
+
+#### 6.2.2 Approval Voting
+
+* Applies to: Signaling proposals with multiple options
+* Voters may select any number of options from a defined list (maximum per DAO Parameters §3.5)
+* Each selected option receives the voter's full voting power
+* Result: the option with the highest total voting power wins, provided it meets the minimum winner threshold defined in DAO Parameters §3.5
+* If no option meets the threshold, the proposal fails; the proposer may resubmit with revised options after the standard cooldown
+
+---
+
+#### 6.2.3 Weighted Allocation
+
+* Applies to: Treasury / Budget proposals distributing funds across multiple recipients
+* Voters distribute 100 points across the available options
+* The final allocation per option equals the power-weighted average of all voter distributions, normalised by total voting power
+* Options receiving less than the minimum weight threshold (see DAO Parameters §3.5) are excluded and their weight redistributed proportionally across remaining options
+* The overall proposal still requires quorum and approval threshold as defined for Treasury proposals (DAO Parameters §3.2 and §3.3)
+* Weighted Allocation activates in Phase 2; the RAC confirms activation by publishing a notice to the governance forum when the required tooling is in place
+
+---
+
+#### 6.2.4 Majority Judgment
+
+* Applies to: Elections (Phase 2)
+* Voters assign a grade to each candidate from a defined scale (see DAO Parameters §3.5)
+* The winner is the candidate with the highest median grade across all voter submissions
+* Tie-break: one ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken
+* Majority Judgment activates in Phase 2; the RAC confirms activation by publishing a notice to the governance forum when the required tooling is in place
 
 ---
 
@@ -164,6 +203,24 @@ Approval thresholds vary by proposal type:
 * Signaling: simple majority
 
 Exact thresholds defined in DAO Parameters.
+
+---
+
+### 6.5 Result Determination Procedure
+
+The RAC is responsible for formally determining the outcome of each vote and publishing the official result. This procedure applies to all vote types regardless of which governance platform is in use.
+
+1. **Retrieve results.** After the voting period closes, the RAC retrieves the raw vote data from the governance platform.
+
+2. **Verify quorum.** The RAC confirms that total voting power cast meets the quorum threshold for the proposal type, expressed as a percentage of eligible voting power (DAO Parameters §3.2). Any quorum indicator displayed by the governance platform is informational; the percentage threshold in DAO Parameters is authoritative.
+
+3. **Apply approval threshold (Standard votes).** For Standard votes, the RAC confirms that the YES share of votes cast (excluding Abstain) meets the type-specific approval threshold (DAO Parameters §3.3).
+
+4. **Determine winner (Approval Voting).** The RAC identifies the option with the highest total voting power and confirms it meets the minimum winner threshold (DAO Parameters §3.5). If no option meets the threshold, the proposal fails.
+
+5. **Determine allocation (Weighted Allocation).** The RAC computes the power-weighted average allocation per option, applies the minimum weight threshold exclusion rule (DAO Parameters §3.5), and publishes the final allocation breakdown.
+
+6. **Publish result.** The RAC publishes the official outcome — including raw results, quorum calculation, threshold applied, and winner determination — within the result publication window (DAO Parameters §3.5). Publication constitutes the official record and opens the 48-hour veto window (§8).
 
 ---
 

@@ -76,6 +76,19 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 ---
 
+### 3.5 Multi-Choice Voting Parameters
+
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| Approval Voting: Maximum Options | 8 | Maximum number of selectable options per GP |
+| Approval Voting: Minimum Winner Threshold | ≥ 30% of total votes cast | Minimum voting power an option must receive to be declared winner |
+| Weighted Allocation: Maximum Options | 12 | Maximum number of options per Treasury / Budget allocation GP |
+| Weighted Allocation: Minimum Option Weight | 5% | Options receiving less than this share of total distributed weight are excluded; weight redistributed proportionally |
+| Majority Judgment: Grade Scale | Excellent / Very Good / Good / Acceptable / Poor | Standard five-grade scale for election votes |
+| Result Publication Window | Within 24 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination |
+
+---
+
 ## 4. Veto Parameters
 
 | Parameter                  | Value              |

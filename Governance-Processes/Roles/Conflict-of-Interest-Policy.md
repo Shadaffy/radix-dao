@@ -51,7 +51,7 @@ A conflict exists where a covered person, or a close associate (family member, b
 A conflict exists where a covered person holds a paid role, directorship, or advisory position with:
 
 * An entity submitting a proposal or grant application to the DAO
-* RDX Works, Radix Foundation or any entity that funds, controls, or is controlled by RDX Works or Radix Foundation 
+* Any entity — including predecessor organisations, protocol developers, founding sponsors, or their successors and asset transferees — that has or had a material controlling, funding, or developmental relationship with the Radix protocol or DAO infrastructure
 * Any foundation, company, or protocol with a direct stake in DAO governance outcomes
 
 ---
@@ -157,15 +157,15 @@ The following are prohibited regardless of disclosure:
 
 ---
 
-## 7. RDX Works and Commercial Entity Relationships
+## 7. Legacy Entity and Commercial Entity Relationships
 
-Given the relationship between the Radix DAO and RDX Works (the commercial entity that developed the Radix protocol), the following additional provisions apply:
+The following provisions apply to any covered person with prior or residual affiliations to predecessor entities or their successors:
 
-* Any covered person who holds a paid role at RDX Works, or holds equity or tokens in RDX Works beyond ordinary XRD holdings, must disclose this as a standing conflict
-* Such persons must recuse from any DAO decision that would provide material financial benefit to RDX Works relative to other ecosystem participants
-* This does not prevent RDX Works employees or affiliated persons from holding DAO roles, but their conflicts must be publicly on record
+* Any covered person who holds, or has held within the preceding three years, equity, a paid role, or non-trivial token compensation from any predecessor entity, successor, or asset transferee with a material relationship to the Radix protocol or DAO infrastructure, must disclose this as a standing conflict
+* Such persons must recuse from any DAO decision that would provide material financial benefit to those entities, their successors, or their former principals, relative to other ecosystem participants
+* This does not prevent persons with prior affiliations from holding DAO roles, but any residual conflicts must be publicly on record
 
-This provision recognizes that some degree of overlap between RDX Works and the DAO is expected during the transition phase, and is intended to ensure transparency rather than exclusion.
+This provision is intended to ensure transparency during and after the transition from predecessor commercial entities to community governance — not to exclude individuals with relevant expertise.
 
 ---
 

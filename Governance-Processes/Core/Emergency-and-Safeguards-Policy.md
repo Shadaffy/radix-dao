@@ -30,7 +30,7 @@ Emergency powers must be:
 * **Exceptional** — used only when normal governance cannot respond in time
 * **Minimal** — limited to what is strictly necessary
 * **Temporary** — automatically expire
-* **Accountable** — subject to retrospective review
+* **Accountable** — subject to a mandatory retrospective review
 
 ---
 

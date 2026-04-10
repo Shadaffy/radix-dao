@@ -214,12 +214,14 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 ## 8. Identity & Participation Parameters
 
-| Parameter        | Value        |
-| ---------------- | ------------ |
-| Voting Basis     | XRD holdings and LSU (converted to XRD-equivalent via snapshot) |
-| LSU Inclusion    | Active (Phase 1) — snapshot-based XRD conversion               |
-| Delegation       | Allowed (Phase 2, when platform supports delegation) |
-| Sybil Resistance | Deferred to Phase 2             |
+| Parameter | Value | Description |
+| --------- | ----- | ----------- |
+| Voting Basis | XRD holdings and LSU (converted to XRD-equivalent via snapshot) | — |
+| LSU Inclusion | Active (Phase 1) — snapshot-based XRD conversion | — |
+| Delegation | Allowed (Phase 2, when platform supports delegation) | — |
+| Sybil Resistance | Deferred to Phase 2 | — |
+| UBO KYC Threshold | >25% of eligible voting power | Triggers mandatory KYC under Marshall Islands DAO Act; annual BOIR filing required Jan 1–Mar 31 |
+| Compensation KYC Requirement | Required before first payment | Applies to all compensated contributors, contractors, and grant recipients (Standard and Strategic) |
 
 ---
 

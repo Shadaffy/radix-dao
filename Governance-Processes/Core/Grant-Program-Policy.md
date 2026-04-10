@@ -75,6 +75,7 @@ Any individual, team, or legal entity may apply for a grant, subject to:
 * Not being subject to applicable international sanctions
 * Having no unresolved obligations from a prior grant (outstanding milestones or reports due)
 * Disclosure of any conflicts of interest per the **Conflict of Interest Policy**
+* Having completed KYC verification through the DAO's designated process prior to any disbursement (Standard and Strategic grants); or having provided sufficient identity information for Micro Grants as determined by the administering Working Group
 
 The DAO does not require applicants to be incorporated, but larger grants may require a legal entity for disbursement purposes.
 

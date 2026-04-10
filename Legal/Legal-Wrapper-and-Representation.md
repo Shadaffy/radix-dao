@@ -124,6 +124,44 @@ Authorized Signers must comply with approved operational rules, including:
 
 ---
 
+## 7A. Beneficial Ownership (UBO) Compliance
+
+Under the Marshall Islands DAO Act, any individual or entity holding more than 25% of the DAO LLC's governance or voting rights is classified as an Ultimate Beneficial Owner (UBO) and is subject to mandatory KYC obligations.
+
+### 7A.1 Identification Requirement
+
+Any token holder or entity that reaches or exceeds the 25% threshold of total eligible voting power must:
+
+* Complete KYC verification through the DAO's designated process
+* Provide: full legal name, date of birth, residential address, non-expired passport number, and associated wallet address(es)
+* Notify the RAC within 14 days of crossing the threshold
+
+The RAC maintains UBO records on behalf of the LLC and files the required annual Beneficial Owner Information Report (BOIR) with the Registered Agent between January 1 and March 31 each year.
+
+---
+
+### 7A.2 Threshold Monitoring
+
+The RAC is responsible for monitoring on-chain voting power distribution to identify UBOs. When any wallet or coordinated entity approaches the 25% threshold, the RAC must initiate outreach to confirm compliance.
+
+---
+
+### 7A.3 Confidentiality
+
+UBO records are maintained confidentially with the Registered Agent and are not published to the DAO community, consistent with Marshall Islands law. However, the existence of a UBO relationship and the fact of KYC completion may be disclosed as required by law.
+
+---
+
+### 7A.4 Non-Compliance Consequences
+
+Failure to complete required KYC upon crossing the 25% threshold may result in:
+
+* Suspension of voting rights associated with the affected holdings, pending compliance
+* Referral to legal authorities as required by applicable law
+* Civil and criminal penalties under Marshall Islands law (up to USD 500/day civil penalty; up to USD 10,000 criminal fine; up to 2 years imprisonment; possible entity revocation)
+
+---
+
 ## 8. Manager Structure (Transition Phase)
 
 During the Phase 1 transition period, 3–5 Managers are designated in accordance with the Marshall Islands DAO Act. Managers act as the legal representatives of the LLC for the purpose of executing DAO-approved decisions and maintaining entity standing. Managers are not beneficial owners of the DAO's assets and hold no authority independent of DAO governance decisions. Managers benefit from the limited liability protections afforded to LLC managers under Marshall Islands law.

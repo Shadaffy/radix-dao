@@ -28,6 +28,8 @@ This policy applies to:
 
 Token holders exercising governance rights are not compensated under this policy for ordinary participation.
 
+All individuals and entities eligible for compensation under this policy must satisfy the KYC requirement defined in §3.5 before any payment is released.
+
 ---
 
 ## 3. Compensation Principles
@@ -58,6 +60,21 @@ Compensation should be proportionate to the nature, scope, and market rate of th
 ### 3.4 Transparency
 
 All compensation arrangements, rates, and payments must be publicly disclosed as part of regular Working Group reporting. No off-ledger compensation arrangements are permitted.
+
+---
+
+### 3.5 KYC Prerequisite
+
+No compensation may be released to any individual or entity that has not completed KYC verification through the DAO's designated process. This requirement applies to:
+
+* Working Group Stewards
+* Working Group Contributors
+* Contracted Specialists
+* Any individual or entity receiving expense reimbursement
+
+KYC must be completed before the first payment of an engagement. Existing engaged contributors who have not yet completed KYC must do so before their next payment cycle. The RAC maintains a record of KYC-verified payees. Working Group Stewards are responsible for confirming KYC status before authorising any payment from an approved budget.
+
+KYC records are held confidentially and are not published publicly, except where disclosure is required by law.
 
 ---
 

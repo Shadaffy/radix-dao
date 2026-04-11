@@ -101,6 +101,21 @@ Detailed operational rules are defined in the Authorized Signers Operational Rul
 
 ---
 
+### 5.4 Execution of DAO-Wide Roles
+
+Every approved proposal that creates a paid role must designate an executing body responsible for selection, onboarding, and contracting.
+
+* If the role falls within a Working Group's mandate, that Working Group is the executing body.
+* If the role is DAO-wide with no natural Working Group home, the proposal must explicitly name the executor — either a specific Working Group or the RAC.
+
+**When the RAC is the designated executor:**
+
+The RAC must publicly document the selection process and publish its selection decision to the governance forum for a 7-day acknowledgement period before the engagement is binding. During this period, any token holder may file a veto challenge under the standard veto mechanism (Proposal & Voting Framework §8) on the grounds that the selection does not comply with the approved proposal.
+
+The RAC may not act as both executor and compliance verifier for the same role. Where the RAC executes a hire, compliance verification responsibility passes to the DAO via the acknowledgement period above.
+
+---
+
 ## 6. Treasury Structure
 
 ### 6.1 Multi-Account Model

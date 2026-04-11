@@ -108,23 +108,44 @@ Each candidate must provide:
 
 ## 7. Election Process
 
-### 7.1 Voting Mechanism
-
-* Elections are conducted via DAO voting
-* Voting follows the Proposal & Voting Framework
+Elections follow the two-stage process defined in the Proposal & Voting Framework (§4.6).
 
 ---
 
-### 7.2 Election Format
+### 7.1 Stage 1 — Shortlisting
 
-* Candidates compete for available seats
-* Top candidates by vote are selected
+A Signaling proposal using Approval Voting is published containing all eligible nominees.
+
+* Each voter may select up to the number of open seats (see DAO Parameters §6B)
+* The shortlist size equals the number of open seats multiplied by the shortlist multiplier (see DAO Parameters §6B)
+* Candidates are ranked by total voting power received
+* The top candidates by that ranking advance to Stage 2
+* The Stage 1 result is procedurally binding: no substitution of shortlisted candidates is permitted outside the fallback process
 
 ---
 
-### 7.3 Term Start
+### 7.2 Stage 2 — Confirmation
 
-* Roles begin at a defined start date following election
+Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal.
+
+* Stage 2 proposals may run concurrently
+* A candidate is confirmed if they meet the approval threshold and quorum for Election proposals (DAO Parameters §3.2–3.3)
+
+---
+
+### 7.3 Fallback
+
+If a shortlisted candidate fails their Stage 2 confirmation vote:
+
+* The next-highest candidate from Stage 1 by total voting power is automatically advanced to a replacement confirmation vote
+* This continues until all seats are filled or the shortlist is exhausted
+* If the shortlist is exhausted without filling all seats, remaining vacancies trigger the vacancy handling process (§11)
+
+---
+
+### 7.4 Term Start
+
+Confirmed role holders begin their term on the defined start date following the completion of all Stage 2 confirmation votes.
 
 ---
 

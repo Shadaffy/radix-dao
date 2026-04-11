@@ -115,6 +115,23 @@ All governance changes must clearly specify their classification and comply with
 
 ---
 
+### 4.6 Election Proposals
+
+Selection of candidates for DAO roles: RAC members, Working Group Stewards, Strategic Coordination WG members, and Authorized Signers.
+
+Elections follow a two-stage process:
+
+**Stage 1 — Shortlisting (Approval Voting)**
+A Signaling proposal using Approval Voting (§6.2.2) is published listing all eligible nominees. Voters may select up to the number of open seats (see DAO Parameters §6B). The top candidates by total voting power — up to the shortlist size defined in DAO Parameters §6B — advance to Stage 2. The Stage 1 result is procedurally binding.
+
+**Stage 2 — Confirmation (Standard Vote)**
+Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal (§6.2.1). A candidate is confirmed if they meet the quorum and approval threshold for Election proposals (DAO Parameters §3.2–3.3). Stage 2 proposals may run concurrently.
+
+**Fallback**
+If a shortlisted candidate fails Stage 2, the next-highest candidate from Stage 1 is automatically advanced to a replacement confirmation vote. This continues until all seats are filled or the shortlist is exhausted. If the shortlist is exhausted, remaining vacancies follow the vacancy handling process in the Elections & Role Governance Policy §11.
+
+---
+
 ## 5. Proposal Requirements
 
 All proposals must include:
@@ -177,13 +194,12 @@ The vote type determines how voters express preferences and how results are dete
 
 ---
 
-#### 6.2.4 Majority Judgment
+#### 6.2.4 Elections
 
-* Applies to: Elections (Phase 2)
-* Voters assign a grade to each candidate from a defined scale (see DAO Parameters §3.5)
-* The winner is the candidate with the highest median grade across all voter submissions
-* Tie-break: one ballot showing the tied candidates' median grade is removed from each tied candidate in turn; repeat until the tie is broken
-* Majority Judgment activates in Phase 2; the RAC confirms activation by publishing a notice to the governance forum when the required tooling is in place
+* Applies to: Election Proposals (§4.6)
+* Stage 1 uses Approval Voting (§6.2.2) for shortlisting
+* Stage 2 uses Standard voting (§6.2.1) for confirmation
+* Full procedure defined in §4.6 and Elections & Role Governance Policy §7
 
 ---
 

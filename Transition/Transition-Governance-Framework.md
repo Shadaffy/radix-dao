@@ -213,6 +213,36 @@ All non-emergency transitional actions under §5.1 require a simple majority of 
 
 ---
 
+### 5.4 Interim Execution Authority (Phase 1 Only)
+
+During Phase 1, where no relevant Working Group exists to coordinate execution, the RAC may act as an interim execution body for operational needs within DAO-approved budgets. This authority is strictly transitional and expires when a relevant Working Group becomes operational.
+
+**Scope**
+
+The RAC may, in the absence of a relevant Working Group:
+
+* Publish and administer RFPs for operational work within a DAO-approved budget
+* Select contributors and confirm engagements
+* Manage delivery and authorise milestone payments to Authorized Signers
+
+**Conditions**
+
+All interim execution actions must comply with the following:
+
+* A DAO-approved Treasury & Budget proposal must exist covering the work — the RAC may not initiate spending without prior governance approval
+* The Open Source & IP Policy must be activated before any RFP with deliverables is issued (per §3.2)
+* RFP mechanics follow the Contributor Compensation Policy in spirit: minimum 14-day open period, published evaluation criteria, documented selection rationale
+* Selection decisions must be published on the governance forum for a 7-day community acknowledgement period before engagement is confirmed, during which any token holder may file a veto challenge (Proposal & Voting Framework §8) on the grounds of non-compliance with the approved proposal
+* All engagements, payments, and decisions are reported to the governance forum within 72 hours (per §8)
+
+**Limitations**
+
+* The RAC may not use this authority to create ongoing structural commitments beyond the current Phase 1 budget period
+* This authority lapses for a given workstream the moment a Working Group with a relevant mandate is established by governance vote
+* The RAC must include a summary of all interim execution actions in its quarterly delegation status report (§9)
+
+---
+
 ## 6. Explicit Limitations
 
 Even during Phase 1, the RAC:

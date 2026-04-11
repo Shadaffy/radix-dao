@@ -71,6 +71,8 @@ Changes to:
 * Charter
 * Core governance structure
 
+Charter changes are classified as Major Changes under the Governance Maintenance & Upgrade Framework and require this proposal type. The Governance Maintenance & Upgrade Framework governs versioning, consistency requirements, and amendment procedures for all Charter amendments.
+
 ---
 
 ### 4.2 Governance Process Proposals
@@ -80,7 +82,7 @@ Changes to:
 * Governance rules
 * Process documents
 
-Proposals that introduce or modify governance documents, including the Charter, policies, or structural rules, must follow the Governance Maintenance & Upgrade Framework.
+Proposals that introduce or modify governance documents — policies, process documents, and structural rules (excluding the Charter, which requires a Constitutional proposal per §4.1) — must follow the Governance Maintenance & Upgrade Framework.
 
 This framework defines:
 

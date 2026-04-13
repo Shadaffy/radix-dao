@@ -155,6 +155,7 @@ Treasury actions must NOT:
 * Exceed approved budgets
 * Deviate from proposal intent
 * Be executed without proper authorization
+* Be paid to any recipient whose KYC/AML compliance status is unknown or unverified, where KYC is required under the **Contributor Compensation Policy §3.5**, **Grant Program Policy §4**, or **Legal Wrapper §7A**
 
 ---
 
@@ -209,7 +210,13 @@ Limited confidentiality is allowed where:
 * Required for security
 * Required for legal obligations
 
-Must be disclosed retrospectively.
+Confidential actions must be disclosed retrospectively according to the following deadlines:
+
+* **Security-related confidentiality** — no later than **90 days** after the action was taken, or when the security basis no longer applies, whichever is sooner
+* **Legal-related confidentiality** — no later than **12 months** after the action was taken, or when the legal proceeding or obligation concludes, whichever is sooner
+* Extensions beyond these deadlines require a governance vote
+
+Throughout the confidentiality period the RAC must maintain a confidential record of the action and its basis, which becomes part of the retrospective disclosure.
 
 ---
 

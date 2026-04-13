@@ -106,22 +106,55 @@ All funded work must:
 
 ---
 
-## 10. Relationship to Other Documents
+## 10. Transferred Assets
 
-This policy operates alongside:
+This section applies to software, documentation, license rights, and other intellectual property received by the DAO from Asset Transferors under a formal Asset Transfer Agreement, as distinct from work funded or produced by the DAO itself.
 
-* Working Group Framework
-* Execution & Treasury Actions Policy
-* Governance Maintenance & Upgrade Framework
+### 10.1 Applicable License
+
+The license governing each transferred asset is the license specified in the IP Schedule (Exhibit A of the relevant Asset Transfer Agreement). The DAO does not alter the license of transferred assets without a Governance Proposal.
+
+### 10.2 Enforcement Rights
+
+Where a transferred asset is distributed under an open-source license that includes commercial use restrictions, the DAO holds the right to enforce those restrictions against third parties to the extent permitted by the applicable license and the terms of the Asset Transfer Agreement. Enforcement decisions require a Governance Proposal.
+
+### 10.3 Modification and Redistribution
+
+The DAO may modify and redistribute transferred Source Code in accordance with the applicable license. Any modification that constitutes a protocol-level change must follow the code review process in the **Source Code Stewardship Policy §5.2** and, where required, receive Governance Proposal approval before deployment.
+
+### 10.4 No Re-Licensing Without Governance Approval
+
+The DAO may not re-license transferred assets under a different license without an explicit Governance Proposal that identifies the asset, the proposed new license, and the rationale. Any re-licensing that restricts ecosystem access relative to the original license requires a Constitutional proposal.
+
+### 10.5 Attribution
+
+The DAO shall maintain accurate attribution records for all transferred assets, crediting the original authors and preserving existing attribution notices in accordance with the applicable license.
+
+### 10.6 Relationship to Source Code Stewardship Policy
+
+The **Source Code Stewardship Policy** governs the operational management, maintenance, and security of transferred Source Code. This section governs the licensing and IP rights framework. Both policies apply simultaneously to transferred software assets.
 
 ---
 
-## 11. Amendments
+## 11. Relationship to Other Documents
+
+This policy operates alongside:
+
+* Source Code Stewardship Policy — operational management of transferred and DAO-produced software
+* Working Group Framework
+* Execution & Treasury Actions Policy
+* Governance Maintenance & Upgrade Framework
+* Asset Transfer Agreement Template — IP and licensing terms for incoming asset transfers
+
+---
+
+## 12. Amendments
 
 Changes to this policy must follow the Governance Maintenance & Upgrade Framework.
 
 ---
 
-## 12. Guiding Principle
+## 13. Guiding Principle
 
 > Public funding creates public goods.
+> Received assets are held in trust — governed, not owned.

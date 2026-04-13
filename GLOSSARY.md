@@ -6,6 +6,10 @@ This glossary defines the key terms used across the Radix DAO governance framewo
 
 ## A
 
+**Activation Roadmap**
+The step-by-step operational guide for forming Radix DLT DAO LLC and transitioning from Foundation governance to DAO governance. Covers four phases: pre-registration preparation, post-registration entity setup, asset transfer, and treasury configuration. Specifies which actor performs each step, what the action is, and the governance vote threshold where applicable. The practical companion document to the Transition Governance Framework.
+→ See: [Transition/Activation-Roadmap.md](Transition/Activation-Roadmap.md)
+
 **Accountability Council (RAC)**
 The DAO's oversight body, composed of 3–5 elected members serving 6-month terms. The RAC is a *guardian of process*, not a decision-making authority — it ensures governance procedures are followed correctly, verifies that execution matches approved proposals, reviews veto challenges, and manages emergency actions under strict constraints. During Phase 1, the RAC also holds limited transitional authority to support operational bootstrapping. All RAC actions are subject to community challenge and retrospective review.
 → See: [Charter §8](Charter/charter.md), [Transition Governance Framework §4–6](Transition/Transition-Governance-Framework.md), [Emergency & Safeguards Policy §5](Governance-Processes/Core/Emergency-and-Safeguards-Policy.md)
@@ -90,6 +94,10 @@ The power to carry out governance-approved decisions. Execution authority is del
 
 ## F
 
+**Formation Documents**
+The corporate legal instruments that establish and govern Radix DLT DAO LLC as a legal entity under Marshall Islands law. Distinct from governance policy documents: Formation Documents are filed with MIDAO (the Marshall Islands business registry) and are legal instruments rather than governance policies. They are maintained in the repository for transparency. The Formation Documents are: Certificate of Formation, Operating Agreement, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement.
+→ See: [Legal/Formation/](Legal/Formation/)
+
 **Fidelity**
 The principle that execution must match the approved proposal exactly — Authorized Signers and Working Groups may not change the intent, scope, or terms of an approved decision when carrying it out. Deviations require a new governance proposal.
 → See: [Governance-Processes/Core/Execution-and-Treasury-Actions-Policy.md](Governance-Processes/Core/Execution-and-Treasury-Actions-Policy.md)
@@ -109,6 +117,10 @@ Funding awarded to external parties for projects that benefit the Radix ecosyste
 ---
 
 ## L
+
+**Legal Entity**
+Radix DLT DAO LLC — a Marshall Islands DAO LLC that provides the Radix DAO with real-world legal personhood. Enables the DAO to hold assets, sign contracts, engage contributors, and interface with legal and financial systems without individual token holders bearing personal liability. Governed by its Operating Agreement, which subjects the entity to DAO token-holder governance. The legal entity is the executor of governance decisions in the real world, not a parallel authority. It is registered with MIDAO (the Marshall Islands DAO registry).
+→ See: [Legal/Policy/Legal-Wrapper-and-Representation.md](Legal/Policy/Legal-Wrapper-and-Representation.md), [Legal/Formation/](Legal/Formation/)
 
 **LSU (Liquid Staking Units)**
 Tokens received by XRD holders who stake their XRD with a validator on the Radix network. LSU represents the holder's staked position and accrues staking rewards over time. For governance purposes, LSU is recognised as eligible voting power from Phase 1: at each voting snapshot, the LSU balance is converted to its XRD equivalent using the LSU redemption rate at that moment, and the resulting XRD-equivalent amount is counted as voting power. Holding LSU rather than liquid XRD does not reduce a holder's ability to participate in governance.
@@ -132,7 +144,7 @@ A security mechanism requiring multiple approvals before a treasury or legal act
 
 **Non-Distribution Principle**
 The foundational commitment that DAO assets exist to advance the Radix ecosystem — not to enrich its members. No distributions may be made to token holders or members except as reasonable compensation for genuine services rendered or reimbursement of legitimate expenses. This principle applies to asset wind-down as well: should the DAO dissolve, its remaining assets must be transferred to an entity with substantially similar objectives.
-→ See: [Charter §10–11](Charter/charter.md), [Legal/Legal-Wrapper-and-Representation.md](Legal/Legal-Wrapper-and-Representation.md)
+→ See: [Charter §10–11](Charter/charter.md), [Legal/Policy/Legal-Wrapper-and-Representation.md](Legal/Policy/Legal-Wrapper-and-Representation.md)
 
 ---
 

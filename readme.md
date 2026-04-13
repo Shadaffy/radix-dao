@@ -8,16 +8,23 @@ This repository contains the complete governance system for the Radix Network DA
 
 ---
 
-## How the System Works
+## What's In This Repository
 
-The DAO is structured in layers:
+This repository contains three distinct things:
 
-* **Charter** → founding principles and authority — the highest document in the framework
-* **Governance Processes** → how decisions are made, resources allocated, roles governed, and integrity maintained
-* **Legal Layer** → real-world representation and asset custody
-* **Execution Layer** → how work gets done through Working Groups
+**1. The Governance Framework** — the ongoing rulebook: how the DAO makes decisions, allocates resources, governs roles, resolves disputes, and evolves over time. Built in layers:
+- *Charter* — founding principles and authority; the highest document in the framework
+- *Governance Processes* — policies covering proposals, treasury, roles, integrity, and execution
+- *Working Groups* — the execution arms that coordinate and deliver work
+- *Parameters Registry* — all configurable thresholds, durations, and limits in one place
 
-Token holders make decisions. Working Groups coordinate execution. Authorized Signers execute transactions. The RAC ensures rules are followed.
+**2. The Legal Entity** — **Radix DLT DAO LLC**, a Marshall Islands DAO LLC that gives the DAO real-world legal standing. The `Legal/Formation/` folder contains the actual corporate formation documents (Certificate of Formation, Operating Agreement, BOIR, Asset Transfer Agreement, IP Schedule). The `Legal/Policy/` folder contains governance policy on how the DAO uses its legal representation.
+
+**3. The Transition** — the pathway from the Radix Foundation to the DAO. The `Transition/` folder contains the rules governing the bootstrapping period (Transition Governance Framework), the step-by-step legal formation roadmap (Activation Roadmap), and the founding governance proposal.
+
+---
+
+Token holders make decisions. Working Groups coordinate execution. Authorized Signers execute transactions. The RAC ensures rules are followed. No single body controls both decision and execution.
 
 ---
 

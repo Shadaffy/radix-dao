@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-This document defines the **temporary governance activation model and limited transitional authority** required to move from the Radix Foundation to a fully operational, community-governed DAO.
+This document defines the **temporary governance activation model and limited transitional authority** required to move from the predecessor governance structure and Founding Transferor to a fully operational, community-governed DAO.
 
 This framework exists to:
 
@@ -40,7 +40,7 @@ The DAO operates under a **phased governance activation model**:
 
 * 10 core documents active and enforceable from launch
 * RAC and Authorized Signers appointed as founding act
-* Asset transfer from the Radix Foundation completed
+* Asset transfer from the Founding Transferor completed
 * Governance decisions possible; Working Groups not yet operational
 * Voting power includes XRD and LSU (converted to XRD-equivalent at snapshot) from launch
 * Complexity added as specific operational needs arise (see §3)
@@ -127,6 +127,8 @@ These documents activate when the DAO begins the relevant activity. They do not 
 | Governance Maintenance & Upgrade Framework | Before the first governance document amendment is proposed |
 | Dispute Resolution & Arbitration Policy | Before the first formal dispute is escalated to the RAC |
 | Open Source & IP Policy | Before the first grant or RFP with deliverables is issued |
+| Source Code Stewardship Policy | Before the first grant or RFP with code deliverables is issued (activates alongside Open Source & IP Policy) |
+| Asset Transfer Agreement Template + IP Schedule | Before any material asset transfer from an Asset Transferor is executed |
 | Treasury Risk & Diversification Policy | Before the first treasury diversification action is proposed |
 | Working Group Framework | When the first Working Groups are proposed by governance vote |
 | Working Group Charters | When each respective Working Group is approved by governance vote |
@@ -320,7 +322,7 @@ Phase 1 is considered complete when all of the following minimum conditions are 
 
 **Asset Transfer**
 
-* Asset transfer from the Radix Foundation is complete, verified, and publicly disclosed
+* Asset transfer from the Founding Transferor is complete, verified, and publicly disclosed. For a transfer to be considered verified, all of the following instruments must be in place: a signed Asset Transfer Agreement (using the Asset Transfer Agreement Template), a completed IP Schedule (Exhibit A to the Agreement) enumerating all transferred assets with identifiers, an executed Continuity Statement per Operating Agreement §3.2, and a published Acceptance Statement recorded on the governance forum
 
 **Governance Track Record**
 

@@ -44,6 +44,45 @@ Defines how decisions are carried out: Working Groups coordinate execution, cont
 
 ---
 
+## Three Distinct Areas of This Repository
+
+This repository contains three distinct components that serve different purposes. Understanding the distinction is essential to navigating the material correctly.
+
+### 1. The Governance Framework
+
+The operational rulebook for the DAO — how decisions are made, resources allocated, roles governed, disputes resolved, and the system itself maintained. This is the ongoing, living system that the DAO operates under indefinitely.
+
+Found in: `Charter/`, `Governance-Processes/`, `Working-Groups/`, `Parameters/`
+
+The Governance Framework is introduced in three activation phases — see the Activation Status section below.
+
+---
+
+### 2. The Legal Entity
+
+**Radix DLT DAO LLC** is a Marshall Islands DAO LLC that provides the DAO with real-world legal standing — the ability to hold assets, sign contracts, engage contributors, and interface with legal systems without individual token holders bearing personal liability.
+
+The `Legal/` folder contains two distinct categories:
+
+- **`Legal/Policy/`** — governance policy documents defining how the DAO uses its legal representation. These are part of the Governance Framework and follow the same activation and amendment rules as all other governance documents.
+- **`Legal/Formation/`** — the actual corporate formation documents for Radix DLT DAO LLC. These are legal instruments, not governance policies. They include the Certificate of Formation, Operating Agreement, Beneficial Owner Information Report (BOIR) template, Asset Transfer Agreement, IP Schedule, and Continuity Statement. They are filed with MIDAO (the Marshall Islands DAO registry) and govern the legal entity's existence independently of the governance framework.
+
+Found in: `Legal/`
+
+---
+
+### 3. The Transition
+
+The Radix DAO succeeds the Radix Foundation, which is winding down and transferring its assets to the newly formed DAO. The Transition area documents how that handover works in practice.
+
+- **Transition Governance Framework** — the rules governing Phase 1: what authority the RAC holds during bootstrapping, how Phase 1 ends, and what conditions must be met to progress.
+- **Activation Roadmap** — the step-by-step operational guide for forming the legal entity and transitioning from Foundation governance to DAO governance: pre-registration, entity formation, initial governance proposals, asset transfer, and treasury setup.
+- **Phase 1 Governance Proposal** — the proposal submitted to the Foundation governance system to formally launch Phase 1.
+
+Found in: `Transition/`
+
+---
+
 ## Activation Status
 
 The governance framework is introduced in three phases. This is intentional — launching full operational complexity from day one creates unnecessary friction and denies the community the opportunity to refine policies through real-world use.
@@ -60,10 +99,10 @@ These 10 documents are in force and enforceable from the first day of DAO operat
 | Execution & Treasury Actions Policy | Governance-Processes/Core/ |
 | Emergency & Safeguards Policy | Governance-Processes/Core/ |
 | Authorized Signers Rules | Governance-Processes/Roles/ |
-| RAC Mandate | Legal/ |
+| RAC Mandate | Governance-Processes/Roles/ |
 | Conflict of Interest Policy | Governance-Processes/Roles/ |
 | Code of Conduct | Governance-Processes/Core/ |
-| Legal Wrapper & Representation | Legal/ |
+| Legal Wrapper & Representation | Legal/Policy/ |
 
 ---
 
@@ -79,6 +118,7 @@ These documents activate when the DAO begins the relevant activity. They do not 
 | Governance Maintenance & Upgrade Framework | Governance-Processes/System-Integrity/ | Before first governance document amendment is proposed |
 | Dispute Resolution & Arbitration Policy | Governance-Processes/System-Integrity/ | Before first formal dispute is escalated to the RAC |
 | Open Source & IP Policy | Governance-Processes/Core/ | Before first grant or RFP with deliverables is issued |
+| Source Code Stewardship Policy | Governance-Processes/Core/ | Before any code assets are received via asset transfer |
 | Treasury Risk & Diversification Policy | Governance-Processes/Core/ | Before first diversification action is proposed |
 | Working Group Framework | Governance-Processes/Execution/ | When first Working Groups are proposed by governance vote |
 | Working Group Charter Template | Governance-Processes/Execution/ | When first Working Groups are proposed by governance vote |
@@ -121,8 +161,9 @@ Radix-DAO/
 │   │   ├── Emergency-and-Safeguards-Policy.md                 [Phase 1]
 │   │   ├── Code-of-Conduct.md                                 [Phase 1]
 │   │   ├── Token-Delegation-Policy.md                         [Phase 2 — on delegation support]
-│   │   ├── Treasury-Risk-and-Diversification-Policy.md        [Phase 2 — on first diversification]
 │   │   ├── OpenSource-and-Intellectual-Property-Policy.md     [Phase 2 — on first grant/RFP]
+│   │   ├── Source-Code-Stewardship-Policy.md                  [Phase 2 — before code asset transfer]
+│   │   ├── Treasury-Risk-and-Diversification-Policy.md        [Phase 2 — on first diversification]
 │   │   ├── Transparency-and-Reporting-Policy.md               [Phase 3 — governance vote, month 2]
 │   │   ├── Contributor-Compensation-Policy.md                 [Phase 3 — governance vote, month 3]
 │   │   ├── Grant-Program-Policy.md                            [Phase 3 — governance vote, month 3]
@@ -136,14 +177,18 @@ Radix-DAO/
 │   │   └── Ethics-Reporting-Policy.md                         [Phase 3 — governance vote, month 4]
 │   │
 │   ├── Roles/
-│   │   ├── Election-and-Role-Governance-Policy.md             [Phase 2 — before first election]
+│   │   ├── RAC-Mandate.md                                     [Phase 1]
 │   │   ├── Authorized-Signers-Rules.md                        [Phase 1]
-│   │   └── Conflict-of-Interest-Policy.md                     [Phase 1]
+│   │   ├── Conflict-of-Interest-Policy.md                     [Phase 1]
+│   │   └── Election-and-Role-Governance-Policy.md             [Phase 2 — before first election]
 │   │
 │   └── Execution/
 │       ├── Working-Group-Framework.md                         [Phase 2 — on first WG proposal]
 │       ├── Working-Group-Charter-Template.md                  [Phase 2 — on first WG proposal]
-│       └── Contributor-Onboarding-and-Offboarding.md          [Phase 3 — governance vote, month 6]
+│       ├── Contributor-Onboarding-and-Offboarding.md          [Phase 3 — governance vote, month 6]
+│       └── Proposals/
+│           ├── PROP-001-Stokenet-Infrastructure-Takeover.md
+│           └── PROP-002-Babylon-Gateway-Operator-TrellisTech.md
 │
 ├── Working-Groups/
 │   ├── WB-Strategic-Coordination/
@@ -159,14 +204,22 @@ Radix-DAO/
 │   └── Working-Group-IOP-Template.md
 │
 ├── Legal/
-│   ├── Legal-Wrapper-and-Representation.md
-│   └── RAC-Mandate.md
+│   ├── Policy/
+│   │   └── Legal-Wrapper-and-Representation.md
+│   └── Formation/
+│       ├── Certificate-of-Formation.md
+│       ├── Operating-Agreement.md
+│       ├── BOIR-Template.md
+│       ├── Asset-Transfer-Agreement-Template.md
+│       ├── IP-Schedule.md
+│       └── Continuity-Statement-Template.md
 │
 ├── Parameters/
 │   └── DAO-Parameters-Registry.md
 │
 ├── Transition/
 │   ├── Transition-Governance-Framework.md
+│   ├── Activation-Roadmap.md
 │   └── Phase1-governance-proposal.md
 │
 └── Supporting-Materials/

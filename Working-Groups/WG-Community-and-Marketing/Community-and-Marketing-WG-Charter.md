@@ -74,7 +74,7 @@ This Working Group exists to grow, engage, and retain the Radix community and ma
 
 ## 9. Reporting
 
-* Biweekly updates
+* Monthly updates
 * Engagement dashboard
 * Quarterly retrospective
 

@@ -113,7 +113,7 @@ Change types are defined in the **Governance Maintenance & Upgrade Framework**.
 ## [0.2.4] — 2026-04-05
 **Type:** Minor
 **Document(s):** Governance-Processes/Core/Transparency-and-Reporting-Policy.md (new)
-**Summary:** Added Transparency and Reporting Policy consolidating all disclosure and reporting obligations across the DAO. Defines a full reporting cadence: WG biweekly updates, WG quarterly reports, WG end-of-term retrospectives, monthly treasury snapshots, quarterly financial reports, annual financial summary, RAC biweekly activity log, and RAC quarterly report. Establishes public documentation repository standards and assigns maintenance to Governance & Legal WG. Defines reporting failure escalation and breach consequences. Includes confidentiality exception process with mandatory retrospective disclosure.
+**Summary:** Added Transparency and Reporting Policy consolidating all disclosure and reporting obligations across the DAO. Defines a full reporting cadence: WG monthly updates, WG quarterly reports, WG end-of-term retrospectives, monthly treasury snapshots, quarterly financial reports, annual financial summary, RAC biweekly activity log, and RAC quarterly report. Establishes public documentation repository standards and assigns maintenance to Governance & Legal WG. Defines reporting failure escalation and breach consequences. Includes confidentiality exception process with mandatory retrospective disclosure.
 
 ---
 

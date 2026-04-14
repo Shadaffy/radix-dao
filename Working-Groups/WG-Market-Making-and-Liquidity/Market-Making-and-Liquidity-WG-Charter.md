@@ -32,7 +32,7 @@ It does not trade speculatively or manage treasury assets beyond the liquidity m
 * Issuing and evaluating RFPs for professional market-making services
 * Negotiating and managing agreements with approved market-making counterparties
 * Defining and monitoring liquidity performance metrics (spread, depth, uptime)
-* Reporting liquidity health to the DAO on a biweekly basis
+* Reporting liquidity health to the DAO on a monthly basis
 * Coordinating with the Ecosystem Growth WG on exchange listing initiatives
 * Recommending changes to the approved venue list for DAO approval
 * Managing the approved liquidity budget within the limits set by governance
@@ -66,7 +66,7 @@ It does not trade speculatively or manage treasury assets beyond the liquidity m
 * Liquidity strategy document (published at WG activation)
 * RFP framework and counterparty evaluation criteria (published within 30 days of activation)
 * Counterparty agreement register (public, updated on each change)
-* Biweekly liquidity health report (spread, depth, uptime by venue)
+* Monthly liquidity health report (spread, depth, uptime by venue)
 * Liquidity risk framework (published within 60 days of activation)
 * Quarterly counterparty performance review
 * Quarterly retrospective against mandate objectives
@@ -114,7 +114,7 @@ DAO approval required for:
 
 RAC notification required for:
 
-* Any budget variance between 5% and 15% (must be ratified by Treasury proposal within the budget period)
+* Any budget variance between 10% and 20% (document rationale; Treasury proposal required only if variance is not resolved within the current budget period)
 * Any counterparty agreement that cannot be publicly disclosed (must be disclosed retrospectively within 30 days)
 
 ---
@@ -129,15 +129,15 @@ Budget variance rules apply (Working Group Framework §7.1):
 
 | Variance | Action |
 |---|---|
-| Up to 5% | Disclose in next biweekly report |
-| 5%–15% | Notify RAC within 5 business days; ratify via Treasury proposal |
-| Above 15% | Immediate spending freeze until new Treasury proposal is approved |
+| Up to 10% | Disclose in next monthly report |
+| 10%–20% | Notify RAC within 10 business days; ratify with documented rationale (Treasury proposal only if unresolved within budget period) |
+| Above 20% | Immediate spending freeze until new Treasury proposal is approved |
 
 ---
 
 ## 9. Reporting
 
-* **Biweekly**: liquidity health update — spread, depth, uptime by venue; any counterparty SLA failures; budget status
+* **Monthly**: liquidity health update — spread, depth, uptime by venue; any counterparty SLA failures; budget status
 * **Monthly**: treasury snapshot contribution (coordinate with Strategic Coordination WG)
 * **Quarterly**: full counterparty performance review; budget actuals vs plan; risk framework status; goals vs outcomes
 * **End of term**: full retrospective including budget reconciliation and handover notes
@@ -229,7 +229,7 @@ Mitigation: Elevated COI standards (§10); RAC audit rights; all counterparty de
 
 ### Risk: Budget Overrun
 
-Mitigation: Budget variance rules (§8); biweekly budget reporting; spending freeze trigger at >15% variance
+Mitigation: Budget variance rules (§8); monthly budget reporting; spending freeze trigger at >20% variance
 
 ### Risk: Centralization of Liquidity Decisions
 

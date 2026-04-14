@@ -380,7 +380,7 @@ This separation ensures that Phase 1 expiry does not inadvertently create vacanc
 
 ---
 
-### 11.2 Failed Transition Procedure
+### 11.3 Failed Transition Procedure
 
 If Phase 1 completion criteria (§10) have not been certified by a governance vote before the 12-month expiry, the DAO enters a **Governance Remediation Period**:
 

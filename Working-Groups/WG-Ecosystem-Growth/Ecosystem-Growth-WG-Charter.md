@@ -77,7 +77,7 @@ This Working Group exists to expand the Radix ecosystem through partnerships, de
 
 ## 9. Reporting
 
-* Biweekly updates
+* Monthly updates
 * Ecosystem dashboard
 * Quarterly review
 

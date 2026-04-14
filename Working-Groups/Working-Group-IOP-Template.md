@@ -12,7 +12,7 @@ If conflicts arise, the Charter prevails.
 
 ## 2. Meetings
 
-* Frequency: [weekly / biweekly]
+* Frequency: [weekly / monthly] — governance-mandated minimum is monthly per Transparency & Reporting Policy §5.1
 * Format: [call + async updates]
 
 ---

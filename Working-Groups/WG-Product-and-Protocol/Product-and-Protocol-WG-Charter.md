@@ -83,7 +83,7 @@ DAO approval required for:
 
 ## 9. Reporting
 
-* Biweekly updates
+* Monthly updates
 * Quarterly retrospective
 * Public dashboard
 

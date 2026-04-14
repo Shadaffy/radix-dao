@@ -78,7 +78,7 @@ This Working Group exists to support DAO governance operations, legal coordinati
 
 ## 9. Reporting
 
-* Biweekly updates
+* Monthly updates
 * Governance status reports
 
 ---

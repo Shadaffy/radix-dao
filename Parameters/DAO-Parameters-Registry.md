@@ -85,7 +85,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Weighted Allocation: Maximum Options | 12 | Maximum number of options per Treasury / Budget allocation GP |
 | Weighted Allocation: Minimum Option Weight | 5% | Options receiving less than this share of total distributed weight are excluded; weight redistributed proportionally |
 | Majority Judgment: Grade Scale | Excellent / Very Good / Good / Acceptable / Poor | Standard five-grade scale for election votes |
-| Result Publication Window | Within 24 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination |
+| Result Publication Window | Within 48 hours of vote close | Deadline for RAC to publish the official outcome, quorum calculation, threshold applied, and winner determination; aligned with the veto window (§4) which runs concurrently |
 
 ---
 
@@ -159,9 +159,9 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Max Execution Window            | 5 business days                 | Time allowed to execute an approved action            |
 | Max Acknowledgement Window      | 2 business days                 | Time allowed to acknowledge a valid execution request |
 | Emergency Execution Window      | ASAP, within 24 hours           | Required response time during emergencies             |
-| Required Availability Standard  | Respond within 48 hours         | Minimum expected responsiveness                       |
+| Required Availability Standard  | Respond within 2 business days  | Minimum expected responsiveness during active periods; declared unavailability periods are excluded (see Authorized Signers Rules §15) |
 | Key Rotation Review Interval    | Every 6 months                  | Frequency of key / access review                      |
-| Max Unexcused Inactivity Period | 14 days                         | Inactivity threshold before replacement review        |
+| Max Unexcused Inactivity Period | 21 days                         | Inactivity threshold before replacement review; declared unavailability periods are excluded (see §6B and Authorized Signers Rules §15) |
 | Signer Replacement Window       | 21 days                         | Time to fill a vacant signer seat                     |
 | Allowed Unilateral Actions      | None unless explicitly approved | Default rule for signer authority                     |
 | Conflict Disclosure Requirement | Mandatory                       | Public or confidential as appropriate                 |
@@ -174,11 +174,15 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter                           | Value     | Description                              |
 | ----------------------------------- | --------- | ---------------------------------------- |
 | Standard Term Length                | 6 months  | Default role duration                    |
+| Auto-Renewal                        | Yes — unless challenged | Incumbent role holders are automatically renewed at term end unless a challenge is filed or the role holder declines (see Election & Role Governance Policy §9) |
+| Term Renewal Challenge Window       | 14 days (opens 21 days before expiry, closes 7 days before expiry) | Period during which an eligible token holder may file a unilateral challenge notice to trigger a new election |
+| Challenge Filing Threshold          | 0.1% of eligible voting power | Minimum holding required to file a valid challenge notice; verified against the most recent governance snapshot |
+| Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard two-stage election is mandatory; successful re-election resets the count to 1 |
 | Election Voting Duration            | 5-7 days  | Length of election voting                |
 | Nomination Period                   | 5-7 days  | Time allowed for candidate submissions   |
 | Minimum Participation for Elections | Gov quorum| Quorum requirement                       |
 | Removal Vote Threshold              | ≥ 50% YES | Required support to remove a role holder |
-| Inactivity Threshold                | 14 days   | Time before inactivity review            |
+| Inactivity Threshold                | 21 days   | Time before inactivity review; declared unavailability periods are excluded. **"Inactivity"** means: no response to governance execution requests, no participation in any multisig signing actions, and no communication with the RAC within the threshold period. Passive activities (reading updates, monitoring forums) do not constitute activity. Declared unavailability periods (per Authorized Signers Rules §15) are excluded from inactivity counting. |
 | Replacement Election Trigger Time   | 7 days    | Time before election must start          |
 | Replacement Completion Time         | 21 days   | Max time to fill vacancy                 |
 | Max Concurrent Roles per Individual | 2         | Limits role concentration                |
@@ -212,7 +216,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | ------------------- | -------- |
 | Stewards per WG     | 2–3      |
 | Term Length         | 6 months |
-| Reporting Frequency | Biweekly |
+| Reporting Frequency | Monthly  |
 
 ---
 
@@ -233,8 +237,8 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                 | Value          |
 | ------------------------- | -------------- |
-| Execution Delay           | None by default (Phase 1)       |
-| High-Risk Execution Delay | 24 hours recommended            |
+| Pre-Execution Hold        | 48 hours after vote close (mandatory) — Authorized Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
+| High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold per §6A); total minimum 72 hours after vote close |
 
 ---
 

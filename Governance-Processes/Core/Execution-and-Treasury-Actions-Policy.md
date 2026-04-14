@@ -255,6 +255,7 @@ Actions that cannot be undone (e.g., large transfers) require:
 
 * Clear proposal specification
 * Higher scrutiny during review
+* Mandatory pre-execution hold — Authorized Signers must not initiate execution of any Treasury / Budget or Executable proposal until the veto window has fully closed (48 hours after vote close, per DAO Parameters §9). High-risk actions (requiring 4-of-5 signers) must additionally observe the extended 72-hour hold defined in DAO Parameters §9. Signers who execute before the hold period expires are in breach of their duties under the Authorized Signers Rules regardless of whether a veto is filed.
 
 ---
 

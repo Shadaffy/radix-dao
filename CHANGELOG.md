@@ -19,6 +19,13 @@ Change types are defined in the **Governance Maintenance & Upgrade Framework**.
 
 ---
 
+## [0.4.0] — 2026-04-13
+**Type:** Minor
+**Document(s):** Governance-Processes/Roles/Conflict-of-Interest-Policy.md; Legal/ (folder restructure); Supporting-Materials/governance-body-intro.md; readme.md; FAQ.md; GLOSSARY.md; CHANGELOG.md; Transition/Activation-Roadmap.md
+**Summary:** Four changes in this release. (1) Conflict of Interest Policy §3.2 broadened to remove named entity references (RDX Works, Radix Foundation) in favour of generic language covering predecessor organisations, founding sponsors, and their successors — reflecting the wind-down of both entities. §7 renamed to "Legacy Entity and Commercial Entity Relationships" and rewritten to shift from present-tense employment to residual-interest framing with a three-year lookback, extended to successor entities and asset transferees. (2) Repository restructured: `Legal/` and `Legal-Entity/` merged into a single `Legal/` folder with `Policy/` and `Formation/` subfolders; `RAC-Mandate.md` relocated from `Legal/` to `Governance-Processes/Roles/` where it belongs alongside other role governance documents. All cross-references in GLOSSARY.md, Activation-Roadmap.md, and Supporting-Materials/governance-body-intro.md updated. (3) Supporting materials comprehensively updated: governance-body-intro.md restructured to clearly distinguish the three distinct areas of the repository (Governance Framework, Legal Entity, Transition); document index updated with previously missing files (RAC-Mandate.md, Activation-Roadmap.md, Source-Code-Stewardship-Policy.md, Proposals/); Phase 2 table updated to include Source Code Stewardship Policy. readme.md restructured with the same three-pillar framing and Legal Entity explanation. (4) FAQ.md expanded with a new "About the Legal Entity" section covering Radix DLT DAO LLC, the Formation documents, the Activation Roadmap, and the relationship between the legal entity and governance. GLOSSARY.md expanded with entries for Activation Roadmap, Formation Documents, and Legal Entity.
+
+---
+
 ## [0.1.0] — 2026-04-05
 **Type:** Major
 **Document(s):** All — initial framework

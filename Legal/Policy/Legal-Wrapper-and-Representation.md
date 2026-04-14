@@ -31,7 +31,7 @@ The legal entity:
 
 ## 2A. Token Holder Membership
 
-Governance token holders are members of the DAO LLC by virtue of their token holdings, in accordance with the Marshall Islands DAO Act. Membership rights are exercised through the governance framework established in the Charter and related governance documents. On-chain governance decisions constitute legally binding decisions of the LLC membership.
+Governance token holders are Members of the DAO LLC under Operating Agreement §4.1 and the Marshall Islands DAO Act. The terms "token holder" and "member" are used interchangeably in this document. Membership rights are exercised through the governance framework established in the Charter and related governance documents. On-chain governance decisions constitute legally binding decisions of the LLC membership.
 
 ---
 
@@ -75,14 +75,17 @@ Exceptions allowed for:
 
 In the event of dissolution:
 
-* Remaining assets must be transferred to an entity with substantially similar objectives, in accordance with the dissolution requirements of the Marshall Islands Limited Liability Company Act
+* Remaining assets must be transferred to an entity meeting the qualifying criteria defined in the **Operating Agreement §9.2**, in accordance with the dissolution requirements of the Marshall Islands Limited Liability Company Act
 * No assets may be distributed to members or token holders upon dissolution
+* Prior to any dissolution asset transfer, the DAO must publish a public accounting of all assets held, their provenance, and their proposed disposition, as required by Operating Agreement §9.3
 
 ---
 
 ## 7. Authorized Signers
 
 ### 7.1 Role
+
+Authorized Signers are the Delegates holding the Treasury Signing (Operating Agreement §5.3(a)) and Legal Signatory (§5.3(c)) Delegated Functions. They operate within the Delegate framework defined in §8 and have no authority independent of DAO governance decisions and the Operating Agreement.
 
 Authorized Signers are responsible for:
 
@@ -162,15 +165,27 @@ Failure to complete required KYC upon crossing the 25% threshold may result in:
 
 ---
 
-## 8. Manager Structure (Transition Phase)
+## 8. Delegate Structure
 
-During the Phase 1 transition period, 3–5 Managers are designated in accordance with the Marshall Islands DAO Act. Managers act as the legal representatives of the LLC for the purpose of executing DAO-approved decisions and maintaining entity standing. Managers are not beneficial owners of the DAO's assets and hold no authority independent of DAO governance decisions. Managers benefit from the limited liability protections afforded to LLC managers under Marshall Islands law.
+The DAO operates through a member-managed structure under the Marshall Islands DAO Act §708. Operational functions are performed by **Delegates** — Members elected by Governance Proposal in accordance with the Operating Agreement Article V.
 
-Responsibilities include:
+Delegates act as the legal and operational representatives of the LLC for the purpose of executing DAO-approved decisions. Delegates are not beneficial owners of the DAO's assets and hold no authority independent of DAO governance decisions.
 
-* Signing continuity agreements
-* Maintaining legal entity standing
-* Supporting asset transfer
+Delegates benefit from:
+
+* the liability protection in Operating Agreement §11.3 — the Company indemnifies Delegates for good-faith performance of their Delegated Function
+* the received assets liability limitation in Operating Agreement §3.3 — no personal liability for claims arising from the nature or encumbrances of assets received from Asset Transferors, where the Delegate acted in good faith
+* the governance oversight indemnification in Operating Agreement §5.4 — covering Members performing DAO-mandated oversight functions, including the Accountability Council
+
+Delegated Functions include:
+
+* Executing treasury transactions (Treasury Signing)
+* Operating the governance system (Governance Operations)
+* Signing legal agreements and continuity statements (Legal Signatory)
+* Filing compliance reports and coordinating KYC (Compliance Liaison)
+* Managing Web2 credentials, repositories, and domains (Web2 Custodian)
+
+**KYC requirement:** All Delegates must complete KYC verification before assuming their Delegated Function. KYC Tier 1 (Delegate KYC) applies to all Delegates. KYC Tier 2 (UBO/BOIR) applies separately to any Member exceeding 25% of voting power under §7A.
 
 ---
 
@@ -226,10 +241,11 @@ Where required:
 
 The DAO affirms that:
 
-* It receives assets to continue and support the objectives of the Radix ecosystem
-* It will manage those assets in alignment with its purpose
+* It receives assets from Asset Transferors to continue and support the objectives of the decentralized ecosystem it governs
+* It will manage those assets in alignment with its stated purpose and the non-distribution principle in §5
+* Assets received from any Asset Transferor are held in trust for the ecosystem — not for the benefit of Members or Delegates
 
-This statement must be publicly recorded.
+This statement must be publicly recorded. The Legal Signatory Delegate is authorized to execute a formal continuity statement in the form required by any Asset Transferor, as provided in Operating Agreement §3.2.
 
 ---
 
@@ -240,6 +256,12 @@ The legal entity must:
 * Maintain good standing
 * Comply with applicable regulations
 * Support lawful operation of the DAO
+
+---
+
+## 13A. Governing Law and Dispute Resolution
+
+This document and all obligations arising under it are governed by the laws of the Republic of the Marshall Islands. Disputes arising under this document that cannot be resolved through the DAO's internal governance process are subject to the dispute resolution procedure in Operating Agreement §11.1: binding arbitration under the International Arbitration Rules of the ICDR, seated in the Republic of the Marshall Islands, conducted in English, by a sole arbitrator.
 
 ---
 

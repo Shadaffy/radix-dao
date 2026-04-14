@@ -202,6 +202,19 @@ A signer must not approve execution of a payment or agreement that directly bene
 
 Authorized Signers must remain reasonably available to support DAO operations.
 
+**Standard availability:**
+
+* The minimum expected responsiveness is **2 business days** during active periods (see DAO Parameters §6A)
+* This standard applies to execution requests, RAC communications, and coordination with Working Groups
+* Signers may designate "office hours" or a preferred contact window; this does not reduce the 2-business-day response obligation but clarifies expected timing
+
+**Declared unavailability:**
+
+* A signer may declare a period of unavailability of up to **5 consecutive days per calendar month** without triggering the planned absence notice requirement
+* Declared unavailability must be communicated to the RAC before the period begins (or as soon as practicable)
+* Declared unavailability periods are excluded from inactivity counting (see DAO Parameters §6B)
+* This provision exists to allow signers to take leave, travel, or disconnect without administrative burden, provided it does not occur during an active emergency or time-critical execution window
+
 **Planned absence or resignation:**
 
 * Signers must provide a minimum of **14 days' notice** to the RAC and Governance & Legal Working Group before any planned extended absence (>7 days) or resignation
@@ -267,6 +280,14 @@ These rules operate alongside:
 * DAO Parameters Registry
 
 If a conflict arises, the Charter and approved governance decisions prevail.
+
+These rules are governed by the laws of the Republic of the Marshall Islands (Operating Agreement §11.2). Disputes arising under these rules are subject to the dispute resolution procedure in Operating Agreement §11.1.
+
+---
+
+## 19A. Indemnification
+
+Authorized Signers acting in good faith within their authorized mandate are indemnified by the Company in accordance with Operating Agreement §11.3. The Company shall advance reasonable legal expenses to any Authorized Signer facing claims arising from their role, subject to the conditions and exclusions stated in Operating Agreement §11.3. Authorized Signers are encouraged to review §11.3 of the Operating Agreement directly for the full scope of protections and exclusions.
 
 ---
 

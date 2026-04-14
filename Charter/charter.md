@@ -164,7 +164,9 @@ Detailed definitions and constraints are specified in the **Legal Wrapper & Repr
 
 ## 11. Asset Lock and Wind-Down
 
-Should the DAO ever be dissolved, its remaining assets must be transferred to an entity with substantially similar objectives. No assets may be distributed to token holders or members upon dissolution.
+Should the DAO ever be dissolved, its remaining assets must be transferred to an entity with substantially similar objectives, as defined in the Operating Agreement §9.2. No assets may be distributed to token holders or members upon dissolution.
+
+The criteria for qualifying as a successor entity, the process for community selection of that entity, and the notification obligations to Asset Transferors are defined in the **Operating Agreement §9.2**. In the event of any conflict between this Charter and the Operating Agreement on the question of successor entity criteria, the Operating Agreement prevails as the registered legal entity document.
 
 The DAO's resources were entrusted to it for the benefit of the Radix ecosystem. That purpose does not end with the DAO's existence.
 

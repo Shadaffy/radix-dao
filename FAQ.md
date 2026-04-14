@@ -147,6 +147,33 @@ Only on procedural, legal, or security grounds — for example, if executing the
 
 ---
 
+## About the Legal Entity
+
+**What is Radix DLT DAO LLC?**
+Radix DLT DAO LLC is a Marshall Islands DAO LLC — the real-world legal entity that the DAO uses to hold assets, sign contracts, engage contributors, and interface with legal and financial systems. Without a legal wrapper, a DAO has no legal personhood: its assets are effectively unowned in law, contracts are unenforceable, and individual token holders may bear personal liability for DAO actions. The LLC solves this. It is structured so that governance authority remains with token holders, not with the LLC's registered managers.
+
+**Why the Marshall Islands?**
+The Marshall Islands enacted specific DAO LLC legislation that recognises on-chain governance as the primary decision-making mechanism. This means the DAO's token-holder voting is legally binding on the entity — it is not just a social convention. The legal entity is governed by its Operating Agreement, which explicitly subordinates the entity to DAO governance outcomes.
+
+**What are the Formation documents in `Legal/Formation/`?**
+These are the actual corporate instruments for Radix DLT DAO LLC — not governance policies:
+- **Certificate of Formation** — the foundational filing that brings the entity into legal existence with MIDAO (the Marshall Islands business registry)
+- **Operating Agreement** — the internal constitution of the LLC; defines the relationship between the DAO, its Delegates, and the entity's legal structure
+- **BOIR Template** — the Beneficial Owner Information Report required under Marshall Islands law; lists the entity's controlling members (Delegates)
+- **Asset Transfer Agreement** — the contract governing the transfer of assets from the Radix Foundation to the DAO
+- **IP Schedule** — the enumerated list of intellectual property assets (repositories, trademarks, patents) included in the transfer
+- **Continuity Statement** — a legal filing confirming the ongoing continuity of the DAO entity
+
+These documents are filed with MIDAO and are legal instruments. They are maintained in the repository for transparency and community review, but they are not amended through normal governance proposals — changes require legal process.
+
+**What is the Activation Roadmap?**
+The Activation Roadmap in `Transition/Activation-Roadmap.md` is the step-by-step operational guide for forming the legal entity and transitioning from Foundation governance to DAO governance. It covers the four phases of activation: pre-registration preparation, post-registration governance setup, asset transfer, and treasury configuration. It specifies who acts, what the action is, and (for governance steps) the required vote threshold. It is the practical companion to the Transition Governance Framework.
+
+**Does the legal entity change how governance works?**
+No. The legal entity is a wrapper, not a controller. The Operating Agreement explicitly subjects the LLC to DAO governance: token holder votes are binding on the entity through the Delegates (who hold the legal signing authority but must act on governance outcomes). The governance framework — Charter, policies, voting — remains the primary authority. The entity exists to execute what governance decides in the real world.
+
+---
+
 ## About the Transition (Phase 1 & RAC)
 
 **What is the Accountability Council (RAC) and what can it do?**

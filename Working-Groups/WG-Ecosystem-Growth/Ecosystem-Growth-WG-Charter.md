@@ -85,7 +85,7 @@ This Working Group exists to expand the Radix ecosystem through partnerships, de
 
 ## 10. Coordination
 
-* Product WG (technical alignment)
+* Protocol & Engineering WG (technical alignment)
 * Community WG (activation)
 * RAC (compliance)
 

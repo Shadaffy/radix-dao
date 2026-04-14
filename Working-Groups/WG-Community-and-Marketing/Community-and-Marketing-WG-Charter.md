@@ -83,7 +83,7 @@ This Working Group exists to grow, engage, and retain the Radix community and ma
 ## 10. Coordination
 
 * Ecosystem WG (growth alignment and shared initiatives)
-* Product WG (technical messaging and launch coordination)
+* Protocol & Engineering WG (technical messaging and launch coordination)
 * RAC (compliance and transparency requirements)
 
 ---

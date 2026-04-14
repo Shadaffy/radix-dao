@@ -3,7 +3,7 @@
 ## Radix DLT DAO LLC — From RAC Election to Fully Operational DAO
 
 > **Assumptions:**
-> - RAC members have been elected through proper governance voting under the existing Foundation governance system
+> - RAC members have been elected by the community through the community-deployed Consultation V2 governance system
 > - Unless a RAC member notifies intent to withdraw, all elected RAC members carry forward as founding Delegates
 > - The Consultation V2 on-chain governance system is already deployed and operational
 > - The 10 Phase 1 governance documents are drafted and ready for adoption
@@ -87,7 +87,7 @@ Confirm the wallet address is published before registration, as it is a material
 
 ## Phase 0 Governance Proposal — Pre-Registration
 
-This proposal runs under the **existing Foundation governance system** (Consultation V2), before the DAO entity exists. It represents the community's formal authorization to form the legal entity and establishes the founding governance framework.
+This proposal runs through the **community's own Consultation V2 deployment** — the governance system the community operates independently of the Foundation. The DAO entity does not yet legally exist, but the community already governs itself on-chain. This is the founding act that brings the legal entity into existence and gives the governance framework formal legal standing.
 
 ---
 
@@ -164,7 +164,7 @@ Formally adopt the 10 Phase 1 governance documents as subordinate operational po
 
 The proposal should list each document by name and confirm that it is in force as an operational policy from the date of the vote.
 
-> **Note:** This is technically the second adoption of these documents — the first was GP-PRE-1 under the Foundation governance system. GP-2 re-enacts the adoption under the new entity's own authority. This is necessary to give the documents binding force under the Operating Agreement.
+> **Note:** This is the second adoption of these documents — the first was GP-PRE-1 on the community's Consultation V2 before the entity existed. GP-2 re-enacts the adoption under the legal entity's own authority per OA §12.4. The governance tool is the same; what changes is the legal standing that makes the documents formally binding on the entity and its Delegates.
 
 ---
 
@@ -234,8 +234,8 @@ To avoid simultaneous renewal of all Working Group Stewards every 6 months, Work
 
 | Group | Working Groups | Initial Term Start |
 |---|---|---|
-| Group A | Governance & Legal WG, Product & Protocol WG, Ecosystem Growth WG | Month 1 — established at DAO launch per GP-5 through GP-7 |
-| Group B | Community & Marketing WG, Market Making & Liquidity WG, Strategic Coordination WG | Month 4 — established approximately 90 days after DAO launch per GP-8 through GP-10 |
+| Group A | Governance & Legal WG, Protocol & Engineering WG, Ecosystem Growth WG | Month 1 — established at DAO launch per GP-5 through GP-7 |
+| Group B | Community & Marketing WG, Infrastructure & Security WG, Market Making & Liquidity WG, Strategic Coordination WG | Month 4 — established approximately 90 days after DAO launch per GP-8 through GP-10 |
 
 This stagger means Group A and Group B renewal windows are offset by ~3 months, ensuring that at most half of all WG Stewards are in a renewal cycle at any one time. This applies to both auto-renewals and any contested elections triggered by a challenge proposal (see Election & Role Governance Policy §9).
 
@@ -259,19 +259,21 @@ This Working Group takes over the RAC's governance coordination functions progre
 
 ---
 
-### GP-6: Establish Product & Protocol Working Group
+### GP-6: Establish Protocol & Engineering Working Group
 
 **Type:** Governance Process
 **Threshold:** ≥60% approval / ≥7% quorum
 **Priority:** Critical — covers technical network operations
 
-**P&P Working Group Charter:** Define mandate, initial Stewards, and operating scope:
+**P&E Working Group Charter:** Define mandate, initial Stewards, and operating scope:
 - Protocol maintenance, development, and upgrade coordination
 - Smart contract governance (RFC process, security review, deployment)
-- Source code stewardship (repository access control, versioning, security patching per Source Code Stewardship Policy)
+- Source code stewardship and repository governance (access control, versioning, security patching per Source Code Stewardship Policy)
+- Secure development lifecycle standards
+- Smart contract audit coordination prior to any governance contract deployment
 - Technical roadmap governance
 
-**Transition action:** Once the P&P Working Group is operational, the RAC's interim execution authority for any technical RFPs or code-related work (Transition Governance Framework §5.4) lapses for that workstream. The Working Group takes over.
+**Transition action:** Once the P&E Working Group is operational, the RAC's interim execution authority for any technical RFPs or code-related work (Transition Governance Framework §5.4) lapses for that workstream. The Working Group takes over.
 
 This Working Group is the primary interface for ongoing Radix Network protocol work after the Foundation's development team transitions responsibilities.
 
@@ -306,19 +308,20 @@ This Working Group also takes over the Authorized Signers operational oversight 
 
 ---
 
-### GP-9: Establish Security & Infrastructure Working Group
+### GP-9: Establish Infrastructure & Security Working Group
 
 **Type:** Governance Process
 **Threshold:** ≥60% approval / ≥7% quorum
 **Priority:** High — required for network security continuity
 
-**S&I Working Group Charter:** Define mandate, initial Stewards, and operating scope:
-- Security vulnerability monitoring and disclosure coordination (per Security Disclosure & Bug Bounty Policy once formally activated)
-- Smart contract audit oversight (Source Code Stewardship Policy §6)
-- Critical infrastructure oversight (node operations, RPC endpoints, network monitoring)
+**I&S Working Group Charter:** Define mandate, initial Stewards, and operating scope:
+- Security monitoring of DAO-controlled infrastructure
+- Vulnerability disclosure and bug bounty programme coordination (per Security Disclosure & Bug Bounty Policy once formally activated)
+- Information security compliance standards
+- Critical infrastructure oversight and SLA monitoring (node operations, RPC endpoints, gateway)
 - Emergency response coordination with the RAC under Emergency & Safeguards Policy
 
-This Working Group is the operational counterpart to the RAC's emergency authority — it handles proactive security, the RAC handles emergency response.
+This Working Group acts as the DAO's CIO/CISO function. It handles proactive security monitoring, infrastructure oversight, and compliance — the RAC handles emergency response authority.
 
 ---
 
@@ -332,10 +335,10 @@ This Working Group is the operational counterpart to the RAC's emergency authori
 | GP-3 | Set Treasury Limits (DAO Parameters §6.1) | Treasury | ≥60% / ≥7% | Post-registration | Treasury operations |
 | GP-4 | Approve Asset Transfer Agreement + IP Schedule | Constitutional | ≥66% / ≥10% | Asset transfer | Receiving assets |
 | GP-5 | Working Group Framework + G&L WG | Governance Process | ≥60% / ≥7% | Working groups | All subsequent WGs |
-| GP-6 | Product & Protocol Working Group | Governance Process | ≥60% / ≥7% | Working groups | Network ops transition |
+| GP-6 | Protocol & Engineering Working Group | Governance Process | ≥60% / ≥7% | Working groups | Network ops transition |
 | GP-7 | Treasury & Finance Working Group | Governance Process | ≥60% / ≥7% | Working groups | Grant/treasury programs |
 | GP-8 | Community & Ecosystem Working Group | Governance Process | ≥60% / ≥7% | Working groups | Ecosystem programs |
-| GP-9 | Security & Infrastructure Working Group | Governance Process | ≥60% / ≥7% | Working groups | Security continuity |
+| GP-9 | Infrastructure & Security Working Group | Governance Process | ≥60% / ≥7% | Working groups | Security continuity |
 
 ---
 

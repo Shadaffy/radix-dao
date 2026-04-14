@@ -167,7 +167,7 @@ This Working Group must coordinate with:
 * **Strategic Coordination WG** — treasury oversight, cross-WG programme coordination, and monthly budget reconciliation
 * **Governance & Legal WG** — legal review of all market-making activities prior to first deployment; ongoing regulatory monitoring; counterparty agreement review
 * **Ecosystem Growth WG** — alignment on exchange listing priorities and ecosystem liquidity needs
-* **Product & Protocol WG** — understanding of protocol events (upgrades, launches) that affect liquidity planning
+* **Protocol & Engineering WG** — understanding of protocol events (upgrades, launches) that affect liquidity planning
 * **RAC** — compliance monitoring, variance escalation, and charter adherence
 
 ---

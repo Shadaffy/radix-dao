@@ -133,8 +133,8 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Parameter                | Value                |
 | ------------------------ | -------------------- |
 | Working Group Budget Cap | Defined per proposal |
-| Single Transaction Limit | Set by initial governance vote before Phase 1 launch |
-| Emergency Spend Limit    | Set by initial governance vote before Phase 1 launch |
+| Single Transaction Limit | $12,000 USDC |
+| Emergency Spend Limit    | $5,000 USDC  |
 
 ---
 

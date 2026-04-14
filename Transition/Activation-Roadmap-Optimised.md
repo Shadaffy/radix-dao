@@ -109,7 +109,7 @@ The Compliance Liaison maintains weekly contact with the Foundation to track pro
 **Threshold:** ≥66% approval / ≥10% quorum
 **Process:** Temperature Check Days 15–21 → Governance Proposal Days 22–35
 
-This runs under the **existing Foundation governance system**. It is the single pre-registration governance act.
+This runs through the **community's own Consultation V2 deployment** — operated by the community independently of the Foundation. The DAO does not yet legally exist as an entity, but the community already governs itself on-chain. This is the pre-registration founding act.
 
 ### During Temperature Check (Days 15–21): Do not wait
 
@@ -167,15 +167,11 @@ Day 37  ────────────────────────
 **Threshold:** ≥60% approval / ≥7% quorum
 **TC:** Days 37–43 | **Vote:** Days 44–57
 
-Bundles three administrative proposals with no dependencies on each other:
+Bundles two administrative proposals with no dependencies on each other:
 
 **GP-1 element — File Initial BOIR:** Authorize Compliance Liaison to file the initial BOIR with MIDAO Directory Services. All Delegates (completed KYC in Phase 0) are listed as beneficial members under §702(r). Note: the BOIR must be filed within 30 days of formation per DAO Act §712(1). If the proposal timeline would exceed this, the Compliance Liaison files under RAC transitional authority on Day 36 and this vote serves as retrospective ratification.
 
 **GP-2 element — Adopt Operational Policies (OA §12.4):** Formally adopt all 10 Phase 1 governance documents as subordinate operational policies of Radix DLT DAO LLC. This gives the framework binding legal force under the Operating Agreement.
-
-**GP-3 element — Set Treasury Limits:** Set the two values currently unresolved in DAO Parameters §6.1 — Single Transaction Limit and Emergency Spend Limit. These must be set before significant treasury operations begin.
-
-**Mitigation if bundling is risky:** The treasury limit values are the most likely source of disagreement. If the RAC anticipates debate on the specific figures, split GP-3 into a separate proposal running immediately after Track A closes. The 21-day delay is less harmful than a failed bundle resetting GP-1 and GP-2.
 
 ---
 
@@ -214,10 +210,10 @@ Bundles the Working Group Framework activation and all five Working Group Charte
 **GP-C covers:**
 1. **Activate Working Group Framework** (Transition Governance Framework §3.2 trigger)
 2. **Establish Governance & Legal Working Group** — governance maintenance, legal compliance, Phase 2/3 policy development
-3. **Establish Product & Protocol Working Group** — protocol development, smart contract governance, source code stewardship, network operations transition
+3. **Establish Protocol & Engineering Working Group** — protocol development, smart contract governance, repository governance, secure development lifecycle, smart contract audit coordination, network operations transition
 4. **Establish Treasury & Finance Working Group** — treasury management, financial reporting, grant administration
 5. **Establish Community & Ecosystem Working Group** — community engagement, ecosystem grants, communications
-6. **Establish Security & Infrastructure Working Group** — security monitoring, vulnerability disclosure, infrastructure oversight, emergency coordination
+6. **Establish Infrastructure & Security Working Group** — infrastructure operations and SLA oversight, security monitoring, vulnerability disclosure, information security compliance, emergency coordination
 
 **Mitigation if bundling is risky:** The most likely debate point is Steward appointments, not WG structures. Consider excluding specific Steward appointments from this proposal — establish the WG structure and mandate, then appoint Stewards via a lightweight follow-on proposal (no TC required if treated as a Governance Operations administrative action under the WG Framework). This removes the contentious element from the bundle without splitting the structural vote.
 
@@ -233,7 +229,6 @@ By Day 57, all three votes have closed. Execution actions proceed:
 |---|---|---|
 | File BOIR with Registered Agent | Compliance Liaison | Track A passed |
 | Operational policies formally in force | Governance Operator records | Track A passed |
-| Treasury limits set in DAO Parameters | Governance Operator records | Track A passed |
 | ATA signed; IP Schedule accepted | Legal Signatory | Track B passed + Foundation ready |
 | Continuity Statement executed and filed | Legal Signatory + Compliance Liaison | Track B passed |
 | Acceptance Statement published | Legal Signatory | ATA executed |

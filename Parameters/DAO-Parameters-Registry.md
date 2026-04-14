@@ -233,8 +233,8 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                 | Value          |
 | ------------------------- | -------------- |
-| Execution Delay           | None by default (Phase 1)       |
-| High-Risk Execution Delay | 24 hours recommended            |
+| Pre-Execution Hold        | 48 hours after vote close (mandatory) — Authorized Signers may not initiate execution of any Treasury / Budget or Executable proposal until the veto window (§4) has fully closed |
+| High-Risk Execution Delay | 24 hours additional after the pre-execution hold (mandatory) — applies to transactions classified as high-risk (4-of-5 signing threshold per §6A); total minimum 72 hours after vote close |
 
 ---
 

@@ -25,7 +25,7 @@ For the purposes of this Agreement, the following terms have the meanings given 
 
 **"Governance Proposal"** or **"GP"** means a formal governance vote conducted through the Governance smart contract in accordance with the operational policies adopted under §12.4.
 
-**"Member"** means any person or entity that holds governance tokens and casts a vote via the Governance smart contract, in accordance with §4.1.
+**"Member"** means any person or entity that holds governance tokens, in accordance with §4.1.
 
 **"Temperature Check"** or **"TC"** means a preliminary community sentiment poll conducted before a Governance Proposal is elevated.
 
@@ -95,9 +95,9 @@ The Company receives assets from Asset Transferors in good-faith reliance on the
 
 ## Article IV — Membership
 
-### §4.1 Membership Criteria [ORIGINAL DRAFT]
+### §4.1 Membership Criteria [AMENDED]
 
-Membership is open to any person or entity that casts a vote via the Governance smart contract. A person or entity becomes a Member upon casting their first on-chain vote. Membership Interests are not independently transferable.
+Membership is open to any person or entity that holds governance tokens. A person or entity becomes a Member upon acquiring governance tokens. Membership Interests are not independently transferable.
 
 ### §4.2 Membership Termination [ORIGINAL DRAFT]
 
@@ -149,7 +149,7 @@ Operate the Governance smart contract: elevate approved Temperature Checks to Go
 
 **(c) Legal Signatory**
 
-Sign contracts, continuity statements, and other legal instruments on behalf of the Company, only as authorized by Governance Proposal. Act as the Company's legal representative for entity maintenance and compliance filings.
+Sign contracts, continuity statements, and other legal instruments on behalf of the Company, only as authorized by Governance Proposal. Act as the Company's legal representative for entity maintenance and compliance filings. Initiate, pursue, settle, or defend legal proceedings on behalf of the Company as authorized by Governance Proposal; or, in urgent circumstances where a delay of more than 48 hours would cause material and irreversible harm to the Company, take protective legal action subject to GP ratification within 30 days.
 
 **(d) Compliance Liaison**
 
@@ -163,9 +163,11 @@ Manage social media accounts, GitHub repositories, domain names, and other Web2 
 
 The Company shall indemnify any Member performing a DAO-mandated governance oversight function — including but not limited to accountability review, governance process monitoring, emergency governance coordination, and compliance verification — against claims arising from the good-faith performance of that function, on the same terms as §11.3 applies to Delegates. This indemnification applies to oversight functions recognized in the operational policies adopted under §12.4.
 
-### §5.5 Removal and Replacement [ORIGINAL DRAFT]
+### §5.5 Removal and Replacement [AMENDED]
 
 Any Delegate may be removed by Governance Proposal. If a Delegate vacates their function, the remaining Delegates may appoint a temporary replacement from among the Members, subject to GP ratification within 30 days.
+
+**Legal Signatory continuity.** If the Legal Signatory Delegate is unavailable, conflicted, or unresponsive for more than 24 hours in circumstances requiring time-critical legal action, the Compliance Liaison Delegate is authorised to act as interim Legal Signatory for protective or time-critical purposes only. Any action taken under this provision must be disclosed to the governance forum within 24 hours and is subject to GP ratification within 30 days.
 
 ### §5.6 Standard of Conduct — Delegates [ORIGINAL DRAFT]
 
@@ -352,9 +354,17 @@ Disputes shall first be referred to the Compliance Liaison for mediation. If unr
 
 This Agreement is governed by the laws of the Republic of the Marshall Islands.
 
-### §11.3 Liability and Indemnification [ORIGINAL DRAFT]
+### §11.3 Liability and Indemnification [AMENDED]
 
-No Member or Delegate is personally liable for the debts, obligations, or liabilities of the Company solely by reason of membership or service, or for acts of the smart contracts executed as authorized by this Agreement. The Company shall indemnify any Delegate from claims arising from the good-faith performance of their Delegated Function.
+**Limitation of Liability.** No Member or Delegate is personally liable for the debts, obligations, or liabilities of the Company solely by reason of membership or service, or for acts of the smart contracts executed as authorized by this Agreement.
+
+**Indemnification.** To the fullest extent permitted by applicable law, the Company shall indemnify, defend, and hold harmless each Delegate and each Member performing a DAO-mandated governance oversight function (including RAC members acting within their mandate) against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising from or relating to the good-faith performance of their Delegated Function or governance oversight role.
+
+**Advancement of Expenses.** The Company shall advance reasonable legal expenses to any Delegate or RAC member who is a party or threatened to be a party to any proceeding arising from their role, provided that the recipient undertakes in writing to repay such amounts if it is ultimately determined by final adjudication that they are not entitled to indemnification under this section.
+
+**Exclusions.** Indemnification and expense advancement under this section do not apply to claims arising from: (a) gross negligence; (b) willful misconduct; (c) fraud; (d) breach of the duty of loyalty to the Company; or (e) knowing violation of applicable law.
+
+**Scope.** This section does not limit any additional protections available to Members or Delegates under Marshall Islands law or any insurance policy maintained by the Company.
 
 ---
 

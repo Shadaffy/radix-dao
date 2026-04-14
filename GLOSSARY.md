@@ -19,8 +19,8 @@ The minimum percentage of YES votes (among all votes cast) required for a propos
 → See: [DAO Parameters Registry §3.3](Parameters/DAO-Parameters-Registry.md), [Proposal & Voting Framework §6.4](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
 
 **Authorized Signers**
-A pool of 5 individuals responsible for executing treasury and legal actions approved by the DAO. They operate as a multisig — standard actions require 3-of-5 approvals; high-risk actions require 4-of-5. Authorized Signers have no discretionary authority: they execute approved decisions faithfully and may refuse only on procedural, legal, or security grounds. They serve 6-month terms.
-→ See: [Governance-Processes/Roles/Authorized-Signers-Rules.md](Governance-Processes/Roles/Authorized-Signers-Rules.md), [DAO Parameters Registry §6A](Parameters/DAO-Parameters-Registry.md)
+A pool of 5 individuals responsible for executing treasury and legal actions approved by the DAO. They operate as a multisig — standard actions require 3-of-5 approvals; high-risk actions require 4-of-5. Authorized Signers have no discretionary authority: they execute approved decisions faithfully and may refuse only on procedural, legal, or security grounds. They serve 6-month terms. In the Operating Agreement's terminology, Authorized Signers are Delegates holding the Treasury Signing (§5.3(a)) and Legal Signatory (§5.3(c)) Delegated Functions — see **Delegate (Operational)**.
+→ See: [Authorized-Signers-Rules.md](Governance-Processes/Roles/Authorized-Signers-Rules.md), [Operating Agreement §5.3](Legal/Formation/Operating-Agreement.md), [DAO Parameters Registry §6A](Parameters/DAO-Parameters-Registry.md)
 
 ---
 
@@ -54,9 +54,15 @@ A mandatory waiting period before a failed proposal can be resubmitted. Standard
 
 ## D
 
-**Delegate**
+**Delegate (Voting)**
 A participant who accepts voting power assigned by one or more token holders and votes in governance on their behalf. Delegates who accept public delegation are expected to vote actively, communicate their rationale, and act in the interest of delegators and the DAO — not for personal gain.
 → See: [Token Delegation Policy §5](Governance-Processes/Core/Token-Delegation-Policy.md)
+
+*Note: "Delegate" is also used in the Operating Agreement (Article V) to refer to elected Members performing Delegated Functions — see **Delegate (Operational)** below.*
+
+**Delegate (Operational)**
+A Member elected by Governance Proposal to perform one or more of the five Delegated Functions defined in Operating Agreement §5.3: Treasury Signing, Governance Operations, Legal Signatory, Compliance Liaison, and Web2 Custodian. Operational Delegates are the legal and operational representatives of the LLC for executing DAO-approved decisions. In the governance policy layer, these roles are referred to as Authorized Signers (Treasury Signing and Legal Signatory) and by their functional titles (Governance Operator, Compliance Liaison, Web2 Custodian). All Operational Delegates must complete KYC before assuming their function and hold no authority independent of DAO governance decisions.
+→ See: [Operating Agreement Article V](Legal/Formation/Operating-Agreement.md), [Legal Wrapper §8](Legal/Policy/Legal-Wrapper-and-Representation.md), [Role and Authority Map](Supporting-Materials/Role-and-Authority-Map.md)
 
 **Delegator**
 A token holder who assigns their voting power to a delegate. Delegators retain the right to revoke or change delegation at any time; the change takes effect at the next snapshot. Delegators can also vote directly on a specific proposal if the governance platform permits.
@@ -133,6 +139,10 @@ Tokens received by XRD holders who stake their XRD with a validator on the Radix
 **Material Financial Interest**
 Equity, tokens, debt, employment, or advisory compensation held in an entity that is above the *de minimis* threshold defined in the DAO Parameters Registry. Holding a material financial interest in an entity seeking DAO funding or benefiting from a DAO decision triggers a mandatory conflict of interest disclosure and may require recusal.
 → See: [Conflict of Interest Policy §3.1](Governance-Processes/Roles/Conflict-of-Interest-Policy.md)
+
+**Member**
+Any person or entity that holds governance tokens. A person or entity becomes a Member upon acquiring governance tokens (Operating Agreement §4.1). The terms "token holder" and "member" are used interchangeably across governance documents. Members have no economic ownership interest in the Company's assets. Membership terminates when a Member holds no voting assets and has no active votes on the governance smart contract.
+→ See: [Operating Agreement §4.1–4.4](Legal/Formation/Operating-Agreement.md), [Legal Wrapper §2A](Legal/Policy/Legal-Wrapper-and-Representation.md)
 
 **Multisig (Multi-Signature)**
 A security mechanism requiring multiple approvals before a treasury or legal action can be executed. The DAO uses a 5-signer pool: standard treasury actions require 3-of-5 Authorized Signer approvals; high-risk actions require 4-of-5. This prevents any single individual from unilaterally moving DAO funds.
@@ -247,3 +257,29 @@ Protections for individuals who report governance integrity violations, miscondu
 **Working Group (WG)**
 An execution body that coordinates contributors within a DAO-approved mandate and budget. Working Groups are led by 2–3 elected Stewards serving 6-month terms. They manage workstreams, engage contributors, report progress to the DAO, and operate within the scope and budget approved by governance. Five Working Groups launched at Phase 1: Strategic Coordination, Governance & Legal, Product & Protocol, Ecosystem Growth, and Community & Marketing. Working Groups cannot define DAO strategy, override governance decisions, or spend beyond approved budgets.
 → See: [Governance-Processes/Execution/Working-Group-Framework.md](Governance-Processes/Execution/Working-Group-Framework.md), [Charter §4.2](Charter/charter.md)
+
+---
+
+## Role Index
+
+This table maps governance-layer role names to Operating Agreement Delegated Functions and key authority documents. For full role profiles including what each role can and cannot do, see the [Role and Authority Map](Supporting-Materials/Role-and-Authority-Map.md).
+
+| Governance-Layer Role | OA Delegated Function | Key Authority Documents |
+|---|---|---|
+| RAC Member | None — oversight body, not a Delegated Function | [RAC Mandate](Governance-Processes/Roles/RAC-Mandate.md), [Charter §8](Charter/charter.md), [Transition Framework §4–6](Transition/Transition-Governance-Framework.md) |
+| Authorized Signer (Treasury) | Treasury Signing — OA §5.3(a) | [Authorized Signers Rules](Governance-Processes/Roles/Authorized-Signers-Rules.md), [Execution & Treasury Actions Policy](Governance-Processes/Core/Execution-and-Treasury-Actions-Policy.md) |
+| Authorized Signer (Legal) | Legal Signatory — OA §5.3(c) | [Authorized Signers Rules](Governance-Processes/Roles/Authorized-Signers-Rules.md), [Legal Wrapper §7–8](Legal/Policy/Legal-Wrapper-and-Representation.md) |
+| Governance Operator | Governance Operations — OA §5.3(b) | [Proposal & Voting Framework](Governance-Processes/Core/Proposal-and-Voting-Framework.md), [Operating Agreement §6.1](Legal/Formation/Operating-Agreement.md) |
+| Compliance Liaison | Compliance Liaison — OA §5.3(d) | [Operating Agreement §8](Legal/Formation/Operating-Agreement.md), [Legal Wrapper §7A](Legal/Policy/Legal-Wrapper-and-Representation.md) |
+| Web2 Custodian | Web2 Custodian — OA §5.3(e) | [Operating Agreement §5.3(e)](Legal/Formation/Operating-Agreement.md) |
+| Working Group Steward | None — execution coordination role | [Working Group Framework](Governance-Processes/Execution/Working-Group-Framework.md), [Election & Role Governance Policy](Governance-Processes/Roles/Election-and-Role-Governance-Policy.md) |
+
+**Authority boundaries (summary):**
+
+* **Token holders** — sovereign decision-making authority via on-chain governance
+* **RAC** — process oversight, emergency response, Phase 1 transitional coordination only; no independent strategic authority
+* **Authorized Signers** — execute approved treasury and legal actions only; no discretionary authority
+* **Governance Operator** — administers the governance platform per approved procedures; cannot modify, suppress, or delay eligible proposals
+* **Compliance Liaison** — entity compliance, KYC, BOIR filing; no strategic or treasury authority
+* **Web2 Custodian** — manages Web2 assets per approved procedures; cannot transfer domain ownership without a Governance Proposal
+* **Working Group Stewards** — execution coordination within approved mandates and budgets; no strategic authority

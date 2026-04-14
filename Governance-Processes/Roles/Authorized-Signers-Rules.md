@@ -268,6 +268,14 @@ These rules operate alongside:
 
 If a conflict arises, the Charter and approved governance decisions prevail.
 
+These rules are governed by the laws of the Republic of the Marshall Islands (Operating Agreement §11.2). Disputes arising under these rules are subject to the dispute resolution procedure in Operating Agreement §11.1.
+
+---
+
+## 19A. Indemnification
+
+Authorized Signers acting in good faith within their authorized mandate are indemnified by the Company in accordance with Operating Agreement §11.3. The Company shall advance reasonable legal expenses to any Authorized Signer facing claims arising from their role, subject to the conditions and exclusions stated in Operating Agreement §11.3. Authorized Signers are encouraged to review §11.3 of the Operating Agreement directly for the full scope of protections and exclusions.
+
 ---
 
 ## 20. Guiding Principle

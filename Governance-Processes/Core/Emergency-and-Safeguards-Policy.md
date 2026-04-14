@@ -43,6 +43,7 @@ An emergency is a situation where immediate action is required to prevent:
 * Critical failure of network infrastructure
 * Security compromise (e.g., keys, contracts, systems)
 * Severe disruption to DAO operations
+* Governance capture — a passed proposal that would result in material and irreversible misappropriation of treasury assets in a manner that is plainly contrary to the non-distribution principle (Charter §10–11, Operating Agreement §2.2), where the RAC has reasonable grounds to believe the proposal was advanced through coordinated bad-faith token accumulation rather than legitimate community governance
 
 ---
 

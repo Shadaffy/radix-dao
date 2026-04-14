@@ -31,7 +31,7 @@ The legal entity:
 
 ## 2A. Token Holder Membership
 
-Governance token holders are members of the DAO LLC by virtue of their token holdings, in accordance with the Marshall Islands DAO Act. Membership rights are exercised through the governance framework established in the Charter and related governance documents. On-chain governance decisions constitute legally binding decisions of the LLC membership.
+Governance token holders are Members of the DAO LLC under Operating Agreement §4.1 and the Marshall Islands DAO Act. The terms "token holder" and "member" are used interchangeably in this document. Membership rights are exercised through the governance framework established in the Charter and related governance documents. On-chain governance decisions constitute legally binding decisions of the LLC membership.
 
 ---
 
@@ -84,6 +84,8 @@ In the event of dissolution:
 ## 7. Authorized Signers
 
 ### 7.1 Role
+
+Authorized Signers are the Delegates holding the Treasury Signing (Operating Agreement §5.3(a)) and Legal Signatory (§5.3(c)) Delegated Functions. They operate within the Delegate framework defined in §8 and have no authority independent of DAO governance decisions and the Operating Agreement.
 
 Authorized Signers are responsible for:
 
@@ -254,6 +256,12 @@ The legal entity must:
 * Maintain good standing
 * Comply with applicable regulations
 * Support lawful operation of the DAO
+
+---
+
+## 13A. Governing Law and Dispute Resolution
+
+This document and all obligations arising under it are governed by the laws of the Republic of the Marshall Islands. Disputes arising under this document that cannot be resolved through the DAO's internal governance process are subject to the dispute resolution procedure in Operating Agreement §11.1: binding arbitration under the International Arbitration Rules of the ICDR, seated in the Republic of the Marshall Islands, conducted in English, by a sole arbitrator.
 
 ---
 

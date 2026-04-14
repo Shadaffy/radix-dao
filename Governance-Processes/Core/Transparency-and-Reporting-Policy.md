@@ -75,9 +75,9 @@ These records form the permanent, auditable history of the DAO and must not be d
 
 ## 5. Working Group Reporting
 
-### 5.1 Biweekly Progress Updates
+### 5.1 Monthly Progress Updates
 
-Each Working Group must publish a brief update every two weeks covering:
+Each Working Group must publish a brief update once per calendar month covering:
 
 * Work completed since the last update
 * Work in progress and current status (On Track / At Risk / Off Track)
@@ -85,6 +85,8 @@ Each Working Group must publish a brief update every two weeks covering:
 * Any budget variances (per **Working Group Framework §7.1**)
 
 Format: short narrative or structured bullet points. Published to the WG's designated public channel.
+
+> **Note:** Monthly updates replace the previous biweekly cadence. The quarterly report (§5.2) remains the primary accountability document; monthly updates serve as lightweight progress signals.
 
 ---
 
@@ -177,7 +179,7 @@ The RAC must publish a brief biweekly log covering:
 
 ### 7.2 Quarterly RAC Report
 
-The RAC must publish a Quarterly Report within **14 days** of each quarter end covering:
+The RAC must publish a Quarterly Report within **21 days** of each quarter end covering:
 
 * Summary of governance activity: proposals passed, failed, vetoed
 * Execution compliance: any deviations from approved proposals
@@ -214,8 +216,14 @@ The Governance & Legal Working Group is responsible for the maintenance and inte
 Where a reporting obligation is not met by the defined deadline:
 
 1. The RAC flags the failure publicly within **5 business days**
-2. The responsible body has **7 days** to publish the overdue report or provide a justified extension request
-3. Persistent failure (two consecutive missed deadlines without justified extension) constitutes a breach of mandate and may trigger a removal review under the **Elections & Role Governance Policy §10**
+2. The responsible body has **7 days** to publish the overdue report or submit a justified extension request
+3. Persistent failure (two consecutive missed deadlines of the **same report type** without justified extension) constitutes a breach of mandate and may trigger a removal review under the **Elections & Role Governance Policy §10**
+
+**Cure period:** If an overdue report is published within **14 days** of the original deadline (whether or not a justified extension was filed), the two-strike clock is reset. The cure period exists to allow for genuine delays without immediately triggering removal proceedings; it is not a de facto extension of the reporting deadline.
+
+**Justified extension:** A justified extension may be requested in cases of personal illness, bereavement, technical outage, or other circumstances materially impairing the role-holder's ability to report. Extensions must be requested before the original deadline where possible, must specify a revised deadline (maximum 14 additional days from the original), and are granted at RAC discretion with a simple written acknowledgement. The RAC must respond to extension requests within 3 business days.
+
+**Same-type rule:** The two-strike rule applies to consecutive misses of the same report type (e.g., two quarterly reports in a row, or two monthly updates in a row). Missing one monthly update and one quarterly report in the same period does not alone trigger a breach; a pattern within the same report type is required.
 
 The RAC itself is not exempt. Where the RAC fails its own reporting obligations, any token holder may raise this via the governance forum, and the Governance & Legal WG must investigate.
 
@@ -236,7 +244,7 @@ In all cases, the existence of the confidentiality exception must itself be publ
 ## 11. Relationship to Other Policies
 
 * **Charter §3.2** — Core transparency principle and permitted confidentiality exceptions
-* **Working Group Framework §8** — WG reporting cadence (biweekly updates, quarterly retrospectives)
+* **Working Group Framework §8** — WG reporting cadence (monthly updates, quarterly retrospectives)
 * **Execution & Treasury Actions Policy §10** — Treasury transparency and execution records
 * **Contributor Compensation Policy §10** — Compensation disclosure in WG reports
 * **Grant Program Policy §10** — Grant reporting obligations for recipients

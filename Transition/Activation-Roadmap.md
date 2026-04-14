@@ -228,6 +228,17 @@ Working Groups are the operational layer of the DAO. Each requires its own gover
 
 The Working Group Framework document must be formally activated before any Working Group is established (Transition Governance Framework §3.2). This can be bundled into the first Working Group proposal if not already activated.
 
+**Staggered Term Start — Group A and Group B**
+
+To avoid simultaneous renewal of all Working Group Stewards every 6 months, Working Groups are split into two groups with staggered term start dates:
+
+| Group | Working Groups | Initial Term Start |
+|---|---|---|
+| Group A | Governance & Legal WG, Product & Protocol WG, Ecosystem Growth WG | Month 1 — established at DAO launch per GP-5 through GP-7 |
+| Group B | Community & Marketing WG, Market Making & Liquidity WG, Strategic Coordination WG | Month 4 — established approximately 90 days after DAO launch per GP-8 through GP-10 |
+
+This stagger means Group A and Group B renewal windows are offset by ~3 months, ensuring that at most half of all WG Stewards are in a renewal cycle at any one time. This applies to both auto-renewals and any contested elections triggered by a challenge proposal (see Election & Role Governance Policy §9).
+
 ---
 
 ### GP-5: Activate Working Group Framework + Establish Governance & Legal Working Group

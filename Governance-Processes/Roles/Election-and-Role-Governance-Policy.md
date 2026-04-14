@@ -40,7 +40,7 @@ All roles derive authority from DAO governance.
 
 ### 3.2 Term Limits
 
-All roles are time-bound and must be renewed.
+All roles are time-bound. Terms may be renewed automatically unless challenged (see §9). The community retains the authority to trigger a new election at any term end.
 
 ---
 
@@ -162,11 +162,80 @@ Terms may be adjusted via DAO Parameters.
 
 ---
 
-## 9. Re-election
+## 9. Term Renewal
 
-* Role holders may stand for re-election
-* No automatic renewal
-* Performance may be considered by voters
+### 9.1 Auto-Renewal Unless Challenged
+
+At the end of each term, a role holder is **automatically renewed** for one additional term of equal length unless any of the following conditions are met:
+
+* The role holder **declines renewal** (by notifying the RAC before the challenge window closes)
+* A **challenge notice** is filed by an eligible token holder during the 14-day challenge window before term expiry (see §9.2)
+* The role holder has received a **formal censure or breach finding** during the term under the Code of Conduct or Elections & Role Governance Policy §10
+* The role holder has reached the **consecutive renewal cap** (see §9.5)
+
+If none of these conditions apply, renewal takes effect automatically on the day following term expiry — no governance vote is required.
+
+If a challenge is filed, the standard two-stage election process (§7) is triggered.
+
+---
+
+### 9.2 Challenge Window
+
+The **challenge window** opens 21 days before the current term's expiry date and closes 7 days before expiry (a 14-day window).
+
+**Filing a challenge is a unilateral right** — it does not require a governance vote and cannot be blocked by any token holder, including those with large voting power.
+
+To file a valid challenge:
+
+* The filer must hold a minimum of **0.1% of eligible voting power** at the time of filing (verified against the most recent governance snapshot)
+* The filer must publish a formal challenge notice to the governance forum identifying the role, the incumbent, and their intent to contest renewal
+* The RAC acknowledges valid challenges within 2 business days and publishes a notice confirming that the election process has been triggered
+
+A filed challenge does not require the incumbent to stand down — the incumbent continues in role until the election concludes.
+
+If a challenge is filed but no eligible challengers are confirmed by the election, the incumbent is renewed and their consecutive term count continues.
+
+---
+
+### 9.3 Performance Consideration
+
+When a challenge is filed, voters may consider the incumbent's performance record, including:
+
+* Reporting compliance
+* Delivery against mandate
+* Any censure or breach findings
+
+Performance history is published by the RAC as part of its routine governance record-keeping.
+
+---
+
+### 9.4 Staggered Initial Terms
+
+To prevent simultaneous leadership turnover across all roles, initial term start dates are staggered as follows:
+
+| Role | Initial Term Start |
+|---|---|
+| RAC Members | Month 1 (DAO launch) |
+| Authorized Signers | Month 2 (30 days after DAO launch) |
+| WG Stewards — Group A (3 WGs) | Month 1 (DAO launch) |
+| WG Stewards — Group B (3 WGs) | Month 4 (90 days after DAO launch) |
+
+The specific Working Groups assigned to Group A and Group B are defined in the Activation Roadmap. This stagger ensures that no more than half of all role holders face simultaneous renewal at any one time.
+
+---
+
+### 9.5 Consecutive Renewal Cap
+
+A role holder may auto-renew for a maximum of **4 consecutive terms** (including the initial elected term), totalling a maximum of **2 years of continuous service** without a contested election.
+
+Upon reaching the cap:
+
+* Auto-renewal is not available for that term end
+* A standard two-stage election (§7) must be held — the incumbent may stand as a candidate and is subject to the normal nomination and confirmation process
+* If the incumbent is re-confirmed through the election, their consecutive term count **resets to 1**
+* If the incumbent does not stand or is not confirmed, the vacancy is filled by the election winner
+
+The cap applies to consecutive terms in the **same role**. Serving in a different role does not count toward the cap. A gap of one or more full terms resets the consecutive count.
 
 ---
 
@@ -267,12 +336,13 @@ Restrictions may apply via DAO Parameters.
 
 ## 17. Transition Phase Provisions
 
-During initial DAO setup:
+During initial DAO setup, two categories of role holder exist:
 
-* roles may be temporarily appointed
-* expedited processes may apply
+**Constituted roles** — RAC members and Authorized Signers who were elected under the predecessor organization and carry forward their elected status upon DAO constitution. These role holders are treated as having served term 1 from the date of DAO constitution. Auto-renewal rights (§9.1) apply fully. Their transitional delegated authority under the Transition Governance Framework §5 expires at Phase 1 end independently of their role tenure — authority expiry and role expiry are separate events.
 
-All temporary roles must transition to elections within a defined period.
+**Interim appointments** — Any role filled by appointment rather than election after DAO constitution (e.g., emergency signer appointments under the Governance Continuity Framework). These roles are not eligible for auto-renewal. A full standard election must be held at the end of the appointed term before auto-renewal rights accrue.
+
+Where expedited processes apply during transition, they are defined in the Transition Governance Framework. This policy governs all elections once the Election & Role Governance Policy is activated (Transition Governance Framework §3.2).
 
 ---
 

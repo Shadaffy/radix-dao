@@ -331,7 +331,7 @@ Phase 1 is considered complete when all of the following minimum conditions are 
 
 **Working Groups**
 
-* All 5 Phase 1 Working Groups have operated independently for at least 60 consecutive days, producing required biweekly reports
+* All 5 Phase 1 Working Groups have operated independently for at least 60 consecutive days, producing required monthly reports
 
 **Phase 2 Document Activation**
 
@@ -367,6 +367,16 @@ After Phase 1 (12 months):
 ### 11.1 Core Document Continuity
 
 Expiry of transitional delegated authority under §11 does **not** affect the active status of the 10 Phase 1 documents listed in §3.1. Those documents were activated at launch and remain in force until explicitly superseded or amended by a governance vote. Authority expiry and document activation are independent.
+
+### 11.2 Role Holder Tenure Continuity
+
+Expiry of transitional delegated authority does **not** affect the tenure or term renewal rights of constituted role holders (RAC members and Authorized Signers carried forward from the predecessor organization). Their role tenure runs on a separate track from their transitional authority:
+
+* Transitional authority expires on the Phase 1 schedule defined in §11
+* Role tenure continues subject to the term lengths and renewal rules defined in the Elections & Role Governance Policy §9
+* A role holder whose second term is active at Phase 1 expiry continues in role without interruption — they simply no longer hold transitional delegated powers
+
+This separation ensures that Phase 1 expiry does not inadvertently create vacancies or force simultaneous elections across all founding roles.
 
 ---
 

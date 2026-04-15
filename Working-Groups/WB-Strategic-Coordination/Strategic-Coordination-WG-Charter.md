@@ -46,6 +46,7 @@ This Working Group:
 * Highlight risks, misalignment, and dependencies
 * Facilitate periodic planning cycles
 * Support development of DAO-wide strategy proposals
+* Monitor rolling treasury outflow and publish a mandatory Signaling proposal ("Treasury Outflow Alert") when trailing 90-day disbursements across all Treasury / Budget proposals exceed 15% of treasury value at the last quarterly snapshot. This alert is not a veto; it requires the community to formally acknowledge the spending rate (via a recorded acknowledgement on the governance forum) before the next Treasury / Budget proposal's voting period can open. The RAC pauses that voting period until acknowledgement is recorded (RAC Mandate §2).
 
 ---
 
@@ -56,6 +57,7 @@ This Working Group:
 * Cross-WG roadmap synthesis
 * Identified priorities and gaps
 * Strategic proposal drafts (for DAO voting)
+* Treasury Outflow Alert (triggered, not scheduled) — published when the 15% trailing 90-day threshold is met
 
 ---
 

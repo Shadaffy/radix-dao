@@ -143,6 +143,7 @@ All proposals must include:
 * Risks and trade-offs
 * Budget (if applicable)
 * Execution plan (if applicable)
+* **Cumulative recipient disclosure** (Treasury & Budget proposals only): total disbursements to the same recipient, entity, or affiliated group over the trailing 90 days. The RAC verifies this field before opening the veto window. A missing or materially incorrect disclosure is valid grounds for a veto filing (Charter / rule violation: failure to meet required proposal content).
 
 ---
 

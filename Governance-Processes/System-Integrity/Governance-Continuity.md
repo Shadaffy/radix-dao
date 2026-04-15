@@ -39,10 +39,35 @@ Trigger:
 
 * full resignation, inactivity, or inability to function
 
-Response:
+Response — Tier 1 (surviving RAC members):
 
-* DAO initiates emergency election
-* interim coordination handled by remaining governance actors or community process
+If the RAC cannot meet quorum due to deaths or incapacitations, any single surviving RAC member may take the following specific activation actions:
+
+* Declare a RAC continuity event on the governance forum
+* Declare a signer continuity event if applicable (see §4.2)
+* Appoint interim signers from the Emergency Signer Reserve (Authorized Signers Rules §15)
+
+Tier 1 scope is strictly limited to these triggering and appointment actions. Appointment of an interim Legal Signatory is explicitly excluded — that function is covered by Operating Agreement §5.5 (Compliance Liaison steps in automatically). All Tier 1 actions must be publicly disclosed on the governance forum immediately. Interim signer appointments take effect 24 hours after disclosure to allow a community challenge, except where treasury assets are at immediate risk. All Tier 1 actions are subject to GP ratification within 30 days.
+
+Response — Tier 2 (no RAC members available):
+
+If no RAC members are available, the Governance & Legal Working Group Stewards (internal majority vote) may:
+
+* Declare a RAC continuity event on the governance forum
+* Appoint interim signers from the Emergency Signer Reserve
+* Initiate the emergency election process
+
+Tier 2 authority is explicitly granted in the Governance & Legal WG Charter §13. WG Stewards may not appoint themselves as interim signers or RAC members. All Tier 2 actions require immediate public disclosure and a 24-hour challenge window before taking effect. Subject to GP ratification within 30 days.
+
+Response — Tier 3 (token holders):
+
+If neither Tier 1 nor Tier 2 can be activated, authority reverts to token holders per Charter §9. Emergency election may be initiated by any token holder via the standard governance forum process.
+
+In all cases:
+
+* Emergency election for permanent RAC replacement must begin within 7 days of the continuity event
+* Election must complete within 21 days of the continuity event
+* Reconstitution Spend Limit (DAO Parameters §6.1) is available upon declaration of a RAC continuity event
 
 ---
 
@@ -58,9 +83,11 @@ Response:
 
 **Immediate (within 24 hours):**
 
-* RAC declares a signer continuity event and notifies the governance forum
+* RAC declares a signer continuity event and notifies the governance forum. If the RAC cannot meet quorum, the Tier 1 or Tier 2 fallback authority defined in §4.1 satisfies this declaration requirement.
 * All non-urgent treasury execution is suspended until quorum is restored
 * Emergency actions under the Emergency & Safeguards Policy remain available if required thresholds can be met with available signers
+
+**Forced-execution backstop:** If a passed proposal has not been executed within 10 business days from the close of the veto window (DAO Parameters §4), and no valid refusal is currently on record with RAC (i.e., RAC has not acknowledged a legitimate hold under Authorized Signers Rules §9), RAC may instruct the remaining available signers to proceed with execution using the minimum 3-of-5 threshold, bypassing the unresponsive or non-compliant signer. This instruction must be published publicly on the governance forum within 24 hours of being issued and is treated as a signer continuity event for reporting purposes. The 10-business-day clock runs from veto window close, not from proposal passage.
 
 **Interim signer appointment (if active signers < 3):**
 

@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-This document defines the **temporary governance activation model and limited transitional authority** required to move from the pre-registration state (community-deployed Consultation V2 governance without a legal entity) and the Founding Transferor (the Foundation, as asset transferor) to a fully operational, community-governed DAO with formal legal standing.
+This document defines the **temporary governance activation model and limited transitional authority** required to move from the pre-registration state (community-deployed Consultation V2 governance without a legal entity) and the Founding Transferor to a fully operational, community-governed DAO with formal legal standing.
 
 This framework exists to:
 

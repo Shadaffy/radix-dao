@@ -48,9 +48,11 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | ------------------ | --------------------------- |
 | Constitutional     | 10% of eligible voting power |
 | Governance Process | 7%                     |
-| Treasury / Budget  | 5%                     |
+| Treasury / Budget  | 7%                     |
 | Executable         | 5%                     |
 | Signaling          | 3%                     |
+
+**Absolute Participation Floor (Treasury / Budget proposals):** In addition to the percentage quorum above, a Treasury / Budget proposal requires a minimum of 50 unique voting addresses. Both conditions must be met. This floor is not subject to the Governance Continuity Fallback (§9A).
 
 ---
 
@@ -73,6 +75,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Failed Proposal        | 7 days      |
 | Minor Fix Resubmission | No cooldown |
 | Major Resubmission     | 7 days      |
+| Per-Proposer Treasury Submission Limit | 1 Treasury & Budget proposal per rolling 30-day period per wallet address. A second submission within the window requires prior RAC notification and acknowledgement posted to the governance forum before the proposal enters the review period. |
 
 ---
 
@@ -107,10 +110,12 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 | Parameter                        | Value                                                                  |
 | -------------------------------- | ---------------------------------------------------------------------- |
-| Members                          | 3–5 (exact count set by initial governance vote before Phase 1 launch) |
+| Members                          | 5 minimum (exact count ≥5, set by initial Constitutional Proposal before Phase 1 launch; may only be reduced below 5 by Constitutional Proposal) |
 | Term Length                      | 6 months                                                               |
 | Routine Decision Quorum          | Simple majority (more than half of seated members)                     |
 | Routine Decision Approval        | Simple majority YES                                                    |
+| Seat Vacancy Definition          | A seat is immediately vacated upon: (a) confirmed death notified by a pre-registered emergency contact; (b) written resignation; or (c) written declaration from a pre-registered emergency contact that the member is medically incapacitated and unable to perform their function. Vacated seats are excluded from quorum calculations immediately upon notification. |
+| Emergency Contact Requirement    | Each RAC member must register an emergency contact at appointment and update it at each term renewal. Emergency contacts are held by the Compliance Liaison and the Governance & Legal WG. |
 
 ---
 
@@ -130,11 +135,14 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 
 ### 6.1 Budget Limits
 
-| Parameter                | Value                |
-| ------------------------ | -------------------- |
-| Working Group Budget Cap | Defined per proposal |
-| Single Transaction Limit | $12,000 USDC |
-| Emergency Spend Limit    | $5,000 USDC  |
+| Parameter                          | Value                |
+| ---------------------------------- | -------------------- |
+| Working Group Budget Cap           | Defined per proposal |
+| Single Transaction Limit           | $12,000 USDC |
+| Emergency Spend Limit              | $5,000 USDC — for operational emergencies (asset security, key rotation, critical infrastructure) |
+| Governance Reconstitution Limit    | $25,000 USDC — available only when a RAC or signer continuity event has been declared under Governance Continuity §4.1 or §4.2; covers emergency election costs, legal filings, Registered Agent compliance fees, and expense advancements under OA §11.3; subject to GP ratification within 30 days |
+| Rolling 30-Day Outflow Cap         | $50,000 USDC or 5% of treasury value (whichever is lower) — maximum total Treasury / Budget disbursements across all passed proposals in any rolling 30-day window. Signers must refuse execution of any proposal that would cause the rolling total to breach this cap and must report the refusal to RAC immediately. Adjustable by Treasury & Budget proposal. |
+| Emergency Safe Address             | To be designated by separate Treasury & Budget proposal before the treasury holds material value. Until designated, Tier 2 emergency asset movement (Emergency & Safeguards Policy §6) is not available. Changes to the designated address require a Treasury & Budget proposal. |
 
 ---
 
@@ -144,7 +152,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | ------------------------- | ----------- |
 | Multi-account Requirement | Yes         |
 | Multisig Threshold        | See §6A: 3-of-5 standard, 4-of-5 high-risk |
-| Audit Requirement         | Recommended |
+| Audit Requirement         | Mandatory — an independent treasury audit is required annually. The RAC is responsible for scoping the audit and bringing an auditor appointment to governance for approval. The first audit process must be initiated within the Phase 1 completion window (see Activation Roadmap). |
 
 ---
 
@@ -250,6 +258,8 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Reduced Quorum Threshold | 50% of the standard quorum for that proposal type (minimum 1%) | Applies after inactivity trigger is met |
 | Extended Voting Period | Double the standard voting duration | Applies alongside reduced quorum during inactivity |
 | Reconstitution Deadline | 30 days after failure event | Maximum time to re-establish a failed role or body |
+
+**Treasury / Budget exclusion:** Treasury / Budget proposals are excluded from the Governance Continuity Fallback. A Treasury / Budget proposal that fails to meet quorum must be resubmitted with revised scope or timing; the reduced quorum threshold and extended voting period do not apply.
 
 ---
 

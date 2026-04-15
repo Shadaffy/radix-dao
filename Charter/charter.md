@@ -178,6 +178,16 @@ This Charter may be amended through DAO governance using a Constitutional propos
 
 Amendment procedures and document versioning requirements are defined in the **Governance Maintenance & Upgrade Framework**. Voting mechanics are defined in the **Proposal & Voting Framework**. During Phase 1, where the Governance Maintenance & Upgrade Framework is not yet active, amendment mechanics are governed by the **Transition Governance Framework** and the **Proposal & Voting Framework**.
 
+### 12.1 Entrenched Provisions
+
+Notwithstanding the above, the following provisions may not be amended, reduced, or removed by any governance proposal, regardless of approval level:
+
+1. **The Non-Distribution Principle (§10) and Asset Lock (§11)** — these provisions exist to satisfy the DAO's legal obligations as a non-profit entity under Marshall Islands law and may not be weakened by any governance vote.
+
+2. **Minimum Constitutional quorum floor** — the quorum threshold for Constitutional proposals may not be reduced below **7%** of eligible voting power by any proposal, including a Constitutional proposal. Any proposal purporting to do so is void and may not be executed.
+
+3. **RAC scope constraint** — no governance proposal may grant the RAC unilateral authority to override a valid DAO vote outcome or permanently alter governance rules without a subsequent community approval process.
+
 ---
 
 ## 13. Scope

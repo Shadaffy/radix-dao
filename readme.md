@@ -2,7 +2,7 @@
 
 Welcome to the Radix DAO governance framework.
 
-This repository contains the complete governance system for the Radix Network DAO — the community-governed body that replaces the Radix Foundation.
+This repository contains the complete governance system for the Radix Network DAO — the community-governed body that succeeds the Founding Transferor.
 
 **Important:** This is the full framework. Not everything in it is active yet. Governance complexity is introduced in deliberate waves, not all at once. Read the Phase 1 section below before diving in.
 
@@ -20,7 +20,7 @@ This repository contains three distinct things:
 
 **2. The Legal Entity** — **Radix DLT DAO LLC**, a Marshall Islands DAO LLC that gives the DAO real-world legal standing. The `Legal/Formation/` folder contains the actual corporate formation documents (Certificate of Formation, Operating Agreement, BOIR, Asset Transfer Agreement, IP Schedule). The `Legal/Policy/` folder contains governance policy on how the DAO uses its legal representation.
 
-**3. The Transition** — the pathway from the Radix Foundation to the DAO. The `Transition/` folder contains the rules governing the bootstrapping period (Transition Governance Framework), the step-by-step legal formation roadmap (Activation Roadmap), and the founding governance proposal.
+**3. The Transition** — the pathway from the Founding Transferor to the DAO. The `Transition/` folder contains the rules governing the bootstrapping period (Transition Governance Framework), the step-by-step legal formation roadmap (Activation Roadmap), and the founding governance proposal.
 
 ---
 

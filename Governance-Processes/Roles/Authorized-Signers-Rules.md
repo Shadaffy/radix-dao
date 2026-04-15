@@ -142,6 +142,16 @@ Authorized Signers may refuse or delay execution only when:
 
 Any refusal or delay must be documented and reported.
 
+**Clarification cycle cap:** A signer may request clarification once per proposal. After the requesting party provides a clarification — or after 2 business days without the signer providing a further specific written objection — the signer must proceed to execution or formally escalate to RAC under the dispute procedure (DAO Parameters §6C). No second ambiguity claim may be filed on the same proposal by the same signer.
+
+**Invalid refusal consequence:** If RAC finds a signer's stated refusal grounds to be invalid (not among the enumerated permissible reasons in this section), the proposal advances to the remaining signers immediately without restarting the execution window. The refusing signer's refusal is recorded as a breach of duty and reported in the next governance transparency report.
+
+---
+
+## 9A. Selective Obstruction
+
+A documented pattern of delaying or refusing process verification, or selectively enforcing governance rules without documented grounds on record, constitutes misconduct independent of the inactivity clause (DAO Parameters §6B). RAC members may flag this pattern in Authorized Signers; community members may trigger a misconduct review via Governance Process proposal.
+
 ---
 
 ## 10. Multi-Signature Operation
@@ -233,6 +243,7 @@ Authorized Signers must remain reasonably available to support DAO operations.
 * The Governance & Legal Working Group maintains an Emergency Signer Reserve — a pre-approved list of eligible candidates who may serve as interim signers
 * Reserve membership is approved by DAO vote at each annual signer term cycle
 * Reserve members are not active signers and hold no signing authority until formally appointed under the Governance Continuity Framework §4.2
+* When the RAC cannot meet quorum, appointment from the Reserve may be made by the Tier 1 or Tier 2 fallback authority defined in the Governance Continuity Framework §4.1; the appointment becomes effective 24 hours after public disclosure on the governance forum
 
 ---
 

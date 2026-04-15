@@ -67,13 +67,19 @@ The governance system is implemented using the Consultation V2 platform (`github
 The Company is organized exclusively for charitable and educational purposes within the meaning of the Marshall Islands Non-Profit Entities Act (2020), specifically:
 
 * Education in decentralized ledger technology and its applications
+* Development and management of decentralized ledger technology, blockchain protocols, and distributed systems
 * Advancement of cryptographic systems and open-source software
 * Research and governance of distributed and decentralized protocols
 * Support for token-based participation and distributed governance mechanisms
 
 ### §2.2 Non-Distribution Constraint
 
-No income, assets, or profits of the Company shall be distributed to Members. All assets and income must be applied solely toward the purposes set out in §2.1 and the operational policies adopted under §12.4. Exceptions for reasonable compensation for services rendered and reimbursement of legitimate expenses are permitted consistent with applicable law and adopted operational policies.
+No income, assets, or profits of the Company shall be distributed to Members. All assets and income must be applied solely toward the purposes set out in §2.1 and the operational policies adopted under §12.4. The following are permitted consistent with applicable law and adopted operational policies:
+
+* reasonable and proper remuneration to any Member, Delegate, or service provider for services rendered to the Company;
+* interest at a reasonable and proper rate on money lent by any Member or Delegate;
+* reasonable and proper rent for premises provided by any Member or Delegate;
+* reimbursement of legitimate out-of-pocket expenses properly incurred.
 
 ---
 
@@ -173,6 +179,8 @@ Any Delegate may be removed by Governance Proposal. If a Delegate vacates their 
 
 Delegates shall act in good faith with diligence, accountability, and transparency per §709 of the DAO Act and §216 of the Non-Profit Act. Delegates shall disclose conflicts of interest and recuse themselves from decisions where a material conflict exists. No Delegate has any fiduciary duty beyond good faith and the obligations of their assigned Delegated Function, as permitted by §709 of the Marshall Islands DAO Act.
 
+**Primary law obligation.** In performing their Delegated Function, each Delegate's primary legal obligation is to the laws of the Republic of the Marshall Islands and this Agreement. Where a Delegate receives a demand, order, or regulatory inquiry from a foreign jurisdiction that conflicts with a DAO-approved decision or with this Agreement, the Delegate shall seek DAO-authorized legal counsel before compliance and, where legally possible under Marshall Islands law, treat DAO authorization as a condition of compliance. This is an obligation of conduct within the Delegate's assigned function; it does not create a fiduciary duty beyond what is stated in this section. This obligation does not prevent a Delegate from taking protective action necessary to avoid criminal liability, provided they notify RAC immediately in accordance with Legal Wrapper §14A.
+
 ---
 
 ## Article VI — Governance
@@ -235,12 +243,13 @@ Signing thresholds are defined in **DAO Parameters §6A**: standard transactions
 
 Treasury Signers may only execute transactions that have been authorized by a Governance Proposal or that fall within a budget explicitly approved by a prior Governance Proposal. Record-keeping and audit requirements for treasury transactions are defined in the **Execution & Treasury Actions Policy** (operational policy).
 
-### §7.2 Authorized Expenditures [ORIGINAL DRAFT]
+### §7.2 Authorized Expenditures [AMENDED]
 
 Treasury expenditures require prior authorization by Governance Proposal, except:
 
 * Routine operational costs within DAO-approved budgets
 * Emergency expenditures under §5.3(a) subject to GP ratification within 30 days
+* Indemnification payments and expense advancements required under §11.3 and §5.4, subject to GP ratification within 30 days
 
 ---
 
@@ -360,7 +369,7 @@ This Agreement is governed by the laws of the Republic of the Marshall Islands.
 
 **Indemnification.** To the fullest extent permitted by applicable law, the Company shall indemnify, defend, and hold harmless each Delegate and each Member performing a DAO-mandated governance oversight function (including RAC members acting within their mandate) against any claims, liabilities, damages, losses, costs, and expenses (including reasonable legal fees) arising from or relating to the good-faith performance of their Delegated Function or governance oversight role.
 
-**Advancement of Expenses.** The Company shall advance reasonable legal expenses to any Delegate or RAC member who is a party or threatened to be a party to any proceeding arising from their role, provided that the recipient undertakes in writing to repay such amounts if it is ultimately determined by final adjudication that they are not entitled to indemnification under this section.
+**Advancement of Expenses.** The Company shall advance reasonable legal expenses to any Delegate or RAC member who is a party or threatened to be a party to any proceeding arising from their role, provided that the recipient undertakes in writing to repay such amounts if it is ultimately determined by final adjudication that they are not entitled to indemnification under this section. Such advancement does not require prior Governance Proposal authorization; Treasury Signers are authorized to execute advancement payments directly, subject to GP ratification within 30 days and the repayment undertaking required by this section.
 
 **Exclusions.** Indemnification and expense advancement under this section do not apply to claims arising from: (a) gross negligence; (b) willful misconduct; (c) fraud; (d) breach of the duty of loyalty to the Company; or (e) knowing violation of applicable law.
 

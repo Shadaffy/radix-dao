@@ -45,6 +45,8 @@ An emergency is a situation where immediate action is required to prevent:
 * Severe disruption to DAO operations
 * Governance capture — a passed proposal that would result in material and irreversible misappropriation of treasury assets in a manner that is plainly contrary to the non-distribution principle (Charter §10–11, Operating Agreement §2.2), where the RAC has reasonable grounds to believe the proposal was advanced through coordinated bad-faith token accumulation rather than legitimate community governance
 
+**Governance capture pre-action notice:** Before invoking emergency powers on governance capture grounds, the RAC must publish a public notice to the governance forum stating the specific evidence of bad-faith accumulation. Token holders have 24 hours from that notice to file a Governance Process challenge. If a challenge is filed within that window, the emergency action is suspended pending a fast-track community vote (48-hour voting period, standard Treasury / Budget quorum and approval threshold). If no challenge is filed within 24 hours, the RAC may proceed.
+
 ---
 
 ## 5. Emergency Authority
@@ -52,6 +54,8 @@ An emergency is a situation where immediate action is required to prevent:
 ### 5.1 Authorized Body
 
 The Accountability Council (RAC) is authorized to act during emergencies.
+
+When the RAC cannot meet quorum due to deaths or incapacitations, the fallback chain defined in the Governance Continuity Framework §4.1 applies: surviving RAC members (Tier 1), then the Governance & Legal WG (Tier 2), then token holders (Tier 3). Fallback authority is strictly scoped to activation and appointment actions — it does not extend to the full emergency powers held by a functioning RAC.
 
 ---
 
@@ -68,13 +72,29 @@ Exact thresholds defined in DAO Parameters.
 
 ## 6. Permitted Emergency Actions
 
+Emergency actions are divided into two tiers based on whether they involve asset movement.
+
+### Tier 1 — Pause / Restrict (no asset movement)
+
 The RAC may:
 
 * Pause or restrict vulnerable systems
-* Secure or move treasury assets
 * Halt execution of unsafe proposals
 * Initiate protective measures
 * Coordinate immediate response actions
+
+**Requires:** ≥2/3 RAC members + 75% approval threshold (DAO Parameters §5.2).
+**Disclosure:** Public notice within 48 hours (DAO Parameters §10).
+
+---
+
+### Tier 2 — Asset Movement
+
+The RAC may move treasury assets to the pre-approved emergency safe address only (DAO Parameters §6.1). Assets may not be moved to any other address under emergency authority. Until an emergency safe address has been designated by Treasury & Budget proposal and recorded in DAO Parameters §6.1, Tier 2 asset movement is not available.
+
+**Requires:** ≥2/3 RAC members + 75% approval threshold AND immediate notification to all Authorized Signers within 1 hour AND community disclosure within 6 hours.
+**Spend limit:** The $5,000 emergency spend limit (DAO Parameters §6.1) applies to new disbursements under emergency authority. Tier 2 protective transfers to the pre-approved address are not subject to the spend cap but are constrained to that address.
+**Ratification:** Emergency asset movement is subject to the mandatory 14-day ratification vote (§10).
 
 ---
 

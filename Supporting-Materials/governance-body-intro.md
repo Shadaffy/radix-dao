@@ -34,7 +34,7 @@ These documents are modular: each covers a distinct area of governance, can be u
 
 ### Legal and Representation
 
-Defines how the DAO operates in the real world: legal entity structure, asset custody and control, contractual representation, and the relationship to the Radix Foundation during transition.
+Defines how the DAO operates in the real world: legal entity structure, asset custody and control, contractual representation, and the relationship to the Founding Transferor during transition.
 
 ---
 
@@ -73,11 +73,11 @@ Found in: `Legal/`
 
 ### 3. The Transition
 
-The Radix DAO succeeds the Radix Foundation, which is winding down and transferring its assets to the newly formed DAO. The Transition area documents how that handover works in practice.
+The Radix DAO succeeds the Founding Transferor, which is winding down and transferring its assets to the newly formed DAO. The Transition area documents how that handover works in practice.
 
 - **Transition Governance Framework** — the rules governing Phase 1: what authority the RAC holds during bootstrapping, how Phase 1 ends, and what conditions must be met to progress.
-- **Activation Roadmap** — the step-by-step operational guide for forming the legal entity and transitioning from Foundation governance to DAO governance: pre-registration, entity formation, initial governance proposals, asset transfer, and treasury setup.
-- **Phase 1 Governance Proposal** — the proposal submitted to the Foundation governance system to formally launch Phase 1.
+- **Activation Roadmap** — the step-by-step operational guide for forming the legal entity and transitioning from Founding Transferor stewardship to DAO governance: pre-registration, entity formation, initial governance proposals, asset transfer, and treasury setup.
+- **Phase 1 Governance Proposal** — the founding proposal to formally launch Phase 1.
 
 Found in: `Transition/`
 

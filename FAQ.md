@@ -160,14 +160,14 @@ These are the actual corporate instruments for Radix DLT DAO LLC — not governa
 - **Certificate of Formation** — the foundational filing that brings the entity into legal existence with MIDAO (the Marshall Islands business registry)
 - **Operating Agreement** — the internal constitution of the LLC; defines the relationship between the DAO, its Delegates, and the entity's legal structure
 - **BOIR Template** — the Beneficial Owner Information Report required under Marshall Islands law; lists the entity's controlling members (Delegates)
-- **Asset Transfer Agreement** — the contract governing the transfer of assets from the Radix Foundation to the DAO
+- **Asset Transfer Agreement** — the contract governing the transfer of assets from the Founding Transferor to the DAO
 - **IP Schedule** — the enumerated list of intellectual property assets (repositories, trademarks, patents) included in the transfer
 - **Continuity Statement** — a legal filing confirming the ongoing continuity of the DAO entity
 
 These documents are filed with MIDAO and are legal instruments. They are maintained in the repository for transparency and community review, but they are not amended through normal governance proposals — changes require legal process.
 
 **What is the Activation Roadmap?**
-The Activation Roadmap in `Transition/Activation-Roadmap.md` is the step-by-step operational guide for forming the legal entity and transitioning from Foundation governance to DAO governance. It covers the four phases of activation: pre-registration preparation, post-registration governance setup, asset transfer, and treasury configuration. It specifies who acts, what the action is, and (for governance steps) the required vote threshold. It is the practical companion to the Transition Governance Framework.
+The Activation Roadmap in `Transition/Activation-Roadmap.md` is the step-by-step operational guide for forming the legal entity and transitioning from Founding Transferor stewardship to DAO governance. It covers the four phases of activation: pre-registration preparation, post-registration governance setup, asset transfer, and treasury configuration. It specifies who acts, what the action is, and (for governance steps) the required vote threshold. It is the practical companion to the Transition Governance Framework.
 
 **Does the legal entity change how governance works?**
 No. The legal entity is a wrapper, not a controller. The Operating Agreement explicitly subjects the LLC to DAO governance: token holder votes are binding on the entity through the Delegates (who hold the legal signing authority but must act on governance outcomes). The governance framework — Charter, policies, voting — remains the primary authority. The entity exists to execute what governance decides in the real world.

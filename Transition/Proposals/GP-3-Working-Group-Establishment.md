@@ -1,8 +1,8 @@
-# GP-C: Working Group Framework Activation and Phase 1 Working Group Establishment
+# GP-3: Working Group Framework Activation and Phase 1 Working Group Establishment
 
 ---
 
-> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 2, Track C — post-registration). This proposal opens simultaneously with GP-A and GP-B immediately after entity registration and runs independently of both. It depends on GP-PRE-1 passing and entity registration occurring; it has no dependency on GP-A or GP-B.
+> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 2, Track C — post-registration). This proposal opens simultaneously with GP-1 and GP-2 immediately after entity registration and runs independently of both. It depends on GP-PRE-1 passing and entity registration occurring; it has no dependency on GP-1 or GP-2.
 >
 > **On Steward appointments:** Steward appointments are **deliberately excluded from this proposal**. The vote on Working Group structure and mandates should not be held hostage to debate about specific individuals. Stewards are nominated and confirmed via a follow-on election process (Stage 1 Approval Voting + Stage 2 confirmation per the Election & Role Governance Policy) beginning immediately after this vote passes. This is not a delay — nominations can begin during the TC period so that Steward elections open the day after this vote passes.
 >
@@ -15,7 +15,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Working Group Framework Activation and Phase 1 Working Group Establishment |
-| **Proposal ID** | GP-C |
+| **Proposal ID** | GP-3 |
 | **Category** | Governance Process |
 | **Change Classification** | Major |
 | **Author(s)** | Radix Accountability Council (RAC) |
@@ -122,7 +122,7 @@ The following five Working Groups are hereby established by adopting their chart
 | **Stewards** | 2–3 (to be elected via follow-on process) |
 | **Key Responsibilities** | Develop and maintain public roadmap; coordinate contributors and technical teams; define and issue RFPs for development work; govern DAO-controlled source repositories; define and enforce secure development lifecycle standards; coordinate smart contract audits prior to any governance contract deployment |
 | **Primary Mandate (Phase 1)** | Publish initial public roadmap within 60 days of Steward confirmation; publish repository governance policy and SDLC standards; coordinate network upgrade delivery; support source code stewardship post-ATA execution |
-| **Budget Authority** | Fund development work and audit engagements within approved budget; issue RFPs and allocate resources (requires Open Source & IP Policy active — satisfied by GP-B) |
+| **Budget Authority** | Fund development work and audit engagements within approved budget; issue RFPs and allocate resources (requires Open Source & IP Policy active — satisfied by GP-2) |
 | **Reporting** | Monthly updates; quarterly retrospective; public dashboard; audit coordination records |
 | **Key Coordination** | Ecosystem Growth WG (builders and dApps); Governance & Legal WG (proposal alignment); RAC (compliance); Infrastructure & Security WG (security standards input, incident notification) |
 
@@ -138,7 +138,7 @@ The following five Working Groups are hereby established by adopting their chart
 | **Term** | 6 months from date Stewards are confirmed |
 | **Stewards** | 2–3 (to be elected via follow-on process) |
 | **Key Responsibilities** | Maintain public treasury dashboard; coordinate Authorized Signers for execution; publish monthly financial reports; administer milestone-based payments; flag budget variances >10%; prepare quarterly financial transparency reports |
-| **Primary Mandate (Phase 1)** | Establish public treasury dashboard within 30 days of Steward confirmation; produce first monthly financial report within 45 days; coordinate execution of any approved treasury actions post-GP-A |
+| **Primary Mandate (Phase 1)** | Establish public treasury dashboard within 30 days of Steward confirmation; produce first monthly financial report within 45 days; coordinate execution of any approved treasury actions post-GP-1 |
 | **Budget Authority** | Administer approved WG budgets; issue payment instructions to Authorized Signers for milestone payments; no independent spending authority beyond approved proposals |
 | **Reporting** | Monthly financial updates (due 7th of each month); quarterly financial transparency report; weekly treasury dashboard updates |
 | **Key Coordination** | Authorized Signers (treasury execution); RAC (compliance, emergency actions); all WGs (budget administration); Governance & Legal WG (policy development) |
@@ -199,10 +199,10 @@ To minimize delay, the community is encouraged to begin informal discussions of 
 
 | Document | Section | Change |
 |---|---|---|
-| Transition Governance Framework | §3.2 — Working Group Framework | Status: Activated upon GP-C passage — [date] |
-| Transition Governance Framework | §3.2 — Working Group Charters (each) | Status: Activated per individual WG upon GP-C passage |
-| Working Group Framework | N/A | Newly active governance document from GP-C passage date |
-| All 5 WG Charters | N/A | Newly active from GP-C passage date; operational from Steward confirmation date |
+| Transition Governance Framework | §3.2 — Working Group Framework | Status: Activated upon GP-3 passage — [date] |
+| Transition Governance Framework | §3.2 — Working Group Charters (each) | Status: Activated per individual WG upon GP-3 passage |
+| Working Group Framework | N/A | Newly active governance document from GP-3 passage date |
+| All 5 WG Charters | N/A | Newly active from GP-3 passage date; operational from Steward confirmation date |
 
 ---
 
@@ -296,10 +296,10 @@ The RAC is encouraged to facilitate a combined initial budget proposal for all f
 
 **Known dependencies:**
 
-* **GP-PRE-1 must pass first:** GP-C requires entity registration. If GP-PRE-1 fails or registration is delayed, GP-C cannot proceed.
-* **GP-C is independent of GP-A and GP-B:** Working Group establishment does not depend on BOIR filing, policy adoption, or the asset transfer. WGs can be established and operational regardless of GP-A or GP-B outcome.
+* **GP-PRE-1 must pass first:** GP-3 requires entity registration. If GP-PRE-1 fails or registration is delayed, GP-3 cannot proceed.
+* **GP-3 is independent of GP-1 and GP-2:** Working Group establishment does not depend on BOIR filing, policy adoption, or the asset transfer. WGs can be established and operational regardless of GP-1 or GP-2 outcome.
 * **Working Group Framework activation:** The Working Group Framework (TGF §3.2) must be activated before WG charters have formal standing. This proposal activates both simultaneously — the WG Framework and the five charters — so no prior activation is required.
-* **Phase 2 activity-triggered documents:** The Open Source & IP Policy must be active before the Product & Protocol WG can issue any RFP with code deliverables (TGF §3.2). This is satisfied by GP-B passing. If GP-B has not yet passed when WGs become operational, the Product & Protocol WG must wait for GP-B before issuing code-related RFPs.
+* **Phase 2 activity-triggered documents:** The Open Source & IP Policy must be active before the Product & Protocol WG can issue any RFP with code deliverables (TGF §3.2). This is satisfied by GP-2 passing. If GP-2 has not yet passed when WGs become operational, the Product & Protocol WG must wait for GP-2 before issuing code-related RFPs.
 * **Election & Role Governance Policy:** This policy activates "before the first role term expires and elections are needed" (TGF §3.2). Steward elections are the first significant elections under the DAO's system. The RAC must activate the Election & Role Governance Policy before opening Stage 1 voting for Steward elections if it has not been activated already.
 
 ---
@@ -308,7 +308,7 @@ The RAC is encouraged to facilitate a combined initial budget proposal for all f
 
 | Document | Relevance |
 |---|---|
-| `Transition/Activation-Roadmap-Optimised.md` | Track C sequencing; GP-C definition; Steward exclusion rationale |
+| `Transition/Activation-Roadmap-Optimised.md` | Track C sequencing; GP-3 definition; Steward exclusion rationale |
 | `Transition/Transition-Governance-Framework.md` | §3.2 (WG Framework and charter activation triggers); §5.4 (interim authority lapse on WG operationalization); §10 (Phase 1 completion criteria — 60-day WG operation) |
 | `Governance-Processes/Execution/Working-Group-Framework.md` | Framework being activated by this proposal |
 | `Governance-Processes/Execution/Working-Group-Charter-Template.md` | Template format all charters comply with |
@@ -319,7 +319,7 @@ The RAC is encouraged to facilitate a combined initial budget proposal for all f
 | `Working-Groups/WG-Infrastructure-and-Security/Infrastructure-and-Security-WG-Charter.md` | WG-5 charter adopted by this proposal (new) |
 | `Parameters/DAO-Parameters-Registry.md` | §7 (WG parameters: 2–3 Stewards, 6-month term, monthly reporting); §6B (election parameters) |
 | `Governance-Processes/Roles/Election-and-Role-Governance-Policy.md` | Steward election process (Stage 1 Approval Voting + Stage 2 confirmation) |
-| `Transition/Proposals/GP-PRE-1-Founding-Proposal.md` | Dependency — must pass before GP-C |
+| `Transition/Proposals/GP-PRE-1-Founding-Proposal.md` | Dependency — must pass before GP-3 |
 
 ---
 

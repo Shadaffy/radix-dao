@@ -2,7 +2,7 @@
 
 ---
 
-> **Governance system note:** This proposal is submitted through the **community's own Consultation V2 governance system** — the on-chain governance tool the community deployed independently, using software donated by the Foundation. The community operates this system in its own right; it does not run through or depend on the Foundation's governance. Radix DLT DAO LLC does not yet legally exist as an entity, but the community already governs itself on-chain. This is the founding act — the community vote that brings the legal entity into existence and gives the governance framework formal legal standing. All thresholds and quorum requirements are as stated below.
+> **Governance system note:** This proposal is submitted through the **community's own Consultation V2 governance system** — the on-chain governance tool the community deployed independently, using software donated by the Founding Transferor. The community operates this system in its own right; it does not run through or depend on the Founding Transferor's governance. Radix DLT DAO LLC does not yet legally exist as an entity, but the community already governs itself on-chain. This is the founding act — the community vote that brings the legal entity into existence and gives the governance framework formal legal standing. All thresholds and quorum requirements are as stated below.
 >
 > **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 1 — pre-registration) and `Transition/Transition-Governance-Framework.md`.
 
@@ -66,7 +66,7 @@ The four elements in this proposal are voted as a single act because they are ge
 
 ### 5.1 Current State
 
-The Radix community operates its own on-chain governance through the community-deployed Consultation V2 system (software donated by the Foundation and deployed by the community at its own cost). No legal entity called Radix DLT DAO LLC yet exists. The Phase 1 governance documents exist as finalized drafts but have not been formally adopted. No Delegate roster has been ratified by token holder vote. The RAC has no formally authorized transitional authority.
+The Radix community operates its own on-chain governance through the community-deployed Consultation V2 system (software donated by the Founding Transferor and deployed by the community at its own cost). No legal entity called Radix DLT DAO LLC yet exists. The Phase 1 governance documents exist as finalized drafts but have not been formally adopted. No Delegate roster has been ratified by token holder vote. The RAC has no formally authorized transitional authority.
 
 ### 5.2 Proposed Change
 
@@ -91,7 +91,7 @@ Formally adopt the following 10 documents as the Phase 1 governance framework of
 | Code of Conduct | Behavioral standards for all DAO participants |
 | Legal Wrapper & Representation | Legal entity structure and real-world representation |
 
-Note: These documents are adopted as governance framework via GP-PRE-1. Their formal adoption as binding subordinate operational policies of the LLC (per OA §12.4) is the subject of GP-A (Entity Activation Package), which opens immediately post-registration.
+Note: These documents are adopted as governance framework via GP-PRE-1. Their formal adoption as binding subordinate operational policies of the LLC (per OA §12.4) is the subject of GP-1 (Entity Activation Package), which opens immediately post-registration.
 
 ---
 
@@ -168,7 +168,7 @@ This authority is subject to the explicit limitations in TGF §6, expires after 
 * Formation confirmation published to governance forum within 72 hours of registration, including: entity name, formation date, Registered Agent confirmation, Delegate Roster, multi-sig wallet address
 * Founding Delegate roster is publicly ratified and confirmed; KYC-completing Delegates assume their functions
 * RAC Phase 1 transitional authority is formally authorized by token holder vote; commences from registration date
-* DAO can proceed to the three simultaneous post-registration proposals (GP-A, GP-B, GP-C) immediately upon registration
+* DAO can proceed to the three simultaneous post-registration proposals (GP-1, GP-2, GP-3) immediately upon registration
 
 ---
 
@@ -188,7 +188,7 @@ This authority is subject to the explicit limitations in TGF §6, expires after 
 
 ## 8. Budget
 
-Not applicable. This proposal does not request treasury funds. Entity formation fees (Registered Agent engagement) are covered by the Foundation as part of transition support, or by founding Delegates acting in their capacity as Legal Signatory/Compliance Liaison.
+Not applicable. This proposal does not request treasury funds. Entity formation fees (Registered Agent engagement) are covered by the Founding Transferor as part of transition support, or by founding Delegates acting in their capacity as Legal Signatory/Compliance Liaison.
 
 ---
 
@@ -205,7 +205,7 @@ Not applicable. This proposal does not request treasury funds. Entity formation 
 | 5 | Formation confirmation published to governance forum | RAC / Legal Signatory | Within 72 hours of registration |
 | 6 | Delegate Roster, multi-sig wallet address, and KYC confirmations published | RAC | Within 72 hours of registration |
 | 7 | Transition Governance Framework formally active | RAC (records on forum) | Upon registration |
-| 8 | Three simultaneous TCs open (GP-A, GP-B, GP-C) | Governance Operator | Business day following registration |
+| 8 | Three simultaneous TCs open (GP-1, GP-2, GP-3) | Governance Operator | Business day following registration |
 
 ### 9.2 Success Metrics
 
@@ -213,7 +213,7 @@ Not applicable. This proposal does not request treasury funds. Entity formation 
 * Formation documents executed and filed; Registered Agent confirms
 * Formation confirmation post published to governance forum with all required information
 * Delegate functions logged on-chain and published
-* All three post-registration TCs (GP-A, GP-B, GP-C) open within one business day of registration
+* All three post-registration TCs (GP-1, GP-2, GP-3) open within one business day of registration
 
 ### 9.3 Reporting Obligations
 
@@ -242,7 +242,7 @@ No RAC member may be the sole drafter of the Delegate roster without community r
 
 **Known dependencies:**
 
-* **GP-PRE-1 → GP-A, GP-B, GP-C:** All three post-registration proposals (Days 37–57) depend on this proposal passing. If GP-PRE-1 fails, the 7-day cooldown applies before resubmission.
+* **GP-PRE-1 → GP-1, GP-2, GP-3:** All three post-registration proposals (Days 37–57) depend on this proposal passing. If GP-PRE-1 fails, the 7-day cooldown applies before resubmission.
 * **Consultation V2 identifiers:** The exact values of `packageAddress`, `componentAddress`, and `adminBadgeAddress` must be confirmed and inserted into the Certificate of Formation and Operating Agreement before this proposal is formally submitted. The placeholders in §5.2 Element 2 are resolved before the TC opens.
 * **Governance system continuity:** GP-PRE-1 runs on the community's Consultation V2 deployment — the same system used for all proposals before and after registration. What changes at registration is not the tool but the legal standing: from registration onward, votes are acts of the legal entity Radix DLT DAO LLC, governed by the DAO's own Proposal & Voting Framework.
 
@@ -273,4 +273,4 @@ Token holders will vote on this proposal with the following options:
 
 ---
 
-*Submitted on the community's Consultation V2 governance system — deployed and operated by the community independently of the Foundation. Thresholds per the DAO Parameters Registry (Constitutional category: ≥66% YES, ≥10% quorum). The DAO's own Proposal & Voting Framework governs all subsequent proposals from the date of entity registration onward; the governance tool remains the same, and its acts gain formal legal standing as acts of Radix DLT DAO LLC.*
+*Submitted on the community's Consultation V2 governance system — deployed and operated by the community independently of the Founding Transferor. Thresholds per the DAO Parameters Registry (Constitutional category: ≥66% YES, ≥10% quorum). The DAO's own Proposal & Voting Framework governs all subsequent proposals from the date of entity registration onward; the governance tool remains the same, and its acts gain formal legal standing as acts of Radix DLT DAO LLC.*

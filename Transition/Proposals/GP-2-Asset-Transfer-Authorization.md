@@ -1,12 +1,12 @@
-# GP-B: Asset Transfer Authorization — Asset Transfer Agreement, IP Schedule, and IP Policy Activation
+# GP-2: Asset Transfer Authorization — Asset Transfer Agreement, IP Schedule, and IP Policy Activation
 
 ---
 
-> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 2, Track B — post-registration). This proposal opens simultaneously with GP-A and GP-C immediately after entity registration and runs independently of both. It depends on GP-PRE-1 passing and entity registration occurring; it has no dependency on GP-A or GP-C.
+> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 2, Track B — post-registration). This proposal opens simultaneously with GP-1 and GP-3 immediately after entity registration and runs independently of both. It depends on GP-PRE-1 passing and entity registration occurring; it has no dependency on GP-1 or GP-3.
 >
 > **IP Schedule publication requirement:** The IP Schedule (Exhibit A to the Asset Transfer Agreement) must be published alongside this Temperature Check. A minimum 14-day community review period before the vote opens is required. The TC period (7 days) serves as the start of this review window. If the IP Schedule is not complete and published when the TC opens, this TC cannot open and the timeline will slip.
 >
-> **Foundation dependency:** Completion of the IP Schedule is an external dependency on the Founding Transferor. The Compliance Liaison maintains weekly contact from RAC election onward to ensure the Schedule is ready by registration. If it is not ready at registration, the RAC will communicate a revised timeline to the community.
+> **Founding Transferor dependency:** Completion of the IP Schedule is an external dependency on the Founding Transferor. The Compliance Liaison maintains weekly contact from RAC election onward to ensure the Schedule is ready by registration. If it is not ready at registration, the RAC will communicate a revised timeline to the community.
 
 ---
 
@@ -15,7 +15,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Asset Transfer Authorization — Asset Transfer Agreement, IP Schedule, and IP Policy Activation |
-| **Proposal ID** | GP-B |
+| **Proposal ID** | GP-2 |
 | **Category** | Constitutional |
 | **Change Classification** | Major |
 | **Author(s)** | Radix Accountability Council (RAC) / Legal Signatory |
@@ -154,9 +154,9 @@ Simultaneously with ATA execution, formally activate the following two policies 
 
 | Document | Section | Current Text | Proposed Text |
 |---|---|---|---|
-| Transition Governance Framework | §3.2 — Open Source & IP Policy | "Activation trigger: Before the first grant or RFP with deliverables is issued" | Activated upon GP-B passage — [date] |
-| Transition Governance Framework | §3.2 — Source Code Stewardship Policy | "Activation trigger: Before the first grant or RFP with code deliverables (activates alongside Open Source & IP Policy)" | Activated upon GP-B passage — [date] |
-| Transition Governance Framework | §3.2 — Asset Transfer Agreement + IP Schedule | "Activation trigger: Before any material asset transfer from an Asset Transferor is executed" | Activated upon GP-B passage — [date] |
+| Transition Governance Framework | §3.2 — Open Source & IP Policy | "Activation trigger: Before the first grant or RFP with deliverables is issued" | Activated upon GP-2 passage — [date] |
+| Transition Governance Framework | §3.2 — Source Code Stewardship Policy | "Activation trigger: Before the first grant or RFP with code deliverables (activates alongside Open Source & IP Policy)" | Activated upon GP-2 passage — [date] |
+| Transition Governance Framework | §3.2 — Asset Transfer Agreement + IP Schedule | "Activation trigger: Before any material asset transfer from an Asset Transferor is executed" | Activated upon GP-2 passage — [date] |
 
 Additionally, the following new records are created upon execution:
 
@@ -185,12 +185,12 @@ Additionally, the following new records are created upon execution:
 
 | Risk | Likelihood | Impact | Mitigation |
 |---|---|---|---|
-| IP Schedule not complete at registration | Medium | High | Foundation workstream begins immediately upon RAC election; weekly Compliance Liaison check-ins; RAC announces revised timeline if Schedule is not ready by registration date |
+| IP Schedule not complete at registration | Medium | High | Founding Transferor workstream begins immediately upon RAC election; weekly Compliance Liaison check-ins; RAC announces revised timeline if Schedule is not ready by registration date |
 | IP Schedule found incomplete or contested by community | Medium | Medium | 14-day minimum review period during TC surfaces issues; Legal Signatories may decline acceptance per ATA Article 7; 30-day resolution window before arbitration |
 | Undisclosed encumbrances discovered post-transfer | Low | High | ATA Article 4 warranties and Article 5 indemnification (3-year survival); Transferor is liable for non-disclosed encumbrances |
 | Vote fails to meet 66% threshold or 10% quorum | Medium | High | Constitutional threshold is high; community education during TC; Compliance Liaison communicates urgency; 7-day cooldown before resubmission |
 | Pre-execution hold (48h) + veto challenge delays execution | Low | Low | Standard process; Legal Signatory prepares documents during hold period; execution begins immediately after veto window closes |
-| Foundation unable to execute ATA post-vote | Low | Medium | ATA terms agreed in principle during Phase 0 Track D; RAC maintains ongoing contact with Foundation legal; legal representatives confirmed before vote opens |
+| Founding Transferor unable to execute ATA post-vote | Low | Medium | ATA terms agreed in principle during Phase 0 Track D; RAC maintains ongoing contact with the Founding Transferor's legal team; legal representatives confirmed before vote opens |
 | Source code repositories not at specified commit hashes at transfer | Low | Medium | ATA Article 4 warranties; acceptance verification process per Article 7 allows rejection of non-conforming transfers |
 | Open Source & IP Policy creates obligations community dislikes | Low | Low | Policy published since Phase 1 drafting; community had full TC period to review before activation |
 
@@ -241,7 +241,7 @@ Not applicable. This proposal authorizes transfer of assets *to* the DAO at no c
 
 - [x] I have the following conflict(s) to declare:
 
-**Founding Transferor relationship:** The Founding Transferor is the Radix Foundation, which has had significant organizational and financial relationships with current Delegates and the RAC. These relationships have been disclosed through the governance process. The ATA includes indemnification provisions and arms-length terms to ensure the transfer is fair to the DAO.
+**Founding Transferor relationship:** The Founding Transferor has had significant organizational and financial relationships with current Delegates and the RAC. These relationships have been disclosed through the governance process. The ATA includes indemnification provisions and arms-length terms to ensure the transfer is fair to the DAO.
 
 **Legal Signatory self-authorization:** The Legal Signatory is authorized by this proposal to execute documents on behalf of the DAO — they are in effect being authorized to execute an agreement on their own behalf as a Delegate. This is mitigated by: (a) the specific terms of the ATA being approved by token holder vote, not the Legal Signatory; and (b) the Legal Signatory's authority being strictly bounded by the terms approved by this vote.
 
@@ -258,8 +258,8 @@ Any covered person (RAC member, Authorized Signer) who has a personal financial 
 
 **Known dependencies:**
 
-* **GP-PRE-1 must pass first:** GP-B requires entity registration. If GP-PRE-1 fails or registration is delayed, GP-B cannot proceed.
-* **GP-B is independent of GP-A and GP-C:** The ATA does not depend on BOIR filing, policy adoption, or Working Group establishment. It proceeds and executes regardless of GP-A or GP-C outcome.
+* **GP-PRE-1 must pass first:** GP-2 requires entity registration. If GP-PRE-1 fails or registration is delayed, GP-2 cannot proceed.
+* **GP-2 is independent of GP-1 and GP-3:** The ATA does not depend on BOIR filing, policy adoption, or Working Group establishment. It proceeds and executes regardless of GP-1 or GP-3 outcome.
 * **TGF §3.2 dependency:** The Open Source & IP Policy and Source Code Stewardship Policy are required before code assets can be received. By activating them simultaneously in this proposal, the dependency is satisfied without requiring a separate prior proposal.
 * **OA §3.2 Continuity Statement:** The Operating Agreement requires a Continuity Statement to be executed as part of any asset transfer. This proposal authorizes the Legal Signatory to execute it.
 * **ATA Article 6 Conditions Precedent:** All conditions precedent must be met before execution. The Governance Operator must confirm custody systems are operational (treasury multisig confirmed and published per Track B) before the Legal Signatory executes.
@@ -270,7 +270,7 @@ Any covered person (RAC member, Authorized Signer) who has a personal financial 
 
 | Document | Relevance |
 |---|---|
-| `Transition/Activation-Roadmap-Optimised.md` | Track B sequencing; GP-B definition; IP Schedule 14-day minimum review requirement |
+| `Transition/Activation-Roadmap-Optimised.md` | Track B sequencing; GP-2 definition; IP Schedule 14-day minimum review requirement |
 | `Transition/Transition-Governance-Framework.md` | §3.2 (activation triggers for Open Source & IP Policy and Source Code Stewardship Policy) |
 | `Legal/Formation/Asset-Transfer-Agreement-Template.md` | ATA template — approved text published with TC |
 | `Legal/Formation/IP-Schedule.md` | IP Schedule template — completed Exhibit A published with TC |
@@ -279,7 +279,7 @@ Any covered person (RAC member, Authorized Signer) who has a personal financial 
 | `Governance-Processes/Core/OpenSource-and-Intellectual-Property-Policy.md` | Policy being activated by Component 4 |
 | `Governance-Processes/Core/Smart-Contract-Audit-Policy.md` | Source Code Stewardship Policy being activated by Component 4 |
 | `Parameters/DAO-Parameters-Registry.md` | §9 (Pre-execution hold — 48 hours after vote close) |
-| `Transition/Proposals/GP-PRE-1-Founding-Proposal.md` | Dependency — must pass before GP-B |
+| `Transition/Proposals/GP-PRE-1-Founding-Proposal.md` | Dependency — must pass before GP-2 |
 
 ---
 

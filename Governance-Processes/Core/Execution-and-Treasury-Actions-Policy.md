@@ -97,6 +97,8 @@ They:
 * may refuse execution only on defined procedural, legal, or security grounds
 * remain accountable to DAO governance
 
+Where RAC determines that a refusal is invalid, or where a proposal remains unexecuted beyond the 10-business-day backstop window defined in the Governance Continuity Framework §4.2, RAC may instruct remaining signers to proceed with execution directly.
+
 Detailed operational rules are defined in the Authorized Signers Operational Rules.
 
 ---

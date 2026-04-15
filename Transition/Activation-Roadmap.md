@@ -87,7 +87,7 @@ Confirm the wallet address is published before registration, as it is a material
 
 ## Phase 0 Governance Proposal — Pre-Registration
 
-This proposal runs through the **community's own Consultation V2 deployment** — the governance system the community operates independently of the Foundation. The DAO entity does not yet legally exist, but the community already governs itself on-chain. This is the founding act that brings the legal entity into existence and gives the governance framework formal legal standing.
+This proposal runs through the **community's own Consultation V2 deployment** — the governance system the community operates independently of the Founding Transferor. The DAO entity does not yet legally exist, but the community already governs itself on-chain. This is the founding act that brings the legal entity into existence and gives the governance framework formal legal standing.
 
 ---
 
@@ -275,7 +275,7 @@ This Working Group takes over the RAC's governance coordination functions progre
 
 **Transition action:** Once the P&E Working Group is operational, the RAC's interim execution authority for any technical RFPs or code-related work (Transition Governance Framework §5.4) lapses for that workstream. The Working Group takes over.
 
-This Working Group is the primary interface for ongoing Radix Network protocol work after the Foundation's development team transitions responsibilities.
+This Working Group is the primary interface for ongoing Radix Network protocol work after the Founding Transferor's development team transitions responsibilities.
 
 ---
 
@@ -370,7 +370,7 @@ Each governance proposal requires a Temperature Check (minimum 7 days) before op
 | GP-PRE-1 passes | Week 5–6 |
 | Entity registration | Week 6–7 |
 | GP-1 through GP-3 complete | Week 10–12 |
-| GP-4 passes and asset transfer executed | Week 14–18 (depends on Foundation readiness) |
+| GP-4 passes and asset transfer executed | Week 14–18 (depends on Founding Transferor readiness) |
 | GP-5 through GP-9 complete | Week 22–30 |
 
 These are minimums assuming no proposal fails its Temperature Check or requires redrafting. Build contingency into the schedule — a failed TC adds 4–6 weeks.

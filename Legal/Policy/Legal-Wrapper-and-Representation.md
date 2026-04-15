@@ -275,6 +275,22 @@ This document:
 
 ---
 
+## 14A. Regulatory Demand Disclosure Protocol
+
+Any Delegate who receives a legal demand, order, or regulatory inquiry that: (a) relates to their Delegated Function, or (b) would require action inconsistent with a DAO-approved decision, must:
+
+1. Notify RAC within 24 hours of receipt, unless legally prohibited by the demand itself.
+2. If prohibited from disclosing the content of the demand, notify RAC that they are under a legal constraint preventing disclosure, without revealing the nature of the constraint.
+3. Refrain from taking any action under the demand until RAC and, where time permits, the community have been notified and DAO-authorized legal counsel consulted.
+
+Upon receiving such notification, RAC immediately escalates to the Governance & Legal WG and publishes a community notice to the governance forum within 48 hours.
+
+This protocol applies regardless of the jurisdiction from which the demand originates. Each Delegate's primary legal obligation in their DAO capacity is to the laws of the Republic of the Marshall Islands and the Operating Agreement. Where a foreign jurisdiction demand conflicts with this, Delegates are expected to seek DAO-authorized legal counsel before compliance and to treat DAO authorization as a condition of compliance where legally possible under Marshall Islands law. This obligation does not prevent a Delegate from taking protective action necessary to avoid criminal liability, provided they notify RAC immediately.
+
+Note: Where a legal demand is received at the Registered Agent's address, the Compliance Liaison's obligation to forward and disclose within 48 hours (Operating Agreement §12.1) applies in addition to this protocol.
+
+---
+
 ## 15. Amendments
 
 This document may be updated via governance proposals.

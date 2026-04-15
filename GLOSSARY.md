@@ -7,7 +7,7 @@ This glossary defines the key terms used across the Radix DAO governance framewo
 ## A
 
 **Activation Roadmap**
-The step-by-step operational guide for forming Radix DLT DAO LLC and transitioning from Foundation governance to DAO governance. Covers four phases: pre-registration preparation, post-registration entity setup, asset transfer, and treasury configuration. Specifies which actor performs each step, what the action is, and the governance vote threshold where applicable. The practical companion document to the Transition Governance Framework.
+The step-by-step operational guide for forming Radix DLT DAO LLC and transitioning from Founding Transferor stewardship to DAO governance. Covers four phases: pre-registration preparation, post-registration entity setup, asset transfer, and treasury configuration. Specifies which actor performs each step, what the action is, and the governance vote threshold where applicable. The practical companion document to the Transition Governance Framework.
 → See: [Transition/Activation-Roadmap.md](Transition/Activation-Roadmap.md)
 
 **Accountability Council (RAC)**

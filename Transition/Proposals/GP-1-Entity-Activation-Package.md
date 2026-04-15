@@ -1,8 +1,8 @@
-# GP-A: Entity Activation Package — BOIR Filing and Operational Policy Adoption
+# GP-1: Entity Activation Package — BOIR Filing and Operational Policy Adoption
 
 ---
 
-> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 2, Track A — post-registration). This proposal opens immediately after entity registration and runs simultaneously with GP-B (Asset Transfer Authorization) and GP-C (Working Group Establishment). It depends on GP-PRE-1 passing; it has no dependency on GP-B or GP-C.
+> **Read alongside:** `Transition/Activation-Roadmap-Optimised.md` (Phase 2, Track A — post-registration). This proposal opens immediately after entity registration and runs simultaneously with GP-2 (Asset Transfer Authorization) and GP-3 (Working Group Establishment). It depends on GP-PRE-1 passing; it has no dependency on GP-2 or GP-3.
 
 ---
 
@@ -11,7 +11,7 @@
 | Field | Value |
 |---|---|
 | **Title** | Entity Activation Package — BOIR Filing and Operational Policy Adoption |
-| **Proposal ID** | GP-A |
+| **Proposal ID** | GP-1 |
 | **Category** | Governance Process |
 | **Change Classification** | Major |
 | **Author(s)** | Radix Accountability Council (RAC) |
@@ -186,9 +186,9 @@ Not applicable. This proposal does not request treasury funds. BOIR filing fees 
 
 **Known dependencies:**
 
-* **GP-PRE-1 must pass first:** This proposal depends on GP-PRE-1 having passed and entity registration having occurred. If GP-PRE-1 fails or registration is delayed, GP-A is suspended until registration completes.
-* **GP-A is independent of GP-B and GP-C:** The BOIR filing and policy adoption have no dependency on the asset transfer or Working Group establishment. They can proceed and execute regardless of whether GP-B or GP-C pass.
-* **Governance Maintenance & Upgrade Framework:** This framework (a Phase 2 activity-triggered document per TGF §3.2) activates before the first governance document amendment is proposed. As GP-A adopts documents rather than amending them, it does not trigger this requirement. Future amendments to any adopted document will require the framework.
+* **GP-PRE-1 must pass first:** This proposal depends on GP-PRE-1 having passed and entity registration having occurred. If GP-PRE-1 fails or registration is delayed, GP-1 is suspended until registration completes.
+* **GP-1 is independent of GP-2 and GP-3:** The BOIR filing and policy adoption have no dependency on the asset transfer or Working Group establishment. They can proceed and execute regardless of whether GP-2 or GP-3 pass.
+* **Governance Maintenance & Upgrade Framework:** This framework (a Phase 2 activity-triggered document per TGF §3.2) activates before the first governance document amendment is proposed. As GP-1 adopts documents rather than amending them, it does not trigger this requirement. Future amendments to any adopted document will require the framework.
 
 ---
 
@@ -196,15 +196,15 @@ Not applicable. This proposal does not request treasury funds. BOIR filing fees 
 
 | Document | Relevance |
 |---|---|
-| `Transition/Activation-Roadmap-Optimised.md` | Track A sequencing; GP-A definition and bundle rationale |
+| `Transition/Activation-Roadmap-Optimised.md` | Track A sequencing; GP-1 definition and bundle rationale |
 | `Transition/Transition-Governance-Framework.md` | §3.1 (10 Phase 1 documents); §5.1 (RAC transitional authority for fallback filing) |
 | `Legal/Formation/Operating-Agreement.md` | §12.4 (operational policy adoption authority) |
 | `Legal/Formation/BOIR-Template.md` | Template and required content for BOIR filing |
 | `Legal/Policy/Legal-Wrapper-and-Representation.md` | §9.7 (UBO KYC threshold and BOIR obligations) |
-| `Parameters/DAO-Parameters-Registry.md` | §6.1 (treasury limits being set); §3.2–3.3 (voting thresholds) |
+| `Parameters/DAO-Parameters-Registry.md` | §6.1 (treasury limits); §3.2–3.3 (voting thresholds) |
 | `Governance-Processes/Core/Execution-and-Treasury-Actions-Policy.md` | Treasury execution rules that depend on limits being set |
 | `Governance-Processes/Core/Authorized-Signers-Rules.md` | Operational rules for Authorized Signers; transaction limits apply |
-| `Transition/Proposals/GP-PRE-1-Founding-Proposal.md` | Dependency — must pass before GP-A |
+| `Transition/Proposals/GP-PRE-1-Founding-Proposal.md` | Dependency — must pass before GP-1 |
 
 ---
 

@@ -18,7 +18,7 @@ This repository contains three distinct things:
 - *Working Groups* — the execution arms that coordinate and deliver work
 - *Parameters Registry* — all configurable thresholds, durations, and limits in one place
 
-**2. The Legal Entity** — **Radix DLT DAO LLC**, a Marshall Islands DAO LLC that gives the DAO real-world legal standing. The `Legal/Formation/` folder contains the actual corporate formation documents (Certificate of Formation, Operating Agreement, BOIR, Asset Transfer Agreement, IP Schedule). The `Legal/Policy/` folder contains governance policy on how the DAO uses its legal representation.
+**2. The Legal Entity** — **Radix DLT DAO LLC**, a Marshall Islands DAO LLC that gives the DAO real-world legal standing. The `Legal/Formation/` folder contains the corporate formation instruments and related legal templates. Operative status varies by document: the Certificate of Formation is currently operative; the Operating Agreement is a pre-adoption draft pending governance approval (see its status header). The `Legal/Policy/` folder contains governance policy on how the DAO uses its legal representation.
 
 **3. The Transition** — the pathway from the Founding Transferor to the DAO. The `Transition/` folder contains the rules governing the bootstrapping period (Transition Governance Framework), the step-by-step legal formation roadmap (Activation Roadmap), and the founding governance proposal.
 

@@ -243,8 +243,8 @@ The foundational principle that ultimate decision-making authority rests with th
 → See: [Charter §3.1, §4.1](Charter/charter.md)
 
 **Treasury & Budget Proposal**
-A proposal category for funding requests and budget allocations from the DAO treasury. Requires ≥5% quorum and ≥50% YES approval.
-→ See: [Proposal & Voting Framework §4.3](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
+A proposal category for funding requests and budget allocations from the DAO treasury. Quorum and approval requirements are defined in the DAO Parameters Registry. Current requirements: 7% quorum, minimum 50 unique voting addresses (both must be met), and ≥50% YES approval. Treasury & Budget proposals are excluded from the Governance Continuity Fallback — a failed quorum requires resubmission, not a reduced threshold.
+→ See: [DAO Parameters Registry §3.2–3.3](Parameters/DAO-Parameters-Registry.md), [Proposal & Voting Framework §4.3](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
 
 ---
 
@@ -263,7 +263,7 @@ Protections for individuals who report governance integrity violations, miscondu
 → See: [Governance-Processes/System-Integrity/Ethics-Reporting-Policy.md](Governance-Processes/System-Integrity/Ethics-Reporting-Policy.md)
 
 **Working Group (WG)**
-An execution body that coordinates contributors within a DAO-approved mandate and budget. Working Groups are led by 2–3 elected Stewards serving 6-month terms. They manage workstreams, engage contributors, report progress to the DAO, and operate within the scope and budget approved by governance. Five Working Groups launched at Phase 1: Strategic Coordination, Governance & Legal, Product & Protocol, Ecosystem Growth, and Community & Marketing. Working Groups cannot define DAO strategy, override governance decisions, or spend beyond approved budgets.
+An execution body that coordinates contributors within a DAO-approved mandate and budget. Working Groups are led by 2–3 elected Stewards serving 6-month terms. They manage workstreams, engage contributors, report progress to the DAO, and operate within the scope and budget approved by governance. Working Groups are not operational at launch — they are established by governance vote after the initial RAC and Authorized Signer appointment, within Phase 1. Five initial Working Group categories are defined for Phase 1: Strategic Coordination, Governance & Legal, Protocol & Engineering, Ecosystem Growth, and Community & Marketing. Working Groups cannot define DAO strategy, override governance decisions, or spend beyond approved budgets.
 → See: [Governance-Processes/Execution/Working-Group-Framework.md](Governance-Processes/Execution/Working-Group-Framework.md), [Charter §4.2](Charter/charter.md)
 
 ---

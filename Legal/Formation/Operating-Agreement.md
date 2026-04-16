@@ -406,7 +406,9 @@ The Members may, by Governance Proposal, adopt operational policies, procedures,
 
 ## Execution
 
-This Agreement is adopted by the founding Members as evidenced by on-chain governance records, and is executed by the Legal Signatories as authorized by Governance Proposal.
+This Agreement shall be deemed adopted upon approval by the required Governance Proposal (Governance Process category, ≥60% approval, ≥7% quorum). Upon adoption, it shall be executed by the Legal Signatories as authorized by that proposal, and the on-chain governance record of the approving proposal shall constitute the adoption evidence.
+
+*This section is prospective. As of the current repository state, the adoption Governance Proposal has not yet been passed. See the status header at the top of this document.*
 
 ---
 

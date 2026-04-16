@@ -1,6 +1,8 @@
 # Role and Authority Map
 
-This document is the authoritative single-page reference for all roles, their authority, their limitations, and how the governance-layer terminology maps to the legal-layer terminology in the Operating Agreement.
+This document is a reference summary of all roles, their authority, their limitations, and how the governance-layer terminology maps to the legal-layer terminology in the Operating Agreement.
+
+> **Non-normative notice:** This document is explanatory. The authoritative document hierarchy is defined in [PRECEDENCE-AND-STATUS.md](../PRECEDENCE-AND-STATUS.md) and the [Charter](../Charter/charter.md). Where this document conflicts with a normative document, the normative document prevails.
 
 For parameter values (term lengths, quorum thresholds, signing thresholds) see the [DAO Parameters Registry](../Parameters/DAO-Parameters-Registry.md). For election and removal procedures see the [Election & Role Governance Policy](../Governance-Processes/Roles/Election-and-Role-Governance-Policy.md).
 

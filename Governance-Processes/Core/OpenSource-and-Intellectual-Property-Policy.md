@@ -157,4 +157,4 @@ Changes to this policy must follow the Governance Maintenance & Upgrade Framewor
 ## 13. Guiding Principle
 
 > Public funding creates public goods.
-> Received assets are held in trust — governed, not owned.
+> Received assets are held and governed for the ecosystem — not owned by Members or Delegates.

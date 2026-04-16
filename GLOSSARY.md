@@ -11,7 +11,7 @@ The step-by-step operational guide for forming Radix DLT DAO LLC and transitioni
 → See: [Transition/Activation-Roadmap.md](Transition/Activation-Roadmap.md)
 
 **Accountability Council (RAC)**
-The DAO's oversight body, composed of 3–5 elected members serving 6-month terms. The RAC is a *guardian of process*, not a decision-making authority — it ensures governance procedures are followed correctly, verifies that execution matches approved proposals, reviews veto challenges, and manages emergency actions under strict constraints. During Phase 1, the RAC also holds limited transitional authority to support operational bootstrapping. All RAC actions are subject to community challenge and retrospective review.
+The DAO's oversight body, composed of a minimum of 5 elected members serving 6-month terms (exact count set by Constitutional Proposal before Phase 1 launch; may only be reduced below 5 by Constitutional Proposal — see Parameters Registry §5.1). The RAC is a *guardian of process*, not a decision-making authority — it ensures governance procedures are followed correctly, verifies that execution matches approved proposals, reviews veto challenges, and manages emergency actions under strict constraints. During Phase 1, the RAC also holds limited transitional authority to support operational bootstrapping. All RAC actions are subject to community challenge and retrospective review.
 → See: [Charter §8](Charter/charter.md), [Transition Governance Framework §4–6](Transition/Transition-Governance-Framework.md), [Emergency & Safeguards Policy §5](Governance-Processes/Core/Emergency-and-Safeguards-Policy.md)
 
 **Approval Threshold**
@@ -101,8 +101,15 @@ The power to carry out governance-approved decisions. Execution authority is del
 ## F
 
 **Formation Documents**
-The corporate legal instruments that establish and govern Radix DLT DAO LLC as a legal entity under Marshall Islands law. Distinct from governance policy documents: Formation Documents are filed with MIDAO (the Marshall Islands business registry) and are legal instruments rather than governance policies. They are maintained in the repository for transparency. The Formation Documents are: Certificate of Formation, Operating Agreement, BOIR Template, Asset Transfer Agreement, IP Schedule, and Continuity Statement.
-→ See: [Legal/Formation/](Legal/Formation/)
+The corporate legal instruments that establish and govern Radix DLT DAO LLC as a legal entity under Marshall Islands law. Distinct from governance policy documents, formation documents are legal instruments filed with or governed by MIDAO (the Marshall Islands business registry). They are maintained in the repository for transparency.
+
+The Formation Documents in `Legal/Formation/` have different operative statuses:
+
+* **Certificate of Formation** — Filed with MIDAO; the sole currently operative formation instrument. Establishes the legal existence of Radix DLT DAO LLC.
+* **Operating Agreement** — *Pre-adoption draft.* Not yet formally adopted by Governance Proposal. Governs the entity once adopted; until then, governance operations proceed under the Transition Governance Framework and the 10 Phase 1 active documents.
+* **BOIR Template, Asset Transfer Agreement, IP Schedule, Continuity Statement** — Supporting instruments used when the relevant trigger events occur (formation filings, asset transfers, etc.).
+
+→ See: [Legal/Formation/](Legal/Formation/), [Legal/Formation/Operating-Agreement.md](Legal/Formation/Operating-Agreement.md) (status header)
 
 **Fidelity**
 The principle that execution must match the approved proposal exactly — Authorized Signers and Working Groups may not change the intent, scope, or terms of an approved decision when carrying it out. Deviations require a new governance proposal.
@@ -185,7 +192,8 @@ A voluntary registry maintained by the Governance & Legal Working Group where de
 ## Q
 
 **Quorum**
-The minimum participation required for a vote to be valid, expressed as a percentage of eligible voting power (liquid XRD plus LSU converted to XRD-equivalent at the voting snapshot). If quorum is not met, the proposal fails regardless of the YES/NO split. Quorum thresholds vary by proposal type: Constitutional (10%), Governance Process (7%), Treasury/Budget and Executable (5%), Signaling (3%). If a proposal type repeatedly fails to reach quorum (3 consecutive failures), a reduced quorum threshold and extended voting period may apply per the Governance Continuity Framework.
+The minimum participation required for a vote to be valid, expressed as a percentage of eligible voting power (liquid XRD plus LSU converted to XRD-equivalent at the voting snapshot). If quorum is not met, the proposal fails regardless of the YES/NO split. Quorum thresholds vary by proposal type: Constitutional (10%), Governance Process (7%), Treasury/Budget (7%), Executable (5%), Signaling (3%). Treasury/Budget proposals additionally require a minimum of 50 unique voting addresses (both conditions must be met). If a proposal type repeatedly fails to reach quorum (3 consecutive failures), a reduced quorum threshold and extended voting period may apply per the Governance Continuity Framework — except for Treasury/Budget proposals, which are excluded from that fallback.
+→ See: [DAO Parameters Registry §3.2](Parameters/DAO-Parameters-Registry.md) for the canonical values.
 → See: [DAO Parameters Registry §3.2](Parameters/DAO-Parameters-Registry.md), [Proposal & Voting Framework §6.3](Governance-Processes/Core/Proposal-and-Voting-Framework.md)
 
 ---

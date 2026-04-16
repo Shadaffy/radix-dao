@@ -88,7 +88,7 @@ Example: a Governance Process proposal needs ≥7% quorum AND ≥60% YES approva
 |---|---|---|---|
 | Constitutional | Amending the Charter or core governance structure | 10% | ≥66% YES |
 | Governance Process | Changing policies, rules, procedures; phase transitions | 7% | ≥60% YES |
-| Treasury & Budget | Funding requests, budget allocations | 5% | ≥50% YES |
+| Treasury & Budget | Funding requests, budget allocations | 7% + 50 unique addresses | ≥50% YES |
 | Executable | Technical or on-chain changes | 5% | ≥50% YES |
 | Signaling | Non-binding community sentiment | 3% | ≥50% YES |
 
@@ -184,7 +184,7 @@ The RAC is the DAO's process oversight body — not a governing authority. Its c
 - Manages emergency actions (under strict conditions)
 - During Phase 1 only: holds limited transitional authority for operational coordination
 
-The RAC has 3–5 members serving 6-month terms. It cannot override DAO-approved proposals, allocate funds outside approved mandates, or define DAO strategy independently.
+The RAC has a minimum of 5 members serving 6-month terms (exact count set by Constitutional Proposal; see Parameters Registry §5.1). It cannot override DAO-approved proposals, allocate funds outside approved mandates, or define DAO strategy independently.
 
 **Why does the RAC have expanded powers in Phase 1?**
 Launching a DAO requires a bootstrapping period: assets need to be transferred, infrastructure set up, and operational gaps resolved before the full governance machinery can handle everything. During Phase 1 (the first 12 months), the RAC holds limited delegated authority strictly for this purpose — supporting operational continuity, resolving ambiguities, and facilitating transitions where waiting for a full governance cycle would cause material harm.

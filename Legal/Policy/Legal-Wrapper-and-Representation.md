@@ -137,15 +137,21 @@ Any token holder or entity that reaches or exceeds the 25% threshold of total el
 
 * Complete KYC verification through the DAO's designated process
 * Provide: full legal name, date of birth, residential address, non-expired passport number, and associated wallet address(es)
-* Notify the RAC within 14 days of crossing the threshold
+* Notify the Compliance Liaison within 14 days of crossing the threshold
 
-The RAC maintains UBO records on behalf of the LLC and files the required annual Beneficial Owner Information Report (BOIR) with the Registered Agent between January 1 and March 31 each year.
+The **Compliance Liaison** (Operating Agreement §5.3(d) and §8.1) is the sole role responsible for:
+
+* Maintaining UBO KYC records confidentially with the Registered Agent
+* Filing the required annual Beneficial Owner Information Report (BOIR) with the Registered Agent between January 1 and March 31 each year
+* Filing updated BOIRs within 30 days of any material change in beneficial ownership
+
+The RAC may require the Compliance Liaison to report on UBO compliance status and may escalate non-compliance, but does not itself maintain records or file statutory reports. If the Compliance Liaison role is vacant or the holder is incapacitated, the RAC must declare a continuity event under the Governance Continuity policy and appoint a temporary replacement subject to GP ratification within 30 days.
 
 ---
 
 ### 7A.2 Threshold Monitoring
 
-The RAC is responsible for monitoring on-chain voting power distribution to identify UBOs. When any wallet or coordinated entity approaches the 25% threshold, the RAC must initiate outreach to confirm compliance.
+The RAC is responsible for monitoring on-chain voting power distribution to identify UBOs. When any wallet or coordinated entity approaches the 25% threshold, the RAC must initiate outreach to the affected holder and notify the Compliance Liaison to prepare for KYC onboarding.
 
 ---
 
@@ -243,7 +249,7 @@ The DAO affirms that:
 
 * It receives assets from Asset Transferors to continue and support the objectives of the decentralized ecosystem it governs
 * It will manage those assets in alignment with its stated purpose and the non-distribution principle in §5
-* Assets received from any Asset Transferor are held in trust for the ecosystem — not for the benefit of Members or Delegates
+* Assets received from any Asset Transferor are held by the DAO LLC and must be used solely in furtherance of the DAO's non-profit purpose and non-distribution principle — no Member, Delegate, or contributor acquires any beneficial ownership interest in such assets except as expressly authorized compensation or reimbursement under §5 and the Contributor Compensation Policy
 
 This statement must be publicly recorded. The Legal Signatory Delegate is authorized to execute a formal continuity statement in the form required by any Asset Transferor, as provided in Operating Agreement §3.2.
 

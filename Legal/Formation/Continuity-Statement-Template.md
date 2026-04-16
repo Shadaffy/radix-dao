@@ -57,7 +57,7 @@ This non-distribution commitment is permanent and survives any change in members
 
 ## Section 4 — Asset Stewardship
 
-Assets received by the Company from any Asset Transferor are held in trust for the benefit of the decentralized ecosystem the Company governs. They are not held for the benefit of the Company's Members or Delegates.
+Assets received by the Company from any Asset Transferor are held by the Company and must be used solely in furtherance of the Company's non-profit purpose and non-distribution principle. No Member, Delegate, or contributor acquires any beneficial ownership interest in such assets except as expressly authorized compensation or reimbursement. Assets are not held for the personal benefit of the Company's Members or Delegates.
 
 The Company commits to:
 

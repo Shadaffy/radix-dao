@@ -1,7 +1,12 @@
 # Radix DLT DAO LLC — Operating Agreement
 
-> **Status:** Working draft incorporating governance framework integration amendments.
-> Sections marked `[ORIGINAL DRAFT]` reproduce content from the formation document RFC. Sections marked `[AMENDED]` or `[NEW]` reflect changes agreed during framework integration. This document requires a Governance Proposal vote for formal adoption.
+> **Status: Pre-adoption draft — not yet operative.**
+>
+> This document has not been formally adopted by Governance Proposal. It is the proposed Operating Agreement for Radix DLT DAO LLC, published for transparency and community review. Formal adoption requires a Governance Proposal vote (Governance Process category, ≥60% approval, ≥7% quorum).
+>
+> Until adopted, governance operations proceed under the Transition Governance Framework and the 10 Phase 1 active documents. The **Certificate of Formation** (`Legal/Formation/Certificate-of-Formation.md`) is the sole operative formation instrument at this time.
+>
+> Sections marked `[ORIGINAL DRAFT]` reproduce content from the formation document RFC. Sections marked `[AMENDED]` or `[NEW]` reflect changes agreed during framework integration. These markers will be removed upon formal adoption.
 >
 > Source RFC: https://radixtalk.com/t/rfc-draft-formation-documents-for-marshall-islands-dao-llc/2270
 

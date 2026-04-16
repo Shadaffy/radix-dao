@@ -63,7 +63,7 @@ The Operating Agreement calls all five operational role-holders "Delegates" perf
 
 | | |
 |---|---|
-| **What they are** | 3–5 elected members; guardian of process integrity, not a decision-making authority |
+| **What they are** | Minimum 5 elected members (exact count set by Constitutional Proposal; see Parameters §5.1); guardian of process integrity, not a decision-making authority |
 | **Elected by** | Governance vote (two-stage election per Elections Policy) |
 | **Term** | 6 months, renewable |
 | **CAN** | Validate proposals meet submission requirements; trigger defined governance processes; formally determine vote outcomes; review veto challenges; declare emergencies; coordinate emergency response; (Phase 1 only) exercise limited transitional delegated authority |

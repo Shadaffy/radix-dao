@@ -41,7 +41,7 @@ The DAO operates under a **phased governance activation model**:
 * 10 core documents active and enforceable from launch
 * RAC and Authorized Signers appointed as founding act
 * Asset transfer from the Founding Transferor completed
-* Governance decisions possible; Working Groups not yet operational
+* Governance decisions possible from launch; Working Groups not operational at launch — established by governance vote after initial RAC and Authorized Signer appointment (activity-triggered within Phase 1; see §3 and §10)
 * Voting power includes XRD and LSU (converted to XRD-equivalent at snapshot) from launch
 * Complexity added as specific operational needs arise (see §3)
 

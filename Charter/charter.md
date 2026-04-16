@@ -62,17 +62,19 @@ The DAO manages resources to benefit the ecosystem and its future participants. 
 
 The DAO must remain operational under all circumstances, including failure of governance bodies, resignation of representatives, or technical and coordination disruptions. No single point of failure should be able to halt the DAO's ability to govern.
 
+Resilience does not preclude lawful dissolution of the DAO where approved in accordance with the Charter, Operating Agreement, and applicable governance procedures.
+
 ---
 
 ### 3.6 Integrity
 
-Every participant in the DAO — token holders, contributors, elected officials, and contractors alike — is expected to act in good faith, disclose their interests, and uphold the standards set out in the **Code of Conduct**. The integrity of governance depends not only on rules, but on the character of those who participate in it.
+All participants are expected to act in good faith and uphold the standards set out in the **Code of Conduct**. Disclosure and recusal obligations apply only to individuals holding formal roles with delegated or elevated decision-making authority, as defined in the Conflict of Interest Policy. The integrity of governance depends not only on rules, but on the character of those who participate in it.
 
 ---
 
 ### 3.7 Environmental Responsibility
 
-The DAO is mindful of the environmental impact of the infrastructure and projects it funds. Where choices are otherwise comparable, the DAO prefers options that minimize unnecessary energy consumption and environmental harm. This principle applies to infrastructure procurement, grant evaluation, and operational decisions made in the DAO's name.
+The DAO is mindful of environmental impact. Where reasonably practicable and without compromising mission effectiveness, the DAO may consider energy efficiency and sustainability in its decisions.
 
 ---
 
@@ -136,7 +138,11 @@ These mechanisms are defined in the **Dispute Resolution & Arbitration Policy**,
 
 The DAO maintains an Accountability Council (RAC) to ensure that governance processes are followed and decisions are executed correctly. The RAC acts as a guardian of process — not a decision-making authority — and operates within a strictly defined mandate.
 
-All persons holding authority within the DAO are required to disclose their interests and to recuse themselves from decisions where those interests create a conflict. Governance decisions are only legitimate when made free from undisclosed personal or financial influence.
+All persons holding formal roles with delegated or elevated decision-making authority are subject to disclosure and recusal obligations as defined in the Conflict of Interest Policy.
+
+Token holders exercising ordinary governance voting rights are not subject to mandatory disclosure or recusal obligations under the Conflict of Interest Policy, but are encouraged to act in the DAO's best interest.
+
+The Accountability Council (RAC) is not a Delegate body under the Operating Agreement. Delegates perform operational functions under the Operating Agreement. The RAC performs oversight and governance integrity functions.
 
 The RAC's responsibilities and constraints are defined in the **RAC Mandate**. Disclosure and recusal obligations are defined in the **Conflict of Interest Policy**.
 
@@ -146,6 +152,8 @@ The RAC's responsibilities and constraints are defined in the **RAC Mandate**. D
 
 The DAO must remain operable under all circumstances. In the event of governance failure, authority reverts to token holders and emergency mechanisms enable the restoration of normal governance.
 
+Continuity mechanisms apply only while the DAO remains active. They do not override or prevent lawful dissolution processes defined in the Operating Agreement and applicable governance documents.
+
 The DAO also maintains standards for the security review of any smart contracts or on-chain systems it governs. Technical deployments must not outpace the community's ability to assess and authorise them.
 
 Detailed procedures are defined in the **Emergency & Safeguards Policy**, the **Governance Continuity Framework**, the **Governance Maintenance & Upgrade Framework**, and the **Smart Contract Audit Policy**.
@@ -154,7 +162,7 @@ Detailed procedures are defined in the **Emergency & Safeguards Policy**, the **
 
 ## 10. Non-Distribution Principle
 
-The DAO's assets and income exist to advance its purpose — not to enrich its members. All resources must be applied to the benefit of the Radix ecosystem. No distributions may be made to token holders or members except as reasonable compensation for genuine services rendered, or reimbursement of legitimate expenses.
+The DAO's assets and income exist to advance its purpose — not to enrich its members. All resources must be applied to the benefit of the Radix ecosystem. No distributions may be made to token holders or members except as expressly permitted under the **Legal Wrapper & Representation** document — including reasonable compensation for genuine services rendered, interest at a reasonable rate on loans made by members, reasonable rent for premises provided by members, and reimbursement of legitimate out-of-pocket expenses.
 
 This principle is not merely a legal constraint. It is a statement of intent: the DAO is a steward, not a vehicle for extraction.
 

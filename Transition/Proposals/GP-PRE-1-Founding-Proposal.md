@@ -26,7 +26,7 @@
 
 ## 2. Summary
 
-This proposal is the founding act of Radix DLT DAO LLC. It adopts the complete Phase 1 governance framework as formally binding, authorizes the Legal Signatory to file the Certificate of Formation and Operating Agreement with MIDAO Directory Services (Marshall Islands), confirms the founding Delegate roster and function assignments, and activates the Transition Governance Framework — commencing the RAC's Phase 1 transitional authority from the date of entity registration. All four elements are inseparable and constitute the community's mandate to bring the DAO into legal existence.
+This proposal is the founding act of Radix DLT DAO LLC. It adopts the complete Phase 1 governance framework as formally binding, authorizes the Legal Signatory to file the Certificate of Formation and Operating Agreement with MIDAO Directory Services (Marshall Islands), confirms the founding Delegate roster and function assignments, and activates the Transition Governance Framework — commencing the RAC's Phase 1 transitional authority from the date of entity registration. All four elements are inseparable and constitute the community's mandate to bring the DAO into legal existence. This proposal additionally authorizes a fixed establishment grant to the RAC, enabling operational expenditure for DAO establishment purposes from the date this proposal is accepted without requiring a separate treasury proposal.
 
 ---
 
@@ -149,6 +149,25 @@ This authority is subject to the explicit limitations in TGF §6, expires after 
 
 ---
 
+#### Element 5 — Establishment Grant Authorization
+
+Authorize a fixed establishment grant of **[ESTABLISHMENT GRANT AMOUNT] XRD (approximately [USD EQUIVALENT] USDC)** to the RAC, effective from the date this proposal is accepted by token holder vote.
+
+The RAC may disburse these funds at its discretion for DAO establishment purposes, including:
+
+- Legal formation costs and Registered Agent fees
+- Compliance filings and legal counsel
+- Initial infrastructure, tooling, and operational setup
+
+Terms:
+
+- RAC may pay providers directly without a per-transaction governance vote
+- The grant is one-time and non-renewable; any continuation requires a standard Treasury & Budget proposal
+- RAC members may not direct establishment funds to themselves; any personal expense recovery must appear as a named line item in the spending report
+- RAC must publish a consolidated spending report to the governance forum within **90 days of the DAO's legal formation date**, listing all disbursements, recipients, purposes, and amounts
+
+---
+
 ### 5.3 Document Changes
 
 | Document | Change |
@@ -169,6 +188,7 @@ This authority is subject to the explicit limitations in TGF §6, expires after 
 * Founding Delegate roster is publicly ratified and confirmed; KYC-completing Delegates assume their functions
 * RAC Phase 1 transitional authority is formally authorized by token holder vote; commences from registration date
 * DAO can proceed to the three simultaneous post-registration proposals (GP-1, GP-2, GP-3) immediately upon registration
+* Establishment grant of [ESTABLISHMENT GRANT AMOUNT] XRD (approximately [USD EQUIVALENT] USDC) is available to RAC from the date this proposal is accepted; consolidated spending report published within 90 days of legal formation
 
 ---
 
@@ -183,12 +203,22 @@ This authority is subject to the explicit limitations in TGF §6, expires after 
 | Contentious delegate appointment | Medium | Medium | Community discussion during TC; if specific appointment is contested, that seat may be left vacant pending a follow-on confirmation vote (does not block entity formation) |
 | MIDAO processing delay post-vote | Low | Low | Engage MIDAO and confirm processing time before the TC opens; pre-submit administrative checklist |
 | Community concerns about RAC transitional authority scope | Medium | Low | TGF §6 explicit limitations published prominently; challenge mechanism (TGF §6.2) clearly communicated |
+| Establishment grant overspent or misused | Low | Medium | Grant is fixed and one-time; RAC members cannot pay themselves; consolidated spending report published within 90 days and subject to community scrutiny |
 
 ---
 
 ## 8. Budget
 
-Not applicable. This proposal does not request treasury funds. Entity formation fees (Registered Agent engagement) are covered by the Founding Transferor as part of transition support, or by founding Delegates acting in their capacity as Legal Signatory/Compliance Liaison.
+### 8.1 Establishment Grant
+
+| Field | Value |
+|---|---|
+| Grant amount | [ESTABLISHMENT GRANT AMOUNT] XRD (approximately [USD EQUIVALENT] USDC) |
+| Recipient | Radix Accountability Council (RAC) |
+| Cost model | Fixed grant — RAC discretion within approved scope |
+| Purpose | Legal formation, compliance, initial infrastructure and tooling |
+| Authorization | Effective from date this proposal is accepted by token holder vote |
+| Reporting | Consolidated spending report within 90 days of legal formation |
 
 ---
 
@@ -205,6 +235,7 @@ Not applicable. This proposal does not request treasury funds. Entity formation 
 | 5 | Formation confirmation published to governance forum | RAC / Legal Signatory | Within 72 hours of registration |
 | 6 | Delegate Roster, multi-sig wallet address, and KYC confirmations published | RAC | Within 72 hours of registration |
 | 7 | Transition Governance Framework formally active | RAC (records on forum) | Upon registration |
+| 7a | Establishment grant made available to RAC | Authorized Signers | Upon proposal acceptance |
 | 8 | Three simultaneous TCs open (GP-1, GP-2, GP-3) | Governance Operator | Business day following registration |
 
 ### 9.2 Success Metrics
@@ -220,6 +251,7 @@ Not applicable. This proposal does not request treasury funds. Entity formation 
 * Formation confirmation published within 72 hours of registration (one-time)
 * Any KYC conditional appointments resolved and published within 14 days of entity registration
 * RAC publishes first quarterly delegation status report within 90 days of registration (TGF §9)
+* RAC publishes consolidated establishment grant spending report within 90 days of legal formation, listing all disbursements, recipients, purposes, and amounts
 
 ---
 

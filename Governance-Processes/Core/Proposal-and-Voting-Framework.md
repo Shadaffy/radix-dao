@@ -106,6 +106,8 @@ All governance changes must clearly specify their classification and comply with
 * Technical or operational changes
 * On-chain or system execution
 
+> **Phase 1 note:** In Phase 1, no standing Working Groups or funded operational bodies exist. Any Executable proposal that requires compensated work — including fixed-rate service delivery — must include a Treasury & Budget component specifying the cost arrangement and receiving party. Such combined proposals are evaluated against Treasury & Budget quorum and approval thresholds (the more stringent of the two proposal types). Executable proposals with zero cost may proceed under Executable thresholds.
+
 ---
 
 ### 4.5 Signaling Proposals
@@ -143,6 +145,7 @@ All proposals must include:
 * Risks and trade-offs
 * Budget (if applicable)
 * Execution plan (if applicable)
+* **Executor commitment declaration** *(required for all Executable and combined Executable + Treasury proposals)* — Named executor(s) must be identified by name and wallet address, and must have confirmed in writing (forum post or signed statement) that they accept the execution responsibility before the proposal enters the Review Period. Where the proposer is also the executor, this must be declared as a conflict of interest.
 * **Cumulative recipient disclosure** (Treasury & Budget proposals only): total disbursements to the same recipient, entity, or affiliated group over the trailing 90 days. The RAC verifies this field before opening the veto window. A missing or materially incorrect disclosure is valid grounds for a veto filing (Charter / rule violation: failure to meet required proposal content).
 
 ---

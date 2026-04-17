@@ -161,6 +161,70 @@ Treasury actions must NOT:
 
 ---
 
+### 7.3 Cost Models
+
+Treasury disbursements for work-related proposals must specify one of three cost models:
+
+**Model A — Documented expense recovery**
+Actual out-of-pocket costs incurred on behalf of the DAO (hosting, tooling, domain fees, travel). Payment is made against submitted receipts or third-party invoices. No labour component.
+
+**Model B — Fixed-rate service delivery**
+A flat fee for a defined, verifiable service outcome. The provider uses existing capability (infrastructure, vehicle, skills) acquired independently. The provider volunteers their time and effort; the DAO pays only for the cost of the service output, not for hours worked. No itemized receipts are required — accountability is through outcome verification.
+
+**Model C — Fully compensated work**
+Labour plus costs, with defined deliverables, milestones, and reporting obligations. Applies to grants, contractor agreements, and contributor compensation.
+
+---
+
+### 7.4 Payment Documents
+
+All treasury payments must be initiated against a payment document:
+
+* **Invoice** — issued by a registered company or sole trader operating as a business. Must include: provider name and registration details, service description, amount, period covered, and payment address.
+
+* **Monthly claim** — submitted by a private individual. Must include: provider name and wallet address, service description matching the approved proposal, amount, and period covered. No registration details required.
+
+RAC verifies each payment document against the approved proposal before Authorized Signers release payment. Verification confirms: (a) the document matches the approved service and fee, (b) the period claimed has not already been paid, (c) the total does not exceed the authorized commitment.
+
+---
+
+### 7.5 Standing Service Authorization
+
+A governance vote authorizing a recurring fixed-rate service (Model B) constitutes a standing authorization for the full approved term. Authorized Signers may release payment each period upon receipt of a verified claim or invoice without a new governance vote.
+
+Requirements:
+
+* The proposal must state the fee, payment frequency, and maximum term.
+* The total authorized commitment (fee × term) is calculated at proposal time and displayed explicitly in the proposal.
+* Default maximum term: **6 months**. Longer terms require explicit justification in the proposal.
+* At term end, continuation requires a new proposal. RAC may not extend a standing authorization unilaterally.
+* The DAO may terminate a standing authorization early via a Governance Process proposal.
+
+---
+
+### 7.6 Treasury Inflows — Donations
+
+The DAO may receive and hold unsolicited, unconditional donations without prior governance approval, provided that:
+
+1. The transfer does not impose any legal, contractual, or operational obligations on the DAO.
+2. No rights, ownership claims, or influence over governance are granted in connection with the transfer.
+3. The source of funds does not violate applicable law or compliance requirements.
+
+All donations must be:
+
+* Publicly disclosed within **30 days** of receipt, in accordance with the Transparency & Reporting Policy.
+* Recorded in treasury reporting.
+
+Authorized Signers may refuse or return funds if:
+
+* The source is reasonably suspected to be unlawful or sanctioned.
+* The transfer includes explicit or implicit conditions.
+* Acceptance would create material reputational risk.
+
+Any donation that includes conditions, expectations, or earmarked use must be approved via a Governance Proposal before acceptance.
+
+---
+
 ## 8. Budget Execution
 
 Each approved budget must include:

@@ -126,6 +126,9 @@ Select the applicable category and confirm the required thresholds from the DAO 
 | [Line item 2] | [Amount] | [Purpose] |
 | **Total Requested** | **[Total]** | |
 
+| Cost model | [ ] Model A — Expense recovery &nbsp; [ ] Model B — Fixed-rate service &nbsp; [ ] Model C — Fully compensated work |
+|---|---|
+
 ### 8.2 Disbursement Schedule
 
 > Describe how and when funds will be released. Milestone-based disbursement is required for Standard and Strategic Grants per the Grant Program Policy.
@@ -142,6 +145,18 @@ Select the applicable category and confirm the required thresholds from the DAO 
 | Recipient | [Individual / Team / Legal entity name] |
 | On-chain Address | [Radix address] |
 | Administering WG | [Working Group responsible for oversight] |
+
+### 8.4 Service Authorization [If cost model is B — Fixed-rate service]
+
+| Field | Value |
+|---|---|
+| Service description | [One sentence — concrete, verifiable outcome] |
+| Fixed fee per period | [Amount in XRD] per [month / quarter / one-time] |
+| Provider type | [ ] Private person (monthly claim) &nbsp; [ ] Company (invoice) |
+| Provider name | [Name] |
+| Payment address | [On-chain wallet or payment details] |
+| Term | [N months] — total authorized commitment: [fee × term] XRD |
+| Outcome verification | [How the DAO confirms the service is being delivered each period] |
 
 ---
 
@@ -168,6 +183,8 @@ Select the applicable category and confirm the required thresholds from the DAO 
 > What reports will be published, and when?
 
 [Describe reporting cadence and format]
+
+> **Model B standing service authorization:** The reporting obligation is outcome verification per period, not expense reporting. The provider submits a claim or invoice each period; RAC confirms the service is active before Authorized Signers release payment.
 
 ---
 

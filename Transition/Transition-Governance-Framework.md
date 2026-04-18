@@ -111,7 +111,7 @@ These documents are in force and enforceable from the first day of DAO operation
 | RAC Mandate | Authority and limits of the Accountability Council |
 | Conflict of Interest Policy | Disclosure and recusal obligations for all role holders |
 | Code of Conduct | Behavioral standards for all DAO participants |
-| Legal Wrapper & Representation | Legal entity structure and real-world representation |
+| Legal Wrapper & Representation | Compliance obligations, UBO/BOIR rules, and regulatory response protocols |
 
 ---
 

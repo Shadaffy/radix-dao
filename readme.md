@@ -2,7 +2,7 @@
 
 Welcome to the Radix DAO governance framework.
 
-This repository contains the complete governance system for the Radix Network DAO — the community-governed body that succeeds the Founding Transferor.
+This repository contains the complete governance system for the Radix DAO — the community-governed body that succeeds the Founding Transferor.
 
 **Important:** This is the full framework. Not everything in it is active yet. Governance complexity is introduced in deliberate waves, not all at once. Read the Phase 1 section below before diving in.
 

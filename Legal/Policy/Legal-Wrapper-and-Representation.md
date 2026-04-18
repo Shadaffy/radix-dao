@@ -63,11 +63,12 @@ All income and assets must:
 * Be used solely to advance the DAO’s objectives
 * Not be distributed to token holders or members
 
-Exceptions allowed for:
+Exceptions permitted, consistent with Operating Agreement §2.2:
 
-* Reasonable compensation for services
-* Reimbursement of expenses
-* Legitimate operational costs
+* Reasonable compensation for genuine services rendered
+* Interest at a reasonable rate on money lent by any Member or Delegate
+* Reasonable rent for premises provided by any Member or Delegate
+* Reimbursement of legitimate out-of-pocket expenses properly incurred
 
 ---
 

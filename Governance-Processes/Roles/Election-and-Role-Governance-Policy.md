@@ -90,8 +90,10 @@ Additional requirements (e.g., KYC) may apply per role.
 
 ### 6.1 Open Nominations
 
-* Any eligible individual may self-nominate or be nominated
+* Any eligible individual may self-nominate or be nominated by another token holder
 * Nominations must be public
+* A third-party nomination is not valid until the nominee explicitly accepts it in writing (forum post or signed statement) before the nomination period closes
+* A nominee who does not publish an acceptance confirmation before the nomination period closes is not eligible to appear on the Stage 1 ballot
 
 ---
 
@@ -103,6 +105,8 @@ Each candidate must provide:
 * role-specific experience
 * conflict disclosures
 * intended contribution
+
+The candidate submission constitutes acceptance for self-nominations. For third-party nominations, the acceptance confirmation (§6.1) and the candidate submission must both be published before the nomination period closes.
 
 ---
 
@@ -116,7 +120,7 @@ Elections follow the two-stage process defined in the Proposal & Voting Framewor
 
 A Signaling proposal using Approval Voting is published containing all eligible nominees.
 
-* Each voter may select up to the number of open seats (see DAO Parameters §6B)
+* Each voter may select any number of nominees they approve (unrestricted — see DAO Parameters §6B)
 * The shortlist size equals the number of open seats multiplied by the shortlist multiplier (see DAO Parameters §6B)
 * Candidates are ranked by total voting power received
 * The top candidates by that ranking advance to Stage 2

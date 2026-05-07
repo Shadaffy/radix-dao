@@ -112,7 +112,7 @@ The candidate submission constitutes acceptance for self-nominations. For third-
 
 ## 7. Election Process
 
-Elections follow the two-stage process defined in the Proposal & Voting Framework (§4.6).
+Elections follow the process defined in the Proposal & Voting Framework (§4.6), which defines both the Phase 1 two-stage process and the Phase 2 Majority Judgment upgrade.
 
 ---
 
@@ -133,7 +133,7 @@ A Signaling proposal using Approval Voting is published containing all eligible 
 Each shortlisted candidate is put to a separate Standard (YES/NO/ABSTAIN) proposal.
 
 * Stage 2 proposals may run concurrently
-* A candidate is confirmed if they meet the approval threshold and quorum for Election proposals (DAO Parameters §3.2–3.3)
+* A candidate is confirmed if they meet the quorum and approval threshold for Election proposals (DAO Parameters §6B — Election Stage 2 Quorum and Election Stage 2 Approval Threshold)
 
 ---
 
@@ -149,7 +149,7 @@ If a shortlisted candidate fails their Stage 2 confirmation vote:
 
 ### 7.4 Term Start
 
-Confirmed role holders begin their term on the defined start date following the completion of all Stage 2 confirmation votes.
+Confirmed role holders begin their term on the defined start date following the completion of the election (all Stage 2 confirmation votes under Phase 1; final Majority Judgment result publication under Phase 2).
 
 ---
 

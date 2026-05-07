@@ -186,7 +186,7 @@ Quorum is measured as a percentage of eligible voting power. Eligible voting pow
 | Auto-Renewal                        | Yes — unless challenged | Incumbent role holders are automatically renewed at term end unless a challenge is filed or the role holder declines (see Election & Role Governance Policy §9) |
 | Term Renewal Challenge Window       | 14 days (opens 21 days before expiry, closes 7 days before expiry) | Period during which an eligible token holder may file a unilateral challenge notice to trigger a new election |
 | Challenge Filing Threshold          | 0.1% of eligible voting power | Minimum holding required to file a valid challenge notice; verified against the most recent governance snapshot |
-| Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard two-stage election is mandatory; successful re-election resets the count to 1 |
+| Consecutive Renewal Cap             | 4 terms (2 years maximum continuous service) | After 4 consecutive terms in the same role, a standard election is mandatory; successful re-election resets the count to 1 |
 | Election Voting Duration            | 5-7 days  | Length of election voting                |
 | Nomination Period                   | 5-7 days  | Time allowed for candidate submissions   |
 | Minimum Participation for Elections | Gov quorum| Quorum requirement                       |
